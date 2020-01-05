@@ -72,3 +72,66 @@ print(isEmptyString)
 
 print(greeting.count)
 print(hello.count)
+
+//
+//  main.swift
+//  self-expression
+//
+//  Created by MK on 09/04/2018.
+//  Copyright © 2018 RoughGears. All rights reserved.
+//
+
+import Foundation
+
+let oneByOneQue: Array<String>
+let stepByStep: Array<String>
+let onceAtATime: Thread
+
+let work = DispatchQueue(label: "Work Queue")
+
+let semaphore = DispatchSemaphore(value: 1)
+
+func setMyTask(task: String, step: Int) {
+    
+    work.async {
+        
+        for i in 1...step {
+            
+            semaphore.wait()
+            
+            print("\(task) Step: \(i)")
+            
+            sleep(1)
+            
+            semaphore.signal()
+        }
+    }
+    
+    return
+}
+
+func setTeamTask(task: String, step: Int) {
+    
+    work.sync {
+        
+        semaphore.wait()
+        
+        for i in 1...step {
+            
+            print("\(task) Step: \(i)")
+            
+            sleep(1)
+        }
+    }
+    
+    semaphore.signal()
+
+    return
+}
+
+setMyTask(task: "PA", step: 2)
+setTeamTask(task: "Sprint", step: 4)
+setMyTask(task: "PB", step: 3)
+setMyTask(task: "PC", step: 2)
+
+sleep(24)
