@@ -11,3 +11,10 @@ https://appicon.co/
 
 #### Color Palette
 https://flatuicolors.com/palette/defo
+https://www.uicolor.xyz/#/hex-to-ui
+
+#### Font
+https://www.uicolor.xyz/#/hex-to-ui
+
+#### SF Symbols
+https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/
