@@ -5,3 +5,9 @@ https://www.appbrewery.co/p/ios-course-resources
 
 #### Appbrewery Github
 https://github.com/appbrewery/Dicee-iOS13.git
+
+#### App Icon Generator
+https://appicon.co/
+
+#### Color Palette
+https://flatuicolors.com/palette/defo
