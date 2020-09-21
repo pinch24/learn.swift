@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ContentView_02.swift
 //  SwiftUITest
 //
 //  Created by mk on 2020/09/21.
@@ -7,19 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView_02: View {
 	
     var body: some View {
 		
         Text("Hello, world!")
-            .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView_02_Previews: PreviewProvider {
 	
     static var previews: some View {
 		
-        ContentView()
+		ContentView_02()
     }
 }
