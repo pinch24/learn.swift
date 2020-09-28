@@ -4,7 +4,7 @@
 //
 //  Created by mk on 2020/09/28.
 //
-// 21.3 @EnvironmentObject
+// 21.4 @EnvironmentObject
 
 import SwiftUI
 
