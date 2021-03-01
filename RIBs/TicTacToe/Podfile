@@ -1,7 +1,0 @@
-target 'TicTacToe' do
-
-  use_frameworks!
-
-  pod 'RIBs', '~> 0.9'
-
-end
