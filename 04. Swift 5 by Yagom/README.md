@@ -136,11 +136,245 @@ String은 문자열이다.
 ```swift
 print(#"특수"문자" \t 무시 \(100) \n"#)
 ```
-`Result: 특수"문자" \t 무시 \(100) \n`
+
+Result: 특수"문자" \t 무시 \(100) \n
 
 ```swift
 print(#"문자열 보간법 \#(100)"#)
 ```
-`Result: 문자열 보간법 100 \n `
+
+Result: 문자열 보간법 100 \n
 
 ## 3.6 Any, AnyObject and nil
+
+**Any**는 스위프트의 모든 데이터 타입을 사용할 수 있다는 뜻이다. 데이터 타입이 Any로 지정되어 있다면 변수와 상수에 어떤 종류의 데이터 타입이든지 할당할 수 있다.
+
+**AnyObject**는 클래스의 타입에 상관없이 인스턴스를 할당할 수 있다.
+
+Any와 AnyObject는 될 수 있으면 사용하지 않는 편이 좋다. Any와 AnyObject로 선언된 변수를 쓰려면 매번 타입 확인 및 변환을 해줘야 해서 불편하고 타입이 맞지 않을 경우 오류를 발생시키기 때문이다. 타입은 될 수 있는 한 명시하는 것이 좋다.
+
+**nil**은 '없을'을 나타내는 스위프트 키워드이다.
+
+값이 nil 인 변수와 상수에 접근하면 잘못된 메모리 접근으로 런타임 오류가 발생한다. 이를 **Null Point Exception**이라고 한다.
+---- 
+
+# 4. 데이터 타입 고급
+
+## 4.1 데이터 타입 안심
+스위프트는 타입에 굉장히 민감하고 엄격한 언어이다. 스위프트에서 서로 다른 타입으로의 데이터 교환은 반드시 타입캐스팅(**Type-casting**, 형 변환)을 거쳐야 한다.
+
+### 4.1.1 데이터 타입 안심이란
+스위프트는 데이터 타입을 안심하고 사용할 수 있는(**Type-safe**) 언어이다. 타입을 안심하고 사용할 수 있다는 말은 그만큼 실수를 줄일 수 있다는 의미다. 타입 오류는 일일이 확인하기도 힘들다. 그렇지만 스위프트는 컴파일 오류로 알려주므로 서로 다른 타입의 값을 할당하는 실수를 줄일 수 있다. 이렇게 스위프트가 컴파일 시 타입 확인하는 것으로 런타임 오류를 피할 수 있다.
+
+### 4.1.2 타입 추론
+스위프트는 변수나 상수를 선언할 때 타입을 명시하지 않아도 컴파일러가 할당된 값을 기준으로 변수나 상수의 타입을 결정한다.
+
+```swift
+var string = "Hello, World."
+var value = 100
+```
+
+## 4.2 타입 별칭
+스위프트에서는 이미 존재하는 데이터 타입에 임의로 다른 이름(별칭)을 부여할 수 있다.
+
+```swift
+typealias Age = Int
+typealias Year = Int
+
+let myAge: Age = 18
+var myBirth: Year = 2000
+
+myBirth = myBirth + myAge
+```
+별칭된 타입 이름이 달라도 실제 타입이 같으면 서로 할당하는데 문제가 없다.
+
+## 4.3 튜플
+**튜플(Tuple)**은 따로 타입을 지정하지 않은 '저장된 데이터의 묶음'이다.
+
+```swift
+var person: (String, Int, Double) = ("John", 18, 182.4)
+print("Name: \(person.0), Age: \(person.1), Height: \(person.2)")
+
+person.1 = 19
+person.2 = 184.2
+print("Name: \(person.0), Age: \(person.1), Height: \(person.2)")
+```
+
+각 튜플의 요소에 접근하는 인덱스를 이름으로 지정할 수도 있다.
+```swift
+var person: (name: String, age: Int, height: Double) = ("John", 18, 182.4)
+print("Name: \(person.name), Age: \(person.age), Height: \(person.height)")
+
+person.age = 19
+person.2 = 184.2
+print("Name: \(person.0), Age: \(person.1), Height: \(person.2)")
+```
+
+튜플을 타입 별칭으로 선언할 수도 있다.
+```swift
+typealias PersonTuple = (name: String, age: Int, height: Double)
+
+var person: PersonTuple = ("John", 18, 182.4)
+print("Name: \(person.name), Age: \(person.age), Height: \(person.height)")
+
+person.age = 19
+person.2 = 184.2
+print("Name: \(person.0), Age: \(person.1), Height: \(person.2)")
+```
+
+## 4.4 컬렉션형
+스위프트에는 데이터를 묶어서 저장하고 관리할 수 있는 컬렉션 타입을 제공한다. 컬렉션 타입에는 **배열(Array)**, **딕셔너리(Dictionary)**, **세트(Set)** 등이 있다.
+
+### 4.4.1 배열
+**배열(Array)**은 같은 타입의 데이터를 일렬로 나열한 형태의 컬렉션 타입이다.
+배열을 사용할 때는 Array 키워드와 타입 이름의 조합으로 사용한다.
+
+```swift
+var names1: Array<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
+var names2: [String] = ["Echo", "Foxtrot", "Golf", "Hotel"]
+
+var emptyArray1: [Any] = Array<Any>()
+var emptyArray2: [Any] = [Any]()
+var emptyArray3: [Any] = []
+
+print(names1[1 ... 3])
+print(names2.count)
+print(emptyArray1.isEmpty)
+```
+4
+true
+
+배열의 인덱스는 0부터 시작한다. 잘못된 인덱스로 접근하면 익셉션 에러(Exception Error)가 발생한다.
+
+배열의 첫번째 요소는 first, 마지막 요소는 last 프로퍼티를 통해 접근할 수 있다.
+```swift
+var names = ["Alpha", "Bravo", "Charlie", "Delta"]
+print(names.first)
+print(names.last)
+```
+
+firstIndex(of:) 메서드로 해당 요소의 인덱스를 알아낼 수 있다. 중복된 요소가 있다면 발견된 첫번째 요소의 인덱스를 반환한다.
+```swift
+var names = ["Alpha", "Bravo", "Charlie", "Delta"]
+let index = names.firstIndex(of: "Bravo")
+print(index)
+```
+
+배열의 맨 뒤에 요소를 추가하려면 append(\_:) 메서드를 사용한다.
+```swift
+var names = ["Alpha", "Bravo", "Charlie", "Delta"]
+names.append("Echo")
+print(names)
+```
+["Alpha", "Bravo", "Charlie", "Delta", "Echo"]
+배열의 중간에 요소를 삽입하고 싶다면 insert(\_:at:) 메서드를 사용한다.
+```swift
+var names = ["Alpha", "Bravo", "Charlie", "Delta"]
+names.insert("Beta", at: 1)
+print(names)
+```
+["Alpha", "Beta", "Bravo", "Charlie", "Delta"]
+
+배열의 요소를 삭제할 때는 remove(\_:)를 사용한다.
+```swift
+var names = ["Alpha", "Bravo", "Charlie", "Delta"]
+names.remove(at: 1)
+print(names)
+```
+["Alpha", "Charlie", "Delta"]
+
+### 4.4.2 딕셔너리
+**딕셔너리(Dictionary)**는 순서 없이 키페어(key, value)로 구성되는 컬렉션 타입이다.
+딕셔너리의 키는 같은 이름을 중복해서 사용할 수 없다.
+
+```swift
+var numberForName1: Dictionary<String, Int> = Dictionary<String, Int>()
+var numberForName2: Dictionary<String, Int> = [:]
+var numberForName3 = Dictionary<String, Int>()
+
+var numberForName4: [String: Int] = [String: Int]()
+var numberForName5: [String: Int] = [:]
+var numberForName6 = [String: Int]()
+```
+
+딕셔너리는 각 값에 키로 접근할 수 있다. 딕셔너리 내부에서 키는 유일해야 하지만 값은 유일하지 않다.
+```swift
+var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
+print(numberForName["Alpha"])
+print(numberForName["Charlie"])
+```
+Optional(1)
+Optional(3)
+
+딕셔너리는 배열과 달리 내부에 없는 키로 접근해도 오류가 발생하지 않고 nil을 반환한다.
+```swift
+var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
+print(numberForName["Echo"])
+```
+nil
+
+특정 키에 해당하는 값을 제거하려면 removeValue(forKey:) 메서드를 사용한다.
+```swift
+var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
+numberForName.removeValue(forKey: "Alpha")
+print(numberForName)
+```
+["Charlie": 3, "Delta": 4, "Bravo": 2]
+
+### 4.4.3 세트
+**세트(Set)**는 같은 타입의 데이터를 순서 없이 하나의 묶음으로 저장하는 형태의 컬렉션 타입이다.
+배열, 딕셔너리와 달리 세트에는 중복된 값이 존재하지 않는 컬렉션이다.
+```swift
+var names1: Set<String> = Set<String>()
+var names2: Set<String> = []
+```
+
+세트의 요소로는 해시 가능한 값이 들어와야 한다. (스위프트 라이브러리의 Hashable 프로토콜을 따른다는 의미다.)
+```swift
+var names: Set<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
+```
+
+세트에 요소를 추가하려면 insert(\_:), 
+```swift
+var names: Set<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
+names.insert("Echo")
+print(names)
+names.remove("Alpha")
+print(names)
+```
+["Delta", "Bravo", "Echo", "Alpha", "Charlie"]
+["Bravo", "Echo", "Charlie", "Delta"]
+
+세트는 내부의 값들이 모두 유일함을 보장하므로 집합관계를 표현하고자 할 때 유용하게 쓰일 수 있고 교집합, 합집합 등을 연산하기에 용이하다.
+```swift
+var bird: Set<String> = ["Chicken", "Dove", "Goose", "Swan"]
+var mammal: Set<String> = ["Bear", "Cat", "Dog", "Lion", "Wolf"]
+var animal: Set<String> = bird.union(mammal)
+print(animal)
+
+print(bird.isDisjoint(with: mammal))
+print(bird.isSubset(of: animal))
+print(animal.isSuperset(of: mammal))
+print(animal.isSuperset(of: bird))
+```
+["Bear", "Dog", "Lion", "Chicken", "Dove", "Cat", "Goose", "Swan", "Wolf"]
+true
+true
+true
+true
+
+### 4.4.4 랜덤, 셔플
+컬렉션에서 임의의 요소룰 추출하는 randomElement() 메서드와 컬렉션 요소를 임의로 뒤섞는 shuffle() 메서드가 있다.
+```swift
+var array = Array<Int>(1 ... 10)
+print(array)
+print(array.randomElement())
+print(array.shuffled())
+print(array)
+```
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Optional(5)
+[5, 6, 3, 2, 4, 10, 9, 1, 7, 8]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+## 4.5 열거형
