@@ -137,13 +137,17 @@ String은 문자열이다.
 print(#"특수"문자" \t 무시 \(100) \n"#)
 ```
 
-Result: 특수"문자" \t 무시 \(100) \n
+```Console
+특수"문자" \t 무시 \(100) \n
+```
 
 ```swift
 print(#"문자열 보간법 \#(100)"#)
 ```
 
-Result: 문자열 보간법 100 \n
+```Console
+문자열 보간법 100 \n
+```
 
 ## 3.6 Any, AnyObject and nil
 
@@ -241,8 +245,11 @@ print(names1[1 ... 3])
 print(names2.count)
 print(emptyArray1.isEmpty)
 ```
+
+```Console
 4
 true
+```
 
 배열의 인덱스는 0부터 시작한다. 잘못된 인덱스로 접근하면 익셉션 에러(Exception Error)가 발생한다.
 
@@ -266,14 +273,21 @@ var names = ["Alpha", "Bravo", "Charlie", "Delta"]
 names.append("Echo")
 print(names)
 ```
+
+```Console
 ["Alpha", "Bravo", "Charlie", "Delta", "Echo"]
+```
+
 배열의 중간에 요소를 삽입하고 싶다면 insert(\_:at:) 메서드를 사용한다.
 ```swift
 var names = ["Alpha", "Bravo", "Charlie", "Delta"]
 names.insert("Beta", at: 1)
 print(names)
 ```
+
+```Console
 ["Alpha", "Beta", "Bravo", "Charlie", "Delta"]
+```
 
 배열의 요소를 삭제할 때는 remove(\_:)를 사용한다.
 ```swift
@@ -281,7 +295,10 @@ var names = ["Alpha", "Bravo", "Charlie", "Delta"]
 names.remove(at: 1)
 print(names)
 ```
+
+```Console
 ["Alpha", "Charlie", "Delta"]
+```
 
 ### 4.4.2 딕셔너리
 **딕셔너리(Dictionary)**는 순서 없이 키페어(key, value)로 구성되는 컬렉션 타입이다.
@@ -303,15 +320,21 @@ var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
 print(numberForName["Alpha"])
 print(numberForName["Charlie"])
 ```
+
+```Console
 Optional(1)
 Optional(3)
+```
 
 딕셔너리는 배열과 달리 내부에 없는 키로 접근해도 오류가 발생하지 않고 nil을 반환한다.
 ```swift
 var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
 print(numberForName["Echo"])
 ```
+
+```Console
 nil
+```
 
 특정 키에 해당하는 값을 제거하려면 removeValue(forKey:) 메서드를 사용한다.
 ```swift
@@ -319,7 +342,10 @@ var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
 numberForName.removeValue(forKey: "Alpha")
 print(numberForName)
 ```
+
+```Console
 ["Charlie": 3, "Delta": 4, "Bravo": 2]
+```
 
 ### 4.4.3 세트
 **세트(Set)**는 같은 타입의 데이터를 순서 없이 하나의 묶음으로 저장하는 형태의 컬렉션 타입이다.
@@ -342,8 +368,11 @@ print(names)
 names.remove("Alpha")
 print(names)
 ```
+
+```Console
 ["Delta", "Bravo", "Echo", "Alpha", "Charlie"]
 ["Bravo", "Echo", "Charlie", "Delta"]
+```
 
 세트는 내부의 값들이 모두 유일함을 보장하므로 집합관계를 표현하고자 할 때 유용하게 쓰일 수 있고 교집합, 합집합 등을 연산하기에 용이하다.
 ```swift
@@ -357,11 +386,14 @@ print(bird.isSubset(of: animal))
 print(animal.isSuperset(of: mammal))
 print(animal.isSuperset(of: bird))
 ```
-["Bear", "Dog", "Lion", "Chicken", "Dove", "Cat", "Goose", "Swan", "Wolf"]
+
+```Console
+"Bear", "Dog", "Lion", "Chicken", "Dove", "Cat", "Goose", "Swan", "Wolf"
 true
 true
 true
 true
+```
 
 ### 4.4.4 랜덤, 셔플
 컬렉션에서 임의의 요소룰 추출하는 randomElement() 메서드와 컬렉션 요소를 임의로 뒤섞는 shuffle() 메서드가 있다.
@@ -372,9 +404,161 @@ print(array.randomElement())
 print(array.shuffled())
 print(array)
 ```
+
+```Console
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Optional(5)
 [5, 6, 3, 2, 4, 10, 9, 1, 7, 8]
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 
 ## 4.5 열거형
+열거형(Enumeration)은 연관된 항목들을 묶어서 표현할 수 있는 타입이다.
+열거형은 정의한 값 외에는 추가/수정이 불가하기 때문에 정해진 값만 저장할 수 있다.
+
+열거형은,
+- 제한된 선택지를 주고 싶을 때
+- 정해진 값 외에는 입력받고 싶지 않을 때
+- 예상된 입력 값이 한정되어 있을 때
+
+스위프트의 열거형은 항목별로 값을 가질 수도, 가지지 않을 수도 있다. 각 항목이 그 자체로 고유의 값이 될 수 있다. 스위프트의 열거형은 각 열거형이 고유의 타입으로 인정되기 때문에 실수로 버그가 일어날 가능성을 없앴다.
+
+열거형의 각 항목이 원시 값(Raw Value)이라는 실제 값을 가질 수도 있고, 연관 값(Associated Value)을 사용하여 값의 묶음으로 구현할 수 있다.
+
+### 4.5.1 기본 열거형
+```swift
+enum School {
+	case primary
+	case elementary
+	case middle
+	case high
+	case college
+	case university
+	case graduate
+}
+```
+
+```swift
+enum School {
+	case primary, elementary, middle, high, college, university, graduate
+}
+
+var highestEducationLevel: School = .university
+highestEducationLevel = .graduate
+```
+
+### 4.5.2 원시 값
+열거형의 각 항목은 자체로도 하나의 값이지만 항목의 원시 값(Raw Value)도 가질 수 있다. 즉, 특정 타입으로 지정된 값을 가질 수 있다.
+
+```swift
+enum School: String {
+	case primary = "유치원"
+	case elementary = "초등학교"
+	case middle = "중학교"
+	case high = "고등학교"
+	case college = "대학"
+	case university = "대학교"
+	case graduate = "대학원"
+}
+
+let highestEducationLevel = School.university
+print("최종학력: \(highestEducationLevel.rawValue)")
+```
+
+```Console
+최종학력: 대학교
+```
+
+```swift
+enum WeekDays: Character {
+	case mon = "월", tue = "화", wed = "수", thu = "목", fri = "금", sat = "토", sun = "일"
+}
+
+let today: WeekDays = WeekDays.fri
+print("오늘은 \(today.rawValue)요일입니다.")
+```
+
+```Console
+오늘은 금요일입니다.
+```
+
+```swift
+enum Numbers: Int {
+	
+	case zero
+	case one
+	case two
+	case ten = 10
+}
+
+print("\(Numbers.zero.rawValue), \(Numbers.one.rawValue), \(Numbers.two.rawValue), \(Numbers.ten.rawValue)")
+```
+
+```swift
+0, 1, 2, 10
+```
+
+올바르지 않은 원시 값을 통해 생성하려고 한다면 nil을 반환한다. 이는 실패 가능한 이니셜라이저 기능이다.
+
+### 4.5.3 연관 값
+```swift
+enum MainDish {
+	case pasta(taste: String)
+	case pizza(dough: String, topping: String)
+	case chicken(withSauce: Bool)
+	case rice
+}
+
+var dinner = MainDish.pasta(taste: "Cream")
+print(dinner)
+
+dinner = .pizza(dough: "CheeseCrust", topping: "Bacon")
+print(dinner)
+
+dinner = .chicken(withSauce: true)
+print(dinner)
+
+dinner = .rice
+print(dinner)
+```
+
+```Console
+pasta(taste: "Cream")
+pizza(dough: "CheeseCrust", topping: "Bacon")
+chicken(withSauce: true)
+rice
+```
+
+```swift
+enum PastaTaste { case cream, tomato }
+enum PizzaDough { case cheesecrust, thin, original }
+enum PizzaTopping { case pepperoni, cheese, bacon }
+
+enum MainDish {
+	case pasta(taste: PastaTaste)
+	case pizza(dough: PizzaDough, topping: PizzaTopping)
+	case chicken(withSauce: Bool)
+	case rice
+}
+
+var dinner = MainDish.pasta(taste: PastaTaste.tomato)
+print(dinner)
+
+dinner = .pizza(dough: PizzaDough.cheesecrust, topping: PizzaTopping.bacon)
+print(dinner)
+
+dinner = .chicken(withSauce: true)
+print(dinner)
+
+dinner = .rice
+print(dinner)
+```
+
+```Console
+pasta(taste: __lldb_expr_25.PastaTaste.tomato)
+pizza(dough: __lldb_expr_25.PizzaDough.cheesecrust, topping: __lldb_expr_25.PizzaTopping.bacon)
+chicken(withSauce: true)
+rice
+```
+
+### 4.5.4 항목 순회
