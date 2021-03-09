@@ -172,7 +172,6 @@ Any와 AnyObject는 될 수 있으면 사용하지 않는 편이 좋다. Any와 
 
 ### 4.1.2 타입 추론
 스위프트는 변수나 상수를 선언할 때 타입을 명시하지 않아도 컴파일러가 할당된 값을 기준으로 변수나 상수의 타입을 결정한다.
-
 ```swift
 var string = "Hello, World."
 var value = 100
@@ -180,7 +179,6 @@ var value = 100
 
 ## 4.2 타입 별칭
 스위프트에서는 이미 존재하는 데이터 타입에 임의로 다른 이름(별칭)을 부여할 수 있다.
-
 ```swift
 typealias Age = Int
 typealias Year = Int
@@ -190,11 +188,11 @@ var myBirth: Year = 2000
 
 myBirth = myBirth + myAge
 ```
+
 별칭된 타입 이름이 달라도 실제 타입이 같으면 서로 할당하는데 문제가 없다.
 
 ## 4.3 튜플
 **튜플(Tuple)**은 따로 타입을 지정하지 않은 '저장된 데이터의 묶음'이다.
-
 ```swift
 var person: (String, Int, Double) = ("John", 18, 182.4)
 print("Name: \(person.0), Age: \(person.1), Height: \(person.2)")
@@ -247,6 +245,7 @@ print(emptyArray1.isEmpty)
 ```
 
 ```Console
+["Bravo", "Charlie", "Delta"]
 4
 true
 ```
@@ -562,3 +561,4 @@ rice
 ```
 
 ### 4.5.4 항목 순회
+열거형의 모든 케이스가 필요할 때 CaseIterable 프로토콜을 사용한다.

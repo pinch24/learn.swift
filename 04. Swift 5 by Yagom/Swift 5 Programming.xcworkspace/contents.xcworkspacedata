@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Swift 5 Programming/Swift 5 Programming.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift 5 Programming/Data Type/Data Type.xcodeproj">
+   </FileRef>
+</Workspace>
