@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3341F025FA4DC300BF26E3 /* 02. Enum Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341EF25FA4DC300BF26E3 /* 02. Enum Case.swift */; };
+		4D3341F425FA4F7A00BF26E3 /* 03. Raw Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341F325FA4F7A00BF26E3 /* 03. Raw Value.swift */; };
+		4D3341F825FA500B00BF26E3 /* 04. Raw Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341F725FA500B00BF26E3 /* 04. Raw Value.swift */; };
+		4D3341FB25FA589C00BF26E3 /* 05. Raw Value Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341FA25FA589C00BF26E3 /* 05. Raw Value Assignment.swift */; };
+		4D3341FF25FA5B4300BF26E3 /* 06. Raw Value Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341FE25FA5B4300BF26E3 /* 06. Raw Value Initialize.swift */; };
+		4D33420225FA5CA200BF26E3 /* 07. Relation Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420125FA5CA200BF26E3 /* 07. Relation Value.swift */; };
+		4D33420725FA5E4D00BF26E3 /* 08. Relation Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420625FA5E4D00BF26E3 /* 08. Relation Value.swift */; };
+		4D33420A25FA5FC900BF26E3 /* 09. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420925FA5FC900BF26E3 /* 09. CaseIterable.swift */; };
 		4D4888B725F72B2A00BC023D /* 04. firstIndex(of).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888B625F72B2A00BC023D /* 04. firstIndex(of).swift */; };
 		4D4888BA25F72B6D00BC023D /* 05. append(_).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888B925F72B6D00BC023D /* 05. append(_).swift */; };
 		4D4888BD25F72BB300BC023D /* 06. insert(_ at).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888BC25F72BB300BC023D /* 06. insert(_ at).swift */; };
@@ -14,7 +22,14 @@
 		4D4888CD25F72D1700BC023D /* 01. Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888CC25F72D1700BC023D /* 01. Dictionary.swift */; };
 		4D4888D025F72EC400BC023D /* 02. Key, Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888CF25F72EC400BC023D /* 02. Key, Value.swift */; };
 		4D4888D325F73EC000BC023D /* 03. nil Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D225F73EC000BC023D /* 03. nil Value.swift */; };
-		4D4888D825F73F1400BC023D /* removeValue(forKey).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D725F73F1400BC023D /* removeValue(forKey).swift */; };
+		4D4888D825F73F1400BC023D /* 04. removeValue(forKey).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D725F73F1400BC023D /* 04. removeValue(forKey).swift */; };
+		4DBB565125FA4027003BF075 /* 01. Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565025FA4027003BF075 /* 01. Set.swift */; };
+		4DBB565425FA4594003BF075 /* 02. Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565325FA4594003BF075 /* 02. Hashable.swift */; };
+		4DBB565725FA4652003BF075 /* 03. insert(_).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565625FA4652003BF075 /* 03. insert(_).swift */; };
+		4DBB565A25FA46CD003BF075 /* 04. Set Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565925FA46CD003BF075 /* 04. Set Operation.swift */; };
+		4DBB565D25FA4736003BF075 /* 01. Random, Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565C25FA4736003BF075 /* 01. Random, Shuffle.swift */; };
+		4DBB566025FA48C9003BF075 /* 06. Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565F25FA48C9003BF075 /* 06. Enum.swift */; };
+		4DBB566725FA4D74003BF075 /* 01. Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB566625FA4D72003BF075 /* 01. Enum.swift */; };
 		4DC5885E25F7248000D2ABF4 /* 1. Type Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5885D25F7248000D2ABF4 /* 1. Type Inference.swift */; };
 		4DC5886325F724A100D2ABF4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5885425F723ED00D2ABF4 /* main.swift */; };
 		4DC5886625F7253F00D2ABF4 /* 1. Type Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5886525F7253F00D2ABF4 /* 1. Type Alias.swift */; };
@@ -39,6 +54,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D3341EF25FA4DC300BF26E3 /* 02. Enum Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Enum Case.swift"; sourceTree = "<group>"; };
+		4D3341F325FA4F7A00BF26E3 /* 03. Raw Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. Raw Value.swift"; sourceTree = "<group>"; };
+		4D3341F725FA500B00BF26E3 /* 04. Raw Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. Raw Value.swift"; sourceTree = "<group>"; };
+		4D3341FA25FA589C00BF26E3 /* 05. Raw Value Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05. Raw Value Assignment.swift"; sourceTree = "<group>"; };
+		4D3341FE25FA5B4300BF26E3 /* 06. Raw Value Initialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. Raw Value Initialize.swift"; sourceTree = "<group>"; };
+		4D33420125FA5CA200BF26E3 /* 07. Relation Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07. Relation Value.swift"; sourceTree = "<group>"; };
+		4D33420625FA5E4D00BF26E3 /* 08. Relation Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "08. Relation Value.swift"; sourceTree = "<group>"; };
+		4D33420925FA5FC900BF26E3 /* 09. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "09. CaseIterable.swift"; sourceTree = "<group>"; };
 		4D4888B625F72B2A00BC023D /* 04. firstIndex(of).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. firstIndex(of).swift"; sourceTree = "<group>"; };
 		4D4888B925F72B6D00BC023D /* 05. append(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05. append(_).swift"; sourceTree = "<group>"; };
 		4D4888BC25F72BB300BC023D /* 06. insert(_ at).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. insert(_ at).swift"; sourceTree = "<group>"; };
@@ -46,7 +69,14 @@
 		4D4888CC25F72D1700BC023D /* 01. Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Dictionary.swift"; sourceTree = "<group>"; };
 		4D4888CF25F72EC400BC023D /* 02. Key, Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Key, Value.swift"; sourceTree = "<group>"; };
 		4D4888D225F73EC000BC023D /* 03. nil Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. nil Value.swift"; sourceTree = "<group>"; };
-		4D4888D725F73F1400BC023D /* removeValue(forKey).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "removeValue(forKey).swift"; sourceTree = "<group>"; };
+		4D4888D725F73F1400BC023D /* 04. removeValue(forKey).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. removeValue(forKey).swift"; sourceTree = "<group>"; };
+		4DBB565025FA4027003BF075 /* 01. Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Set.swift"; sourceTree = "<group>"; };
+		4DBB565325FA4594003BF075 /* 02. Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Hashable.swift"; sourceTree = "<group>"; };
+		4DBB565625FA4652003BF075 /* 03. insert(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. insert(_).swift"; sourceTree = "<group>"; };
+		4DBB565925FA46CD003BF075 /* 04. Set Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. Set Operation.swift"; sourceTree = "<group>"; };
+		4DBB565C25FA4736003BF075 /* 01. Random, Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "01. Random, Shuffle.swift"; sourceTree = "<group>"; };
+		4DBB565F25FA48C9003BF075 /* 06. Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. Enum.swift"; sourceTree = "<group>"; };
+		4DBB566625FA4D72003BF075 /* 01. Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Enum.swift"; sourceTree = "<group>"; };
 		4DC5885125F723ED00D2ABF4 /* Data Type */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Type"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC5885425F723ED00D2ABF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DC5885D25F7248000D2ABF4 /* 1. Type Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Type Inference.swift"; sourceTree = "<group>"; };
@@ -90,7 +120,7 @@
 				4D4888CC25F72D1700BC023D /* 01. Dictionary.swift */,
 				4D4888CF25F72EC400BC023D /* 02. Key, Value.swift */,
 				4D4888D225F73EC000BC023D /* 03. nil Value.swift */,
-				4D4888D725F73F1400BC023D /* removeValue(forKey).swift */,
+				4D4888D725F73F1400BC023D /* 04. removeValue(forKey).swift */,
 			);
 			path = "2. Dictionary";
 			sourceTree = "<group>";
@@ -98,8 +128,37 @@
 		4D4888DC25F73F4800BC023D /* 3. Set */ = {
 			isa = PBXGroup;
 			children = (
+				4DBB565025FA4027003BF075 /* 01. Set.swift */,
+				4DBB565325FA4594003BF075 /* 02. Hashable.swift */,
+				4DBB565625FA4652003BF075 /* 03. insert(_).swift */,
+				4DBB565925FA46CD003BF075 /* 04. Set Operation.swift */,
+				4DBB565F25FA48C9003BF075 /* 06. Enum.swift */,
 			);
 			path = "3. Set";
+			sourceTree = "<group>";
+		};
+		4DBB566225FA48D3003BF075 /* 4. Random */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB565C25FA4736003BF075 /* 01. Random, Shuffle.swift */,
+			);
+			path = "4. Random";
+			sourceTree = "<group>";
+		};
+		4DBB566425FA48F4003BF075 /* 5. Enum */ = {
+			isa = PBXGroup;
+			children = (
+				4DBB566625FA4D72003BF075 /* 01. Enum.swift */,
+				4D3341EF25FA4DC300BF26E3 /* 02. Enum Case.swift */,
+				4D3341F325FA4F7A00BF26E3 /* 03. Raw Value.swift */,
+				4D3341F725FA500B00BF26E3 /* 04. Raw Value.swift */,
+				4D3341FA25FA589C00BF26E3 /* 05. Raw Value Assignment.swift */,
+				4D3341FE25FA5B4300BF26E3 /* 06. Raw Value Initialize.swift */,
+				4D33420125FA5CA200BF26E3 /* 07. Relation Value.swift */,
+				4D33420625FA5E4D00BF26E3 /* 08. Relation Value.swift */,
+				4D33420925FA5FC900BF26E3 /* 09. CaseIterable.swift */,
+			);
+			path = "5. Enum";
 			sourceTree = "<group>";
 		};
 		4DC5884825F723EC00D2ABF4 = {
@@ -162,6 +221,8 @@
 				4D4888CA25F72CBC00BC023D /* 1. Array */,
 				4D4888CB25F72CE700BC023D /* 2. Dictionary */,
 				4D4888DC25F73F4800BC023D /* 3. Set */,
+				4DBB566225FA48D3003BF075 /* 4. Random */,
+				4DBB566425FA48F4003BF075 /* 5. Enum */,
 			);
 			path = "4. Collection";
 			sourceTree = "<group>";
@@ -223,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3341FB25FA589C00BF26E3 /* 05. Raw Value Assignment.swift in Sources */,
 				4DC5886325F724A100D2ABF4 /* main.swift in Sources */,
+				4D3341F825FA500B00BF26E3 /* 04. Raw Value.swift in Sources */,
 				4D4888BA25F72B6D00BC023D /* 05. append(_).swift in Sources */,
 				4DC5889425F72AAC00D2ABF4 /* 02. Exception Error.swift in Sources */,
 				4DC5889125F72A6400D2ABF4 /* 03. first, last.swift in Sources */,
@@ -231,15 +294,28 @@
 				4D4888BD25F72BB300BC023D /* 06. insert(_ at).swift in Sources */,
 				4D4888D325F73EC000BC023D /* 03. nil Value.swift in Sources */,
 				4DC5885E25F7248000D2ABF4 /* 1. Type Inference.swift in Sources */,
+				4DBB565725FA4652003BF075 /* 03. insert(_).swift in Sources */,
+				4DBB566025FA48C9003BF075 /* 06. Enum.swift in Sources */,
 				4DC5887625F7271100D2ABF4 /* 03. Tuple.swift in Sources */,
+				4D33420A25FA5FC900BF26E3 /* 09. CaseIterable.swift in Sources */,
 				4D4888CD25F72D1700BC023D /* 01. Dictionary.swift in Sources */,
-				4D4888D825F73F1400BC023D /* removeValue(forKey).swift in Sources */,
+				4DBB565A25FA46CD003BF075 /* 04. Set Operation.swift in Sources */,
+				4DBB566725FA4D74003BF075 /* 01. Enum.swift in Sources */,
+				4D3341F425FA4F7A00BF26E3 /* 03. Raw Value.swift in Sources */,
+				4D4888D825F73F1400BC023D /* 04. removeValue(forKey).swift in Sources */,
+				4D33420225FA5CA200BF26E3 /* 07. Relation Value.swift in Sources */,
 				4D4888D025F72EC400BC023D /* 02. Key, Value.swift in Sources */,
 				4DC5887225F726C000D2ABF4 /* 01. Tuple.swift in Sources */,
 				4DC5888325F7286100D2ABF4 /* 02. Tuple.swift in Sources */,
+				4D33420725FA5E4D00BF26E3 /* 08. Relation Value.swift in Sources */,
+				4DBB565425FA4594003BF075 /* 02. Hashable.swift in Sources */,
+				4DBB565D25FA4736003BF075 /* 01. Random, Shuffle.swift in Sources */,
 				4DC5886625F7253F00D2ABF4 /* 1. Type Alias.swift in Sources */,
+				4DBB565125FA4027003BF075 /* 01. Set.swift in Sources */,
+				4D3341FF25FA5B4300BF26E3 /* 06. Raw Value Initialize.swift in Sources */,
 				4D4888B725F72B2A00BC023D /* 04. firstIndex(of).swift in Sources */,
 				4D4888C025F72BDE00BC023D /* 07. remove(at).swift in Sources */,
+				4D3341F025FA4DC300BF26E3 /* 02. Enum Case.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -357,9 +357,10 @@ var names2: Set<String> = []
 세트의 요소로는 해시 가능한 값이 들어와야 한다. (스위프트 라이브러리의 Hashable 프로토콜을 따른다는 의미다.)
 ```swift
 var names: Set<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
+print(names)
 ```
 
-세트에 요소를 추가하려면 insert(\_:), 
+세트에 요소를 추가하려면 insert(\_:), 삭제하려면 remove(\_:) 메소드를 사용한다.
 ```swift
 var names: Set<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
 names.insert("Echo")
