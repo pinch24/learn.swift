@@ -7,5 +7,4 @@ func exec_101() {
 
 	print(string)
 	print(value)
-
 }

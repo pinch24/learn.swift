@@ -1,4 +1,6 @@
 /**
+4.5.3 연관 값
+4-20. 연관 값을 갖는 열거형
 열거형 내의 항목(case)은 자신과 연관된 값을 가질 수 있다.
 */
 import Foundation
@@ -10,7 +12,7 @@ fileprivate enum MainDish {
 	case rice
 }
 
-func exec_4507() {
+func exec_4531() {
 	
 	var dinner = MainDish.pasta(taste: "Cream")
 	print(dinner)
