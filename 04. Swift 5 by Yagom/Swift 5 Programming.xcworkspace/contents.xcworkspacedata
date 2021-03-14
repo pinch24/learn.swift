@@ -7,4 +7,7 @@
    <FileRef
       location = "group:Swift 5 Programming/Data Type/Data Type.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Swift 5 Programming/Data Type/../Operator/Operator.xcodeproj">
+   </FileRef>
 </Workspace>

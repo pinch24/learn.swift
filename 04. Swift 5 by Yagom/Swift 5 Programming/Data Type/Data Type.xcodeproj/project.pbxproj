@@ -46,6 +46,16 @@
 		4DC5889425F72AAC00D2ABF4 /* 02. Exception Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5889325F72AAC00D2ABF4 /* 02. Exception Error.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4DAA7FAB25FBE70B004CB9CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DAA7F9C25FBE6EB004CB9CE;
+			remoteInfo = Operator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		4DC5884F25F723ED00D2ABF4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -82,6 +92,7 @@
 		4DAA7F8925FBDDE2004CB9CE /* 44. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "44. CaseIterable.swift"; sourceTree = "<group>"; };
 		4DAA7F8C25FBE185004CB9CE /* 51. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "51. indirect.swift"; sourceTree = "<group>"; };
 		4DAA7F8F25FBE37E004CB9CE /* 52. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "52. indirect.swift"; sourceTree = "<group>"; };
+		4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Operator.xcodeproj; path = ../Operator/Operator.xcodeproj; sourceTree = "<group>"; };
 		4DBB565025FA4027003BF075 /* 01. Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Set.swift"; sourceTree = "<group>"; };
 		4DBB565325FA4594003BF075 /* 02. Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Hashable.swift"; sourceTree = "<group>"; };
 		4DBB565625FA4652003BF075 /* 03. insert(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. insert(_).swift"; sourceTree = "<group>"; };
@@ -149,6 +160,14 @@
 			path = "3. Set";
 			sourceTree = "<group>";
 		};
+		4DAA7FA825FBE70B004CB9CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAA7FAC25FBE70B004CB9CE /* Operator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4DBB566225FA48D3003BF075 /* 4. Random */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +203,7 @@
 			children = (
 				4DC5885325F723ED00D2ABF4 /* Data Type */,
 				4DC5885225F723ED00D2ABF4 /* Products */,
+				4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -291,12 +311,28 @@
 			mainGroup = 4DC5884825F723EC00D2ABF4;
 			productRefGroup = 4DC5885225F723ED00D2ABF4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4DAA7FA825FBE70B004CB9CE /* Products */;
+					ProjectRef = 4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4DC5885025F723ED00D2ABF4 /* Data Type */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4DAA7FAC25FBE70B004CB9CE /* Operator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Operator;
+			remoteRef = 4DAA7FAB25FBE70B004CB9CE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DC5884D25F723ED00D2ABF4 /* Sources */ = {
