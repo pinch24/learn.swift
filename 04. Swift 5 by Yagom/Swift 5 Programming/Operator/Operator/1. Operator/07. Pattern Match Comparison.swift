@@ -24,7 +24,7 @@ func isLowcase(s: String) -> Bool {
 	return b
 }
 
-func exec_() {
+func exec_5108() {
 	
 	print(isLowcase(s: "a"))
 	print(isLowcase(s: "A"))
