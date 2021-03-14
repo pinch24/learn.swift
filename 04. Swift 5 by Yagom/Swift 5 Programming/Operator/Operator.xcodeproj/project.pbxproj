@@ -11,6 +11,10 @@
 		4DAA7FB225FE5718004CB9CE /* 01. Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB125FE5718004CB9CE /* 01. Assign.swift */; };
 		4DAA7FB525FE5815004CB9CE /* 02. Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB425FE5815004CB9CE /* 02. Arithmetic.swift */; };
 		4DAA7FB925FE5910004CB9CE /* 03. Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB825FE5910004CB9CE /* 03. Arithmetic.swift */; };
+		4DAA7FBC25FE5B13004CB9CE /* 04. Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FBB25FE5B13004CB9CE /* 04. Comparison.swift */; };
+		4DAA7FC025FE5CCA004CB9CE /* 05. Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FBF25FE5CCA004CB9CE /* 05. Comparison.swift */; };
+		4DAA7FC325FE61CC004CB9CE /* 06. Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FC225FE61CC004CB9CE /* 06. Comparison.swift */; };
+		4DAA7FC625FE6410004CB9CE /* 07. Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FC525FE6410004CB9CE /* 07. Comparison.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +36,10 @@
 		4DAA7FB125FE5718004CB9CE /* 01. Assign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Assign.swift"; sourceTree = "<group>"; };
 		4DAA7FB425FE5815004CB9CE /* 02. Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Arithmetic.swift"; sourceTree = "<group>"; };
 		4DAA7FB825FE5910004CB9CE /* 03. Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. Arithmetic.swift"; sourceTree = "<group>"; };
+		4DAA7FBB25FE5B13004CB9CE /* 04. Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FBF25FE5CCA004CB9CE /* 05. Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05. Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FC225FE61CC004CB9CE /* 06. Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FC525FE6410004CB9CE /* 07. Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07. Comparison.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 				4DAA7FB125FE5718004CB9CE /* 01. Assign.swift */,
 				4DAA7FB425FE5815004CB9CE /* 02. Arithmetic.swift */,
 				4DAA7FB825FE5910004CB9CE /* 03. Arithmetic.swift */,
+				4DAA7FBB25FE5B13004CB9CE /* 04. Comparison.swift */,
+				4DAA7FBF25FE5CCA004CB9CE /* 05. Comparison.swift */,
+				4DAA7FC225FE61CC004CB9CE /* 06. Comparison.swift */,
+				4DAA7FC525FE6410004CB9CE /* 07. Comparison.swift */,
 			);
 			path = "1. Operator";
 			sourceTree = "<group>";
@@ -138,10 +150,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAA7FC325FE61CC004CB9CE /* 06. Comparison.swift in Sources */,
 				4DAA7FB525FE5815004CB9CE /* 02. Arithmetic.swift in Sources */,
 				4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */,
 				4DAA7FB925FE5910004CB9CE /* 03. Arithmetic.swift in Sources */,
 				4DAA7FB225FE5718004CB9CE /* 01. Assign.swift in Sources */,
+				4DAA7FBC25FE5B13004CB9CE /* 04. Comparison.swift in Sources */,
+				4DAA7FC025FE5CCA004CB9CE /* 05. Comparison.swift in Sources */,
+				4DAA7FC625FE6410004CB9CE /* 07. Comparison.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

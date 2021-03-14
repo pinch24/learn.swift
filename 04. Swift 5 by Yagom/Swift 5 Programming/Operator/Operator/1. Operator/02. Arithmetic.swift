@@ -1,5 +1,6 @@
 /**
-5.1.2 산술(arithmatic) 연산자
+5.1.3 산술(arithmatic) 연산자
+수학 연산을 수행한다.
 */
 import Foundation
 
