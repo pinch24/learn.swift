@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3341F025FA4DC300BF26E3 /* 12. Enum Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341EF25FA4DC300BF26E3 /* 12. Enum Case.swift */; };
-		4D3341F425FA4F7A00BF26E3 /* 21. Raw Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341F325FA4F7A00BF26E3 /* 21. Raw Value.swift */; };
-		4D3341F825FA500B00BF26E3 /* 22. Raw Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341F725FA500B00BF26E3 /* 22. Raw Value.swift */; };
-		4D3341FB25FA589C00BF26E3 /* 23. Raw Value Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341FA25FA589C00BF26E3 /* 23. Raw Value Assignment.swift */; };
-		4D3341FF25FA5B4300BF26E3 /* 24. Raw Value Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341FE25FA5B4300BF26E3 /* 24. Raw Value Initialize.swift */; };
-		4D33420225FA5CA200BF26E3 /* 31. Relation Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420125FA5CA200BF26E3 /* 31. Relation Value.swift */; };
-		4D33420725FA5E4D00BF26E3 /* 32. Relation Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420625FA5E4D00BF26E3 /* 32. Relation Value.swift */; };
-		4D33420A25FA5FC900BF26E3 /* 41. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420925FA5FC900BF26E3 /* 41. CaseIterable.swift */; };
-		4D33420E25FA651D00BF26E3 /* 42. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420D25FA651D00BF26E3 /* 42. CaseIterable.swift */; };
-		4D4888B725F72B2A00BC023D /* 04. firstIndex(of).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888B625F72B2A00BC023D /* 04. firstIndex(of).swift */; };
-		4D4888BA25F72B6D00BC023D /* 05. append(_).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888B925F72B6D00BC023D /* 05. append(_).swift */; };
-		4D4888BD25F72BB300BC023D /* 06. insert(_ at).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888BC25F72BB300BC023D /* 06. insert(_ at).swift */; };
-		4D4888C025F72BDE00BC023D /* 07. remove(at).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888BF25F72BDE00BC023D /* 07. remove(at).swift */; };
-		4D4888CD25F72D1700BC023D /* 01. Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888CC25F72D1700BC023D /* 01. Dictionary.swift */; };
-		4D4888D025F72EC400BC023D /* 02. Key, Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888CF25F72EC400BC023D /* 02. Key, Value.swift */; };
-		4D4888D325F73EC000BC023D /* 03. nil Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D225F73EC000BC023D /* 03. nil Value.swift */; };
-		4D4888D825F73F1400BC023D /* 04. removeValue(forKey).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D725F73F1400BC023D /* 04. removeValue(forKey).swift */; };
-		4DAA7F8525FBD733004CB9CE /* 43. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8425FBD733004CB9CE /* 43. CaseIterable.swift */; };
-		4DAA7F8A25FBDDE2004CB9CE /* 44. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8925FBDDE2004CB9CE /* 44. CaseIterable.swift */; };
-		4DAA7F8D25FBE185004CB9CE /* 51. indirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8C25FBE185004CB9CE /* 51. indirect.swift */; };
-		4DAA7F9025FBE37E004CB9CE /* 52. indirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8F25FBE37E004CB9CE /* 52. indirect.swift */; };
-		4DBB565125FA4027003BF075 /* 01. Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565025FA4027003BF075 /* 01. Set.swift */; };
-		4DBB565425FA4594003BF075 /* 02. Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565325FA4594003BF075 /* 02. Hashable.swift */; };
-		4DBB565725FA4652003BF075 /* 03. insert(_).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565625FA4652003BF075 /* 03. insert(_).swift */; };
-		4DBB565A25FA46CD003BF075 /* 04. Set Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565925FA46CD003BF075 /* 04. Set Operation.swift */; };
-		4DBB565D25FA4736003BF075 /* 01. Random, Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565C25FA4736003BF075 /* 01. Random, Shuffle.swift */; };
-		4DBB566025FA48C9003BF075 /* 06. Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565F25FA48C9003BF075 /* 06. Enum.swift */; };
-		4DBB566725FA4D74003BF075 /* 11. Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB566625FA4D72003BF075 /* 11. Enum.swift */; };
-		4DC5885E25F7248000D2ABF4 /* 1. Type Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5885D25F7248000D2ABF4 /* 1. Type Inference.swift */; };
+		4D3341F025FA4DC300BF26E3 /* 4512. Enum Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341EF25FA4DC300BF26E3 /* 4512. Enum Case.swift */; };
+		4D3341F425FA4F7A00BF26E3 /* 4521. Raw Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341F325FA4F7A00BF26E3 /* 4521. Raw Value.swift */; };
+		4D3341F825FA500B00BF26E3 /* 4522. Raw Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341F725FA500B00BF26E3 /* 4522. Raw Value.swift */; };
+		4D3341FB25FA589C00BF26E3 /* 4523. Raw Value Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341FA25FA589C00BF26E3 /* 4523. Raw Value Assignment.swift */; };
+		4D3341FF25FA5B4300BF26E3 /* 4524. Raw Value Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3341FE25FA5B4300BF26E3 /* 4524. Raw Value Initialize.swift */; };
+		4D33420225FA5CA200BF26E3 /* 4531. Relation Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420125FA5CA200BF26E3 /* 4531. Relation Value.swift */; };
+		4D33420725FA5E4D00BF26E3 /* 4532. Relation Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420625FA5E4D00BF26E3 /* 4532. Relation Value.swift */; };
+		4D33420A25FA5FC900BF26E3 /* 4541. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420925FA5FC900BF26E3 /* 4541. CaseIterable.swift */; };
+		4D33420E25FA651D00BF26E3 /* 4542. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D33420D25FA651D00BF26E3 /* 4542. CaseIterable.swift */; };
+		4D4888B725F72B2A00BC023D /* 4414. firstIndex(of).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888B625F72B2A00BC023D /* 4414. firstIndex(of).swift */; };
+		4D4888BA25F72B6D00BC023D /* 4415. append(_).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888B925F72B6D00BC023D /* 4415. append(_).swift */; };
+		4D4888BD25F72BB300BC023D /* 4416. insert(_ at).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888BC25F72BB300BC023D /* 4416. insert(_ at).swift */; };
+		4D4888C025F72BDE00BC023D /* 4417. remove(at).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888BF25F72BDE00BC023D /* 4417. remove(at).swift */; };
+		4D4888CD25F72D1700BC023D /* 4421. Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888CC25F72D1700BC023D /* 4421. Dictionary.swift */; };
+		4D4888D025F72EC400BC023D /* 4422. Key, Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888CF25F72EC400BC023D /* 4422. Key, Value.swift */; };
+		4D4888D325F73EC000BC023D /* 4423. nil Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D225F73EC000BC023D /* 4423. nil Value.swift */; };
+		4D4888D825F73F1400BC023D /* 4424. removeValue(forKey).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4888D725F73F1400BC023D /* 4424. removeValue(forKey).swift */; };
+		4DAA7F8525FBD733004CB9CE /* 4543. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8425FBD733004CB9CE /* 4543. CaseIterable.swift */; };
+		4DAA7F8A25FBDDE2004CB9CE /* 4544. CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8925FBDDE2004CB9CE /* 4544. CaseIterable.swift */; };
+		4DAA7F8D25FBE185004CB9CE /* 4551. indirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8C25FBE185004CB9CE /* 4551. indirect.swift */; };
+		4DAA7F9025FBE37E004CB9CE /* 4552. indirect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F8F25FBE37E004CB9CE /* 4552. indirect.swift */; };
+		4DBB565125FA4027003BF075 /* 4431. Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565025FA4027003BF075 /* 4431. Set.swift */; };
+		4DBB565425FA4594003BF075 /* 4432. Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565325FA4594003BF075 /* 4432. Hashable.swift */; };
+		4DBB565725FA4652003BF075 /* 4433. insert(_).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565625FA4652003BF075 /* 4433. insert(_).swift */; };
+		4DBB565A25FA46CD003BF075 /* 4434. Set Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565925FA46CD003BF075 /* 4434. Set Operation.swift */; };
+		4DBB565D25FA4736003BF075 /* 4441. Random, Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565C25FA4736003BF075 /* 4441. Random, Shuffle.swift */; };
+		4DBB566025FA48C9003BF075 /* 4435. Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB565F25FA48C9003BF075 /* 4435. Enum.swift */; };
+		4DBB566725FA4D74003BF075 /* 4511. Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB566625FA4D72003BF075 /* 4511. Enum.swift */; };
+		4DC5885E25F7248000D2ABF4 /* 4121. Type Inference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5885D25F7248000D2ABF4 /* 4121. Type Inference.swift */; };
 		4DC5886325F724A100D2ABF4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5885425F723ED00D2ABF4 /* main.swift */; };
-		4DC5886625F7253F00D2ABF4 /* 1. Type Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5886525F7253F00D2ABF4 /* 1. Type Alias.swift */; };
-		4DC5887225F726C000D2ABF4 /* 01. Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5887025F7268C00D2ABF4 /* 01. Tuple.swift */; };
-		4DC5887625F7271100D2ABF4 /* 03. Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5887525F7271100D2ABF4 /* 03. Tuple.swift */; };
-		4DC5888325F7286100D2ABF4 /* 02. Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5888225F7286100D2ABF4 /* 02. Tuple.swift */; };
-		4DC5888E25F729E200D2ABF4 /* 01. Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5888925F7297800D2ABF4 /* 01. Array.swift */; };
-		4DC5889125F72A6400D2ABF4 /* 03. first, last.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5889025F72A6400D2ABF4 /* 03. first, last.swift */; };
-		4DC5889425F72AAC00D2ABF4 /* 02. Exception Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5889325F72AAC00D2ABF4 /* 02. Exception Error.swift */; };
+		4DC5886625F7253F00D2ABF4 /* 4201. Type Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */; };
+		4DC5887225F726C000D2ABF4 /* 4301. Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5887025F7268C00D2ABF4 /* 4301. Tuple.swift */; };
+		4DC5887625F7271100D2ABF4 /* 4303. Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5887525F7271100D2ABF4 /* 4303. Tuple.swift */; };
+		4DC5888325F7286100D2ABF4 /* 4302. Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5888225F7286100D2ABF4 /* 4302. Tuple.swift */; };
+		4DC5888E25F729E200D2ABF4 /* 4411. Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5888925F7297800D2ABF4 /* 4411. Array.swift */; };
+		4DC5889125F72A6400D2ABF4 /* 4413. first, last.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5889025F72A6400D2ABF4 /* 4413. first, last.swift */; };
+		4DC5889425F72AAC00D2ABF4 /* 4412. Exception Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5889325F72AAC00D2ABF4 /* 4412. Exception Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,47 +69,47 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D3341EF25FA4DC300BF26E3 /* 12. Enum Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "12. Enum Case.swift"; sourceTree = "<group>"; };
-		4D3341F325FA4F7A00BF26E3 /* 21. Raw Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21. Raw Value.swift"; sourceTree = "<group>"; };
-		4D3341F725FA500B00BF26E3 /* 22. Raw Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "22. Raw Value.swift"; sourceTree = "<group>"; };
-		4D3341FA25FA589C00BF26E3 /* 23. Raw Value Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "23. Raw Value Assignment.swift"; sourceTree = "<group>"; };
-		4D3341FE25FA5B4300BF26E3 /* 24. Raw Value Initialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "24. Raw Value Initialize.swift"; sourceTree = "<group>"; };
-		4D33420125FA5CA200BF26E3 /* 31. Relation Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "31. Relation Value.swift"; sourceTree = "<group>"; };
-		4D33420625FA5E4D00BF26E3 /* 32. Relation Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "32. Relation Value.swift"; sourceTree = "<group>"; };
-		4D33420925FA5FC900BF26E3 /* 41. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "41. CaseIterable.swift"; sourceTree = "<group>"; };
-		4D33420D25FA651D00BF26E3 /* 42. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "42. CaseIterable.swift"; sourceTree = "<group>"; };
-		4D4888B625F72B2A00BC023D /* 04. firstIndex(of).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. firstIndex(of).swift"; sourceTree = "<group>"; };
-		4D4888B925F72B6D00BC023D /* 05. append(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05. append(_).swift"; sourceTree = "<group>"; };
-		4D4888BC25F72BB300BC023D /* 06. insert(_ at).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. insert(_ at).swift"; sourceTree = "<group>"; };
-		4D4888BF25F72BDE00BC023D /* 07. remove(at).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07. remove(at).swift"; sourceTree = "<group>"; };
-		4D4888CC25F72D1700BC023D /* 01. Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Dictionary.swift"; sourceTree = "<group>"; };
-		4D4888CF25F72EC400BC023D /* 02. Key, Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Key, Value.swift"; sourceTree = "<group>"; };
-		4D4888D225F73EC000BC023D /* 03. nil Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. nil Value.swift"; sourceTree = "<group>"; };
-		4D4888D725F73F1400BC023D /* 04. removeValue(forKey).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. removeValue(forKey).swift"; sourceTree = "<group>"; };
+		4D3341EF25FA4DC300BF26E3 /* 4512. Enum Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4512. Enum Case.swift"; sourceTree = "<group>"; };
+		4D3341F325FA4F7A00BF26E3 /* 4521. Raw Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4521. Raw Value.swift"; sourceTree = "<group>"; };
+		4D3341F725FA500B00BF26E3 /* 4522. Raw Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4522. Raw Value.swift"; sourceTree = "<group>"; };
+		4D3341FA25FA589C00BF26E3 /* 4523. Raw Value Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4523. Raw Value Assignment.swift"; sourceTree = "<group>"; };
+		4D3341FE25FA5B4300BF26E3 /* 4524. Raw Value Initialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4524. Raw Value Initialize.swift"; sourceTree = "<group>"; };
+		4D33420125FA5CA200BF26E3 /* 4531. Relation Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4531. Relation Value.swift"; sourceTree = "<group>"; };
+		4D33420625FA5E4D00BF26E3 /* 4532. Relation Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4532. Relation Value.swift"; sourceTree = "<group>"; };
+		4D33420925FA5FC900BF26E3 /* 4541. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4541. CaseIterable.swift"; sourceTree = "<group>"; };
+		4D33420D25FA651D00BF26E3 /* 4542. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4542. CaseIterable.swift"; sourceTree = "<group>"; };
+		4D4888B625F72B2A00BC023D /* 4414. firstIndex(of).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4414. firstIndex(of).swift"; sourceTree = "<group>"; };
+		4D4888B925F72B6D00BC023D /* 4415. append(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4415. append(_).swift"; sourceTree = "<group>"; };
+		4D4888BC25F72BB300BC023D /* 4416. insert(_ at).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4416. insert(_ at).swift"; sourceTree = "<group>"; };
+		4D4888BF25F72BDE00BC023D /* 4417. remove(at).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4417. remove(at).swift"; sourceTree = "<group>"; };
+		4D4888CC25F72D1700BC023D /* 4421. Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4421. Dictionary.swift"; sourceTree = "<group>"; };
+		4D4888CF25F72EC400BC023D /* 4422. Key, Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4422. Key, Value.swift"; sourceTree = "<group>"; };
+		4D4888D225F73EC000BC023D /* 4423. nil Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4423. nil Value.swift"; sourceTree = "<group>"; };
+		4D4888D725F73F1400BC023D /* 4424. removeValue(forKey).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4424. removeValue(forKey).swift"; sourceTree = "<group>"; };
 		4DAA7F7725FBCFDD004CB9CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DAA7F7825FBD315004CB9CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4DAA7F8425FBD733004CB9CE /* 43. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "43. CaseIterable.swift"; sourceTree = "<group>"; };
-		4DAA7F8925FBDDE2004CB9CE /* 44. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "44. CaseIterable.swift"; sourceTree = "<group>"; };
-		4DAA7F8C25FBE185004CB9CE /* 51. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "51. indirect.swift"; sourceTree = "<group>"; };
-		4DAA7F8F25FBE37E004CB9CE /* 52. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "52. indirect.swift"; sourceTree = "<group>"; };
+		4DAA7F8425FBD733004CB9CE /* 4543. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4543. CaseIterable.swift"; sourceTree = "<group>"; };
+		4DAA7F8925FBDDE2004CB9CE /* 4544. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4544. CaseIterable.swift"; sourceTree = "<group>"; };
+		4DAA7F8C25FBE185004CB9CE /* 4551. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4551. indirect.swift"; sourceTree = "<group>"; };
+		4DAA7F8F25FBE37E004CB9CE /* 4552. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4552. indirect.swift"; sourceTree = "<group>"; };
 		4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Operator.xcodeproj; path = ../Operator/Operator.xcodeproj; sourceTree = "<group>"; };
-		4DBB565025FA4027003BF075 /* 01. Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Set.swift"; sourceTree = "<group>"; };
-		4DBB565325FA4594003BF075 /* 02. Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Hashable.swift"; sourceTree = "<group>"; };
-		4DBB565625FA4652003BF075 /* 03. insert(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. insert(_).swift"; sourceTree = "<group>"; };
-		4DBB565925FA46CD003BF075 /* 04. Set Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. Set Operation.swift"; sourceTree = "<group>"; };
-		4DBB565C25FA4736003BF075 /* 01. Random, Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "01. Random, Shuffle.swift"; sourceTree = "<group>"; };
-		4DBB565F25FA48C9003BF075 /* 06. Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. Enum.swift"; sourceTree = "<group>"; };
-		4DBB566625FA4D72003BF075 /* 11. Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. Enum.swift"; sourceTree = "<group>"; };
+		4DBB565025FA4027003BF075 /* 4431. Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4431. Set.swift"; sourceTree = "<group>"; };
+		4DBB565325FA4594003BF075 /* 4432. Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4432. Hashable.swift"; sourceTree = "<group>"; };
+		4DBB565625FA4652003BF075 /* 4433. insert(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4433. insert(_).swift"; sourceTree = "<group>"; };
+		4DBB565925FA46CD003BF075 /* 4434. Set Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4434. Set Operation.swift"; sourceTree = "<group>"; };
+		4DBB565C25FA4736003BF075 /* 4441. Random, Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4441. Random, Shuffle.swift"; sourceTree = "<group>"; };
+		4DBB565F25FA48C9003BF075 /* 4435. Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4435. Enum.swift"; sourceTree = "<group>"; };
+		4DBB566625FA4D72003BF075 /* 4511. Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4511. Enum.swift"; sourceTree = "<group>"; };
 		4DC5885125F723ED00D2ABF4 /* Data Type */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Type"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC5885425F723ED00D2ABF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4DC5885D25F7248000D2ABF4 /* 1. Type Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Type Inference.swift"; sourceTree = "<group>"; };
-		4DC5886525F7253F00D2ABF4 /* 1. Type Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Type Alias.swift"; sourceTree = "<group>"; };
-		4DC5887025F7268C00D2ABF4 /* 01. Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Tuple.swift"; sourceTree = "<group>"; };
-		4DC5887525F7271100D2ABF4 /* 03. Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. Tuple.swift"; sourceTree = "<group>"; };
-		4DC5888225F7286100D2ABF4 /* 02. Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. Tuple.swift"; sourceTree = "<group>"; };
-		4DC5888925F7297800D2ABF4 /* 01. Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Array.swift"; sourceTree = "<group>"; };
-		4DC5889025F72A6400D2ABF4 /* 03. first, last.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. first, last.swift"; sourceTree = "<group>"; };
-		4DC5889325F72AAC00D2ABF4 /* 02. Exception Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Exception Error.swift"; sourceTree = "<group>"; };
+		4DC5885D25F7248000D2ABF4 /* 4121. Type Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4121. Type Inference.swift"; sourceTree = "<group>"; };
+		4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4201. Type Alias.swift"; sourceTree = "<group>"; };
+		4DC5887025F7268C00D2ABF4 /* 4301. Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4301. Tuple.swift"; sourceTree = "<group>"; };
+		4DC5887525F7271100D2ABF4 /* 4303. Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4303. Tuple.swift"; sourceTree = "<group>"; };
+		4DC5888225F7286100D2ABF4 /* 4302. Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4302. Tuple.swift"; sourceTree = "<group>"; };
+		4DC5888925F7297800D2ABF4 /* 4411. Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4411. Array.swift"; sourceTree = "<group>"; };
+		4DC5889025F72A6400D2ABF4 /* 4413. first, last.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4413. first, last.swift"; sourceTree = "<group>"; };
+		4DC5889325F72AAC00D2ABF4 /* 4412. Exception Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4412. Exception Error.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,13 +126,13 @@
 		4D4888CA25F72CBC00BC023D /* 1. Array */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5888925F7297800D2ABF4 /* 01. Array.swift */,
-				4DC5889325F72AAC00D2ABF4 /* 02. Exception Error.swift */,
-				4DC5889025F72A6400D2ABF4 /* 03. first, last.swift */,
-				4D4888B625F72B2A00BC023D /* 04. firstIndex(of).swift */,
-				4D4888B925F72B6D00BC023D /* 05. append(_).swift */,
-				4D4888BC25F72BB300BC023D /* 06. insert(_ at).swift */,
-				4D4888BF25F72BDE00BC023D /* 07. remove(at).swift */,
+				4DC5888925F7297800D2ABF4 /* 4411. Array.swift */,
+				4DC5889325F72AAC00D2ABF4 /* 4412. Exception Error.swift */,
+				4DC5889025F72A6400D2ABF4 /* 4413. first, last.swift */,
+				4D4888B625F72B2A00BC023D /* 4414. firstIndex(of).swift */,
+				4D4888B925F72B6D00BC023D /* 4415. append(_).swift */,
+				4D4888BC25F72BB300BC023D /* 4416. insert(_ at).swift */,
+				4D4888BF25F72BDE00BC023D /* 4417. remove(at).swift */,
 			);
 			path = "1. Array";
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		4D4888CB25F72CE700BC023D /* 2. Dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				4D4888CC25F72D1700BC023D /* 01. Dictionary.swift */,
-				4D4888CF25F72EC400BC023D /* 02. Key, Value.swift */,
-				4D4888D225F73EC000BC023D /* 03. nil Value.swift */,
-				4D4888D725F73F1400BC023D /* 04. removeValue(forKey).swift */,
+				4D4888CC25F72D1700BC023D /* 4421. Dictionary.swift */,
+				4D4888CF25F72EC400BC023D /* 4422. Key, Value.swift */,
+				4D4888D225F73EC000BC023D /* 4423. nil Value.swift */,
+				4D4888D725F73F1400BC023D /* 4424. removeValue(forKey).swift */,
 			);
 			path = "2. Dictionary";
 			sourceTree = "<group>";
@@ -151,11 +151,11 @@
 		4D4888DC25F73F4800BC023D /* 3. Set */ = {
 			isa = PBXGroup;
 			children = (
-				4DBB565025FA4027003BF075 /* 01. Set.swift */,
-				4DBB565325FA4594003BF075 /* 02. Hashable.swift */,
-				4DBB565625FA4652003BF075 /* 03. insert(_).swift */,
-				4DBB565925FA46CD003BF075 /* 04. Set Operation.swift */,
-				4DBB565F25FA48C9003BF075 /* 06. Enum.swift */,
+				4DBB565025FA4027003BF075 /* 4431. Set.swift */,
+				4DBB565325FA4594003BF075 /* 4432. Hashable.swift */,
+				4DBB565625FA4652003BF075 /* 4433. insert(_).swift */,
+				4DBB565925FA46CD003BF075 /* 4434. Set Operation.swift */,
+				4DBB565F25FA48C9003BF075 /* 4435. Enum.swift */,
 			);
 			path = "3. Set";
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 		4DBB566225FA48D3003BF075 /* 4. Random */ = {
 			isa = PBXGroup;
 			children = (
-				4DBB565C25FA4736003BF075 /* 01. Random, Shuffle.swift */,
+				4DBB565C25FA4736003BF075 /* 4441. Random, Shuffle.swift */,
 			);
 			path = "4. Random";
 			sourceTree = "<group>";
@@ -180,20 +180,20 @@
 			isa = PBXGroup;
 			children = (
 				4DAA7F7825FBD315004CB9CE /* README.md */,
-				4DBB566625FA4D72003BF075 /* 11. Enum.swift */,
-				4D3341EF25FA4DC300BF26E3 /* 12. Enum Case.swift */,
-				4D3341F325FA4F7A00BF26E3 /* 21. Raw Value.swift */,
-				4D3341F725FA500B00BF26E3 /* 22. Raw Value.swift */,
-				4D3341FA25FA589C00BF26E3 /* 23. Raw Value Assignment.swift */,
-				4D3341FE25FA5B4300BF26E3 /* 24. Raw Value Initialize.swift */,
-				4D33420125FA5CA200BF26E3 /* 31. Relation Value.swift */,
-				4D33420625FA5E4D00BF26E3 /* 32. Relation Value.swift */,
-				4D33420925FA5FC900BF26E3 /* 41. CaseIterable.swift */,
-				4D33420D25FA651D00BF26E3 /* 42. CaseIterable.swift */,
-				4DAA7F8425FBD733004CB9CE /* 43. CaseIterable.swift */,
-				4DAA7F8925FBDDE2004CB9CE /* 44. CaseIterable.swift */,
-				4DAA7F8C25FBE185004CB9CE /* 51. indirect.swift */,
-				4DAA7F8F25FBE37E004CB9CE /* 52. indirect.swift */,
+				4DBB566625FA4D72003BF075 /* 4511. Enum.swift */,
+				4D3341EF25FA4DC300BF26E3 /* 4512. Enum Case.swift */,
+				4D3341F325FA4F7A00BF26E3 /* 4521. Raw Value.swift */,
+				4D3341F725FA500B00BF26E3 /* 4522. Raw Value.swift */,
+				4D3341FA25FA589C00BF26E3 /* 4523. Raw Value Assignment.swift */,
+				4D3341FE25FA5B4300BF26E3 /* 4524. Raw Value Initialize.swift */,
+				4D33420125FA5CA200BF26E3 /* 4531. Relation Value.swift */,
+				4D33420625FA5E4D00BF26E3 /* 4532. Relation Value.swift */,
+				4D33420925FA5FC900BF26E3 /* 4541. CaseIterable.swift */,
+				4D33420D25FA651D00BF26E3 /* 4542. CaseIterable.swift */,
+				4DAA7F8425FBD733004CB9CE /* 4543. CaseIterable.swift */,
+				4DAA7F8925FBDDE2004CB9CE /* 4544. CaseIterable.swift */,
+				4DAA7F8C25FBE185004CB9CE /* 4551. indirect.swift */,
+				4DAA7F8F25FBE37E004CB9CE /* 4552. indirect.swift */,
 			);
 			path = "5. Enum";
 			sourceTree = "<group>";
@@ -220,41 +220,25 @@
 			children = (
 				4DAA7F7725FBCFDD004CB9CE /* README.md */,
 				4DC5885425F723ED00D2ABF4 /* main.swift */,
-				4DC5886B25F7261E00D2ABF4 /* 1. Type Inference */,
-				4DC5886C25F7262800D2ABF4 /* 2. Type Alias */,
-				4DC5886F25F7267900D2ABF4 /* 3. Tuple */,
-				4DC5888825F7296500D2ABF4 /* 4. Collection */,
+				4DC5886B25F7261E00D2ABF4 /* Type */,
+				4DC5888825F7296500D2ABF4 /* Collection */,
 			);
 			path = "Data Type";
 			sourceTree = "<group>";
 		};
-		4DC5886B25F7261E00D2ABF4 /* 1. Type Inference */ = {
+		4DC5886B25F7261E00D2ABF4 /* Type */ = {
 			isa = PBXGroup;
 			children = (
-				4DC5885D25F7248000D2ABF4 /* 1. Type Inference.swift */,
+				4DC5885D25F7248000D2ABF4 /* 4121. Type Inference.swift */,
+				4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */,
+				4DC5887025F7268C00D2ABF4 /* 4301. Tuple.swift */,
+				4DC5888225F7286100D2ABF4 /* 4302. Tuple.swift */,
+				4DC5887525F7271100D2ABF4 /* 4303. Tuple.swift */,
 			);
-			path = "1. Type Inference";
+			path = Type;
 			sourceTree = "<group>";
 		};
-		4DC5886C25F7262800D2ABF4 /* 2. Type Alias */ = {
-			isa = PBXGroup;
-			children = (
-				4DC5886525F7253F00D2ABF4 /* 1. Type Alias.swift */,
-			);
-			path = "2. Type Alias";
-			sourceTree = "<group>";
-		};
-		4DC5886F25F7267900D2ABF4 /* 3. Tuple */ = {
-			isa = PBXGroup;
-			children = (
-				4DC5887025F7268C00D2ABF4 /* 01. Tuple.swift */,
-				4DC5888225F7286100D2ABF4 /* 02. Tuple.swift */,
-				4DC5887525F7271100D2ABF4 /* 03. Tuple.swift */,
-			);
-			path = "3. Tuple";
-			sourceTree = "<group>";
-		};
-		4DC5888825F7296500D2ABF4 /* 4. Collection */ = {
+		4DC5888825F7296500D2ABF4 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
 				4D4888CA25F72CBC00BC023D /* 1. Array */,
@@ -263,7 +247,7 @@
 				4DBB566225FA48D3003BF075 /* 4. Random */,
 				4DBB566425FA48F4003BF075 /* 5. Enum */,
 			);
-			path = "4. Collection";
+			path = Collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,43 +323,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3341FB25FA589C00BF26E3 /* 23. Raw Value Assignment.swift in Sources */,
+				4D3341FB25FA589C00BF26E3 /* 4523. Raw Value Assignment.swift in Sources */,
 				4DC5886325F724A100D2ABF4 /* main.swift in Sources */,
-				4D3341F825FA500B00BF26E3 /* 22. Raw Value.swift in Sources */,
-				4DAA7F8D25FBE185004CB9CE /* 51. indirect.swift in Sources */,
-				4D4888BA25F72B6D00BC023D /* 05. append(_).swift in Sources */,
-				4DC5889425F72AAC00D2ABF4 /* 02. Exception Error.swift in Sources */,
-				4DC5889125F72A6400D2ABF4 /* 03. first, last.swift in Sources */,
-				4DAA7F8525FBD733004CB9CE /* 43. CaseIterable.swift in Sources */,
-				4DC5888E25F729E200D2ABF4 /* 01. Array.swift in Sources */,
-				4D4888BD25F72BB300BC023D /* 06. insert(_ at).swift in Sources */,
-				4D4888D325F73EC000BC023D /* 03. nil Value.swift in Sources */,
-				4D33420E25FA651D00BF26E3 /* 42. CaseIterable.swift in Sources */,
-				4DC5885E25F7248000D2ABF4 /* 1. Type Inference.swift in Sources */,
-				4DBB565725FA4652003BF075 /* 03. insert(_).swift in Sources */,
-				4DBB566025FA48C9003BF075 /* 06. Enum.swift in Sources */,
-				4DC5887625F7271100D2ABF4 /* 03. Tuple.swift in Sources */,
-				4DAA7F8A25FBDDE2004CB9CE /* 44. CaseIterable.swift in Sources */,
-				4D33420A25FA5FC900BF26E3 /* 41. CaseIterable.swift in Sources */,
-				4D4888CD25F72D1700BC023D /* 01. Dictionary.swift in Sources */,
-				4DBB565A25FA46CD003BF075 /* 04. Set Operation.swift in Sources */,
-				4DBB566725FA4D74003BF075 /* 11. Enum.swift in Sources */,
-				4D3341F425FA4F7A00BF26E3 /* 21. Raw Value.swift in Sources */,
-				4D4888D825F73F1400BC023D /* 04. removeValue(forKey).swift in Sources */,
-				4D33420225FA5CA200BF26E3 /* 31. Relation Value.swift in Sources */,
-				4D4888D025F72EC400BC023D /* 02. Key, Value.swift in Sources */,
-				4DC5887225F726C000D2ABF4 /* 01. Tuple.swift in Sources */,
-				4DC5888325F7286100D2ABF4 /* 02. Tuple.swift in Sources */,
-				4D33420725FA5E4D00BF26E3 /* 32. Relation Value.swift in Sources */,
-				4DBB565425FA4594003BF075 /* 02. Hashable.swift in Sources */,
-				4DBB565D25FA4736003BF075 /* 01. Random, Shuffle.swift in Sources */,
-				4DC5886625F7253F00D2ABF4 /* 1. Type Alias.swift in Sources */,
-				4DBB565125FA4027003BF075 /* 01. Set.swift in Sources */,
-				4D3341FF25FA5B4300BF26E3 /* 24. Raw Value Initialize.swift in Sources */,
-				4D4888B725F72B2A00BC023D /* 04. firstIndex(of).swift in Sources */,
-				4DAA7F9025FBE37E004CB9CE /* 52. indirect.swift in Sources */,
-				4D4888C025F72BDE00BC023D /* 07. remove(at).swift in Sources */,
-				4D3341F025FA4DC300BF26E3 /* 12. Enum Case.swift in Sources */,
+				4D3341F825FA500B00BF26E3 /* 4522. Raw Value.swift in Sources */,
+				4DAA7F8D25FBE185004CB9CE /* 4551. indirect.swift in Sources */,
+				4D4888BA25F72B6D00BC023D /* 4415. append(_).swift in Sources */,
+				4DC5889425F72AAC00D2ABF4 /* 4412. Exception Error.swift in Sources */,
+				4DC5889125F72A6400D2ABF4 /* 4413. first, last.swift in Sources */,
+				4DAA7F8525FBD733004CB9CE /* 4543. CaseIterable.swift in Sources */,
+				4DC5888E25F729E200D2ABF4 /* 4411. Array.swift in Sources */,
+				4D4888BD25F72BB300BC023D /* 4416. insert(_ at).swift in Sources */,
+				4D4888D325F73EC000BC023D /* 4423. nil Value.swift in Sources */,
+				4D33420E25FA651D00BF26E3 /* 4542. CaseIterable.swift in Sources */,
+				4DC5885E25F7248000D2ABF4 /* 4121. Type Inference.swift in Sources */,
+				4DBB565725FA4652003BF075 /* 4433. insert(_).swift in Sources */,
+				4DBB566025FA48C9003BF075 /* 4435. Enum.swift in Sources */,
+				4DC5887625F7271100D2ABF4 /* 4303. Tuple.swift in Sources */,
+				4DAA7F8A25FBDDE2004CB9CE /* 4544. CaseIterable.swift in Sources */,
+				4D33420A25FA5FC900BF26E3 /* 4541. CaseIterable.swift in Sources */,
+				4D4888CD25F72D1700BC023D /* 4421. Dictionary.swift in Sources */,
+				4DBB565A25FA46CD003BF075 /* 4434. Set Operation.swift in Sources */,
+				4DBB566725FA4D74003BF075 /* 4511. Enum.swift in Sources */,
+				4D3341F425FA4F7A00BF26E3 /* 4521. Raw Value.swift in Sources */,
+				4D4888D825F73F1400BC023D /* 4424. removeValue(forKey).swift in Sources */,
+				4D33420225FA5CA200BF26E3 /* 4531. Relation Value.swift in Sources */,
+				4D4888D025F72EC400BC023D /* 4422. Key, Value.swift in Sources */,
+				4DC5887225F726C000D2ABF4 /* 4301. Tuple.swift in Sources */,
+				4DC5888325F7286100D2ABF4 /* 4302. Tuple.swift in Sources */,
+				4D33420725FA5E4D00BF26E3 /* 4532. Relation Value.swift in Sources */,
+				4DBB565425FA4594003BF075 /* 4432. Hashable.swift in Sources */,
+				4DBB565D25FA4736003BF075 /* 4441. Random, Shuffle.swift in Sources */,
+				4DC5886625F7253F00D2ABF4 /* 4201. Type Alias.swift in Sources */,
+				4DBB565125FA4027003BF075 /* 4431. Set.swift in Sources */,
+				4D3341FF25FA5B4300BF26E3 /* 4524. Raw Value Initialize.swift in Sources */,
+				4D4888B725F72B2A00BC023D /* 4414. firstIndex(of).swift in Sources */,
+				4DAA7F9025FBE37E004CB9CE /* 4552. indirect.swift in Sources */,
+				4D4888C025F72BDE00BC023D /* 4417. remove(at).swift in Sources */,
+				4D3341F025FA4DC300BF26E3 /* 4512. Enum Case.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D595BCF25FE67000098B374 /* 08. Trinomial Condition Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D595BCE25FE67000098B374 /* 08. Trinomial Condition Operator.swift */; };
+		4D595BCF25FE67000098B374 /* 5141. Trinomial Condition Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */; };
 		4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F9F25FBE6EB004CB9CE /* main.swift */; };
-		4DAA7FB225FE5718004CB9CE /* 01. Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB125FE5718004CB9CE /* 01. Assign.swift */; };
-		4DAA7FB525FE5815004CB9CE /* 02. Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB425FE5815004CB9CE /* 02. Arithmetic.swift */; };
-		4DAA7FB925FE5910004CB9CE /* 03. Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB825FE5910004CB9CE /* 03. Arithmetic.swift */; };
-		4DAA7FBC25FE5B13004CB9CE /* 04. Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FBB25FE5B13004CB9CE /* 04. Comparison.swift */; };
-		4DAA7FC025FE5CCA004CB9CE /* 05. Reference Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FBF25FE5CCA004CB9CE /* 05. Reference Comparison.swift */; };
-		4DAA7FC325FE61CC004CB9CE /* 06. Pattern Match Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FC225FE61CC004CB9CE /* 06. Pattern Match Comparison.swift */; };
-		4DAA7FC625FE6410004CB9CE /* 07. Pattern Match Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FC525FE6410004CB9CE /* 07. Pattern Match Comparison.swift */; };
+		4DAA7FB225FE5718004CB9CE /* 5111. Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB125FE5718004CB9CE /* 5111. Assign.swift */; };
+		4DAA7FB525FE5815004CB9CE /* 5121. Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB425FE5815004CB9CE /* 5121. Arithmetic.swift */; };
+		4DAA7FB925FE5910004CB9CE /* 5122. Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB825FE5910004CB9CE /* 5122. Arithmetic.swift */; };
+		4DAA7FBC25FE5B13004CB9CE /* 5131. Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FBB25FE5B13004CB9CE /* 5131. Comparison.swift */; };
+		4DAA7FC025FE5CCA004CB9CE /* 5132. Reference Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FBF25FE5CCA004CB9CE /* 5132. Reference Comparison.swift */; };
+		4DAA7FC325FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FC225FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift */; };
+		4DAA7FC625FE6410004CB9CE /* 5134. Pattern Match Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FC525FE6410004CB9CE /* 5134. Pattern Match Comparison.swift */; };
+		4DDB21AE2600DF0900F5BBAC /* 5151. Range Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB21AD2600DF0900F5BBAC /* 5151. Range Operator.swift */; };
+		4DDB21B22600ECAF00F5BBAC /* 5152. Range Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB21B12600ECAF00F5BBAC /* 5152. Range Operator.swift */; };
+		4DDB21B52600EEC200F5BBAC /* 5161. Bool Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB21B42600EEC200F5BBAC /* 5161. Bool Operator.swift */; };
+		4DDB21B82600F00500F5BBAC /* 5171. Bit Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB21B72600F00500F5BBAC /* 5171. Bit Operator.swift */; };
+		4DDB21FA2600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB21F92600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift */; };
+		4DDB21FD2600FCBB00F5BBAC /* 5191. Overflow Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB21FC2600FCBB00F5BBAC /* 5191. Overflow Operator.swift */; };
+		4DDB22012600FE9700F5BBAC /* 5192. Overflow Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB22002600FE9700F5BBAC /* 5192. Overflow Operator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,17 +38,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D595BCE25FE67000098B374 /* 08. Trinomial Condition Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "08. Trinomial Condition Operator.swift"; sourceTree = "<group>"; };
+		4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5141. Trinomial Condition Operator.swift"; sourceTree = "<group>"; };
 		4DAA7F9C25FBE6EB004CB9CE /* Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Operator; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAA7F9F25FBE6EB004CB9CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DAA7FAF25FBE749004CB9CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4DAA7FB125FE5718004CB9CE /* 01. Assign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Assign.swift"; sourceTree = "<group>"; };
-		4DAA7FB425FE5815004CB9CE /* 02. Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02. Arithmetic.swift"; sourceTree = "<group>"; };
-		4DAA7FB825FE5910004CB9CE /* 03. Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03. Arithmetic.swift"; sourceTree = "<group>"; };
-		4DAA7FBB25FE5B13004CB9CE /* 04. Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04. Comparison.swift"; sourceTree = "<group>"; };
-		4DAA7FBF25FE5CCA004CB9CE /* 05. Reference Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05. Reference Comparison.swift"; sourceTree = "<group>"; };
-		4DAA7FC225FE61CC004CB9CE /* 06. Pattern Match Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06. Pattern Match Comparison.swift"; sourceTree = "<group>"; };
-		4DAA7FC525FE6410004CB9CE /* 07. Pattern Match Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07. Pattern Match Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FB125FE5718004CB9CE /* 5111. Assign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5111. Assign.swift"; sourceTree = "<group>"; };
+		4DAA7FB425FE5815004CB9CE /* 5121. Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5121. Arithmetic.swift"; sourceTree = "<group>"; };
+		4DAA7FB825FE5910004CB9CE /* 5122. Arithmetic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5122. Arithmetic.swift"; sourceTree = "<group>"; };
+		4DAA7FBB25FE5B13004CB9CE /* 5131. Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5131. Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FBF25FE5CCA004CB9CE /* 5132. Reference Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5132. Reference Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FC225FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5133. Pattern Match Comparison.swift"; sourceTree = "<group>"; };
+		4DAA7FC525FE6410004CB9CE /* 5134. Pattern Match Comparison.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5134. Pattern Match Comparison.swift"; sourceTree = "<group>"; };
+		4DDB21AD2600DF0900F5BBAC /* 5151. Range Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5151. Range Operator.swift"; sourceTree = "<group>"; };
+		4DDB21B12600ECAF00F5BBAC /* 5152. Range Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5152. Range Operator.swift"; sourceTree = "<group>"; };
+		4DDB21B42600EEC200F5BBAC /* 5161. Bool Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5161. Bool Operator.swift"; sourceTree = "<group>"; };
+		4DDB21B72600F00500F5BBAC /* 5171. Bit Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5171. Bit Operator.swift"; sourceTree = "<group>"; };
+		4DDB21F92600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5181. Compound Assignment Operator.swift"; sourceTree = "<group>"; };
+		4DDB21FC2600FCBB00F5BBAC /* 5191. Overflow Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5191. Overflow Operator.swift"; sourceTree = "<group>"; };
+		4DDB22002600FE9700F5BBAC /* 5192. Overflow Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5192. Overflow Operator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,24 +90,47 @@
 			children = (
 				4DAA7FAF25FBE749004CB9CE /* README.md */,
 				4DAA7F9F25FBE6EB004CB9CE /* main.swift */,
-				4DAA7FB025FE56F1004CB9CE /* 1. Operator */,
+				4DAA7FB025FE56F1004CB9CE /* Operator */,
+				4DDB22042600FF3900F5BBAC /* Precedence */,
+				4DDB22052600FF4F00F5BBAC /* Associativity */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
 		};
-		4DAA7FB025FE56F1004CB9CE /* 1. Operator */ = {
+		4DAA7FB025FE56F1004CB9CE /* Operator */ = {
 			isa = PBXGroup;
 			children = (
-				4DAA7FB125FE5718004CB9CE /* 01. Assign.swift */,
-				4DAA7FB425FE5815004CB9CE /* 02. Arithmetic.swift */,
-				4DAA7FB825FE5910004CB9CE /* 03. Arithmetic.swift */,
-				4DAA7FBB25FE5B13004CB9CE /* 04. Comparison.swift */,
-				4DAA7FBF25FE5CCA004CB9CE /* 05. Reference Comparison.swift */,
-				4DAA7FC225FE61CC004CB9CE /* 06. Pattern Match Comparison.swift */,
-				4DAA7FC525FE6410004CB9CE /* 07. Pattern Match Comparison.swift */,
-				4D595BCE25FE67000098B374 /* 08. Trinomial Condition Operator.swift */,
+				4DAA7FB125FE5718004CB9CE /* 5111. Assign.swift */,
+				4DAA7FB425FE5815004CB9CE /* 5121. Arithmetic.swift */,
+				4DAA7FB825FE5910004CB9CE /* 5122. Arithmetic.swift */,
+				4DAA7FBB25FE5B13004CB9CE /* 5131. Comparison.swift */,
+				4DAA7FBF25FE5CCA004CB9CE /* 5132. Reference Comparison.swift */,
+				4DAA7FC225FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift */,
+				4DAA7FC525FE6410004CB9CE /* 5134. Pattern Match Comparison.swift */,
+				4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */,
+				4DDB21AD2600DF0900F5BBAC /* 5151. Range Operator.swift */,
+				4DDB21B12600ECAF00F5BBAC /* 5152. Range Operator.swift */,
+				4DDB21B42600EEC200F5BBAC /* 5161. Bool Operator.swift */,
+				4DDB21B72600F00500F5BBAC /* 5171. Bit Operator.swift */,
+				4DDB21F92600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift */,
+				4DDB21FC2600FCBB00F5BBAC /* 5191. Overflow Operator.swift */,
+				4DDB22002600FE9700F5BBAC /* 5192. Overflow Operator.swift */,
 			);
-			path = "1. Operator";
+			path = Operator;
+			sourceTree = "<group>";
+		};
+		4DDB22042600FF3900F5BBAC /* Precedence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Precedence;
+			sourceTree = "<group>";
+		};
+		4DDB22052600FF4F00F5BBAC /* Associativity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Associativity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,15 +190,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAA7FC325FE61CC004CB9CE /* 06. Pattern Match Comparison.swift in Sources */,
-				4DAA7FB525FE5815004CB9CE /* 02. Arithmetic.swift in Sources */,
+				4DAA7FC325FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift in Sources */,
+				4DAA7FB525FE5815004CB9CE /* 5121. Arithmetic.swift in Sources */,
 				4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */,
-				4DAA7FB925FE5910004CB9CE /* 03. Arithmetic.swift in Sources */,
-				4DAA7FB225FE5718004CB9CE /* 01. Assign.swift in Sources */,
-				4DAA7FBC25FE5B13004CB9CE /* 04. Comparison.swift in Sources */,
-				4DAA7FC025FE5CCA004CB9CE /* 05. Reference Comparison.swift in Sources */,
-				4D595BCF25FE67000098B374 /* 08. Trinomial Condition Operator.swift in Sources */,
-				4DAA7FC625FE6410004CB9CE /* 07. Pattern Match Comparison.swift in Sources */,
+				4DAA7FB925FE5910004CB9CE /* 5122. Arithmetic.swift in Sources */,
+				4DDB21B82600F00500F5BBAC /* 5171. Bit Operator.swift in Sources */,
+				4DAA7FB225FE5718004CB9CE /* 5111. Assign.swift in Sources */,
+				4DDB21FA2600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift in Sources */,
+				4DDB22012600FE9700F5BBAC /* 5192. Overflow Operator.swift in Sources */,
+				4DAA7FBC25FE5B13004CB9CE /* 5131. Comparison.swift in Sources */,
+				4DDB21B52600EEC200F5BBAC /* 5161. Bool Operator.swift in Sources */,
+				4DDB21FD2600FCBB00F5BBAC /* 5191. Overflow Operator.swift in Sources */,
+				4DDB21B22600ECAF00F5BBAC /* 5152. Range Operator.swift in Sources */,
+				4DAA7FC025FE5CCA004CB9CE /* 5132. Reference Comparison.swift in Sources */,
+				4D595BCF25FE67000098B374 /* 5141. Trinomial Condition Operator.swift in Sources */,
+				4DDB21AE2600DF0900F5BBAC /* 5151. Range Operator.swift in Sources */,
+				4DAA7FC625FE6410004CB9CE /* 5134. Pattern Match Comparison.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
