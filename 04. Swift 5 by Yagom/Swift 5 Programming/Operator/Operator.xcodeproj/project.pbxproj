@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D583A1C2607960D008BAB1E /* 5211. Optional Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D583A1A260786DB008BAB1E /* 5211. Optional Operator.swift */; };
+		4D583A1C2607960D008BAB1E /* 5193. Operator Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D583A1A260786DB008BAB1E /* 5193. Operator Precedence.swift */; };
+		4D583A232607A101008BAB1E /* 5211. User-defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D583A2126079CC7008BAB1E /* 5211. User-defined.swift */; };
 		4D595BCF25FE67000098B374 /* 5141. Trinomial Condition Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */; };
 		4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F9F25FBE6EB004CB9CE /* main.swift */; };
 		4DAA7FB225FE5718004CB9CE /* 5111. Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB125FE5718004CB9CE /* 5111. Assign.swift */; };
@@ -39,9 +40,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D583A1A260786DB008BAB1E /* 5211. Optional Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5211. Optional Operator.swift"; sourceTree = "<group>"; };
+		4D583A1A260786DB008BAB1E /* 5193. Operator Precedence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5193. Operator Precedence.swift"; sourceTree = "<group>"; };
+		4D583A2126079CC7008BAB1E /* 5211. User-defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5211. User-defined.swift"; sourceTree = "<group>"; };
 		4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5141. Trinomial Condition Operator.swift"; sourceTree = "<group>"; };
-		4D8DB9A726010264007027C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DAA7F9C25FBE6EB004CB9CE /* Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Operator; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAA7F9F25FBE6EB004CB9CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DAA7FAF25FBE749004CB9CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -94,8 +95,7 @@
 				4DAA7FAF25FBE749004CB9CE /* README.md */,
 				4DAA7F9F25FBE6EB004CB9CE /* main.swift */,
 				4DAA7FB025FE56F1004CB9CE /* Operator */,
-				4DDB22042600FF3900F5BBAC /* Precedence */,
-				4DDB22052600FF4F00F5BBAC /* Associativity */,
+				4DDB22052600FF4F00F5BBAC /* User-defined Operator */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -118,24 +118,17 @@
 				4DDB21F92600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift */,
 				4DDB21FC2600FCBB00F5BBAC /* 5191. Overflow Operator.swift */,
 				4DDB22002600FE9700F5BBAC /* 5192. Optional Operator.swift */,
+				4D583A1A260786DB008BAB1E /* 5193. Operator Precedence.swift */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
 		};
-		4DDB22042600FF3900F5BBAC /* Precedence */ = {
+		4DDB22052600FF4F00F5BBAC /* User-defined Operator */ = {
 			isa = PBXGroup;
 			children = (
-				4D8DB9A726010264007027C8 /* README.md */,
-				4D583A1A260786DB008BAB1E /* 5211. Optional Operator.swift */,
+				4D583A2126079CC7008BAB1E /* 5211. User-defined.swift */,
 			);
-			path = Precedence;
-			sourceTree = "<group>";
-		};
-		4DDB22052600FF4F00F5BBAC /* Associativity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Associativity;
+			path = "User-defined Operator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAA7FC325FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift in Sources */,
+				4D583A232607A101008BAB1E /* 5211. User-defined.swift in Sources */,
 				4DAA7FB525FE5815004CB9CE /* 5121. Arithmetic.swift in Sources */,
-				4D583A1C2607960D008BAB1E /* 5211. Optional Operator.swift in Sources */,
+				4D583A1C2607960D008BAB1E /* 5193. Operator Precedence.swift in Sources */,
 				4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */,
 				4DAA7FB925FE5910004CB9CE /* 5122. Arithmetic.swift in Sources */,
 				4DDB21B82600F00500F5BBAC /* 5171. Bit Operator.swift in Sources */,
