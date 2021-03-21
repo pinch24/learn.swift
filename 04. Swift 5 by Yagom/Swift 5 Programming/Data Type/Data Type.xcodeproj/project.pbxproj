@@ -160,6 +160,16 @@
 			path = "3. Set";
 			sourceTree = "<group>";
 		};
+		4D583A112607863A008BAB1E /* Tuple */ = {
+			isa = PBXGroup;
+			children = (
+				4DC5887025F7268C00D2ABF4 /* 4301. Tuple.swift */,
+				4DC5888225F7286100D2ABF4 /* 4302. Tuple.swift */,
+				4DC5887525F7271100D2ABF4 /* 4303. Tuple.swift */,
+			);
+			path = Tuple;
+			sourceTree = "<group>";
+		};
 		4DAA7FA825FBE70B004CB9CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +231,7 @@
 				4DAA7F7725FBCFDD004CB9CE /* README.md */,
 				4DC5885425F723ED00D2ABF4 /* main.swift */,
 				4DC5886B25F7261E00D2ABF4 /* Type */,
+				4D583A112607863A008BAB1E /* Tuple */,
 				4DC5888825F7296500D2ABF4 /* Collection */,
 			);
 			path = "Data Type";
@@ -231,9 +242,6 @@
 			children = (
 				4DC5885D25F7248000D2ABF4 /* 4121. Type Inference.swift */,
 				4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */,
-				4DC5887025F7268C00D2ABF4 /* 4301. Tuple.swift */,
-				4DC5888225F7286100D2ABF4 /* 4302. Tuple.swift */,
-				4DC5887525F7271100D2ABF4 /* 4303. Tuple.swift */,
 			);
 			path = Type;
 			sourceTree = "<group>";

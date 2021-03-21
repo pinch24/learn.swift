@@ -7,7 +7,7 @@
 */
 import Foundation
 
-func exec_() {
+func exec_5192() {
 	
 	let optionalInt: Int? = 4
 	
