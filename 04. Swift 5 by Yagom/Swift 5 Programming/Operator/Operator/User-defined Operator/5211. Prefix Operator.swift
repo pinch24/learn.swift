@@ -1,5 +1,5 @@
 /**
-### 5.3 사용자 정의 연산자
+## 5.3 사용자 정의 연산자
 의도에 맞춰 연산자 역할을 변경할 수 있다. 또 기존에 존재하지 않던 연산자 기호를 만들어 추가할 수도 있다.
 
 할당 연산자(=)와 삼항 연산자(?:)는 사용자 정의 역할을 부여할 수 없다.
@@ -25,6 +25,7 @@
 - 중위 연산자 ?
 - 후위 연산자 >, !, ?
 
+### 5.3.1 전위 연산자 정의와 구현
 #### 5-7 전위 연산자 구현과 사용
 */
 import Foundation
@@ -36,7 +37,7 @@ prefix func ** (value: Int) -> Int {
 	return value * value
 }
 
-func exec_() {
+func exec_5211() {
 	
 	let minusFive: Int = -5
 	let sqrtMinusFive: Int = **minusFive

@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2D9B4B2608CD5300DA4EA4 /* 5212. Prefix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B4A2608CD5300DA4EA4 /* 5212. Prefix Operator.swift */; };
+		4D2D9B502608D10800DA4EA4 /* 5213. Prefix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B4F2608D10800DA4EA4 /* 5213. Prefix Operator.swift */; };
+		4D2D9B532608D28300DA4EA4 /* 5221. Postfix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B522608D28300DA4EA4 /* 5221. Postfix Operator.swift */; };
+		4D2D9B562608D3A400DA4EA4 /* 5222. Postfix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B552608D3A400DA4EA4 /* 5222. Postfix Operator.swift */; };
+		4D2D9B592608D46700DA4EA4 /* 5223. Infix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B582608D46700DA4EA4 /* 5223. Infix Operator.swift */; };
+		4D2D9B5C2608E5DE00DA4EA4 /* 5224. Infix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B5B2608E5DE00DA4EA4 /* 5224. Infix Operator.swift */; };
+		4D2D9B5F2608E78500DA4EA4 /* 5225. Infix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D9B5E2608E78500DA4EA4 /* 5225. Infix Operator.swift */; };
 		4D583A1C2607960D008BAB1E /* 5193. Operator Precedence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D583A1A260786DB008BAB1E /* 5193. Operator Precedence.swift */; };
-		4D583A232607A101008BAB1E /* 5211. User-defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D583A2126079CC7008BAB1E /* 5211. User-defined.swift */; };
+		4D583A232607A101008BAB1E /* 5211. Prefix Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D583A2126079CC7008BAB1E /* 5211. Prefix Operator.swift */; };
 		4D595BCF25FE67000098B374 /* 5141. Trinomial Condition Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */; };
 		4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7F9F25FBE6EB004CB9CE /* main.swift */; };
 		4DAA7FB225FE5718004CB9CE /* 5111. Assign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA7FB125FE5718004CB9CE /* 5111. Assign.swift */; };
@@ -40,8 +47,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D2D9B4A2608CD5300DA4EA4 /* 5212. Prefix Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5212. Prefix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B4F2608D10800DA4EA4 /* 5213. Prefix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5213. Prefix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B522608D28300DA4EA4 /* 5221. Postfix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5221. Postfix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B552608D3A400DA4EA4 /* 5222. Postfix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5222. Postfix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B582608D46700DA4EA4 /* 5223. Infix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5223. Infix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B5B2608E5DE00DA4EA4 /* 5224. Infix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5224. Infix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B5E2608E78500DA4EA4 /* 5225. Infix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5225. Infix Operator.swift"; sourceTree = "<group>"; };
 		4D583A1A260786DB008BAB1E /* 5193. Operator Precedence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5193. Operator Precedence.swift"; sourceTree = "<group>"; };
-		4D583A2126079CC7008BAB1E /* 5211. User-defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5211. User-defined.swift"; sourceTree = "<group>"; };
+		4D583A2126079CC7008BAB1E /* 5211. Prefix Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5211. Prefix Operator.swift"; sourceTree = "<group>"; };
 		4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5141. Trinomial Condition Operator.swift"; sourceTree = "<group>"; };
 		4DAA7F9C25FBE6EB004CB9CE /* Operator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Operator; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAA7F9F25FBE6EB004CB9CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -126,7 +140,14 @@
 		4DDB22052600FF4F00F5BBAC /* User-defined Operator */ = {
 			isa = PBXGroup;
 			children = (
-				4D583A2126079CC7008BAB1E /* 5211. User-defined.swift */,
+				4D583A2126079CC7008BAB1E /* 5211. Prefix Operator.swift */,
+				4D2D9B4A2608CD5300DA4EA4 /* 5212. Prefix Operator.swift */,
+				4D2D9B4F2608D10800DA4EA4 /* 5213. Prefix Operator.swift */,
+				4D2D9B522608D28300DA4EA4 /* 5221. Postfix Operator.swift */,
+				4D2D9B552608D3A400DA4EA4 /* 5222. Postfix Operator.swift */,
+				4D2D9B582608D46700DA4EA4 /* 5223. Infix Operator.swift */,
+				4D2D9B5B2608E5DE00DA4EA4 /* 5224. Infix Operator.swift */,
+				4D2D9B5E2608E78500DA4EA4 /* 5225. Infix Operator.swift */,
 			);
 			path = "User-defined Operator";
 			sourceTree = "<group>";
@@ -189,23 +210,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAA7FC325FE61CC004CB9CE /* 5133. Pattern Match Comparison.swift in Sources */,
-				4D583A232607A101008BAB1E /* 5211. User-defined.swift in Sources */,
+				4D583A232607A101008BAB1E /* 5211. Prefix Operator.swift in Sources */,
 				4DAA7FB525FE5815004CB9CE /* 5121. Arithmetic.swift in Sources */,
 				4D583A1C2607960D008BAB1E /* 5193. Operator Precedence.swift in Sources */,
 				4DAA7FA025FBE6EB004CB9CE /* main.swift in Sources */,
+				4D2D9B532608D28300DA4EA4 /* 5221. Postfix Operator.swift in Sources */,
 				4DAA7FB925FE5910004CB9CE /* 5122. Arithmetic.swift in Sources */,
 				4DDB21B82600F00500F5BBAC /* 5171. Bit Operator.swift in Sources */,
 				4DAA7FB225FE5718004CB9CE /* 5111. Assign.swift in Sources */,
 				4DDB21FA2600FBC600F5BBAC /* 5181. Compound Assignment Operator.swift in Sources */,
+				4D2D9B5C2608E5DE00DA4EA4 /* 5224. Infix Operator.swift in Sources */,
 				4DDB22012600FE9700F5BBAC /* 5192. Optional Operator.swift in Sources */,
 				4DAA7FBC25FE5B13004CB9CE /* 5131. Comparison.swift in Sources */,
+				4D2D9B5F2608E78500DA4EA4 /* 5225. Infix Operator.swift in Sources */,
 				4DDB21B52600EEC200F5BBAC /* 5161. Bool Operator.swift in Sources */,
 				4DDB21FD2600FCBB00F5BBAC /* 5191. Overflow Operator.swift in Sources */,
+				4D2D9B592608D46700DA4EA4 /* 5223. Infix Operator.swift in Sources */,
+				4D2D9B502608D10800DA4EA4 /* 5213. Prefix Operator.swift in Sources */,
 				4DDB21B22600ECAF00F5BBAC /* 5152. Range Operator.swift in Sources */,
 				4DAA7FC025FE5CCA004CB9CE /* 5132. Reference Comparison.swift in Sources */,
+				4D2D9B4B2608CD5300DA4EA4 /* 5212. Prefix Operator.swift in Sources */,
 				4D595BCF25FE67000098B374 /* 5141. Trinomial Condition Operator.swift in Sources */,
 				4DDB21AE2600DF0900F5BBAC /* 5151. Range Operator.swift in Sources */,
 				4DAA7FC625FE6410004CB9CE /* 5134. Pattern Match Comparison.swift in Sources */,
+				4D2D9B562608D3A400DA4EA4 /* 5222. Postfix Operator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
