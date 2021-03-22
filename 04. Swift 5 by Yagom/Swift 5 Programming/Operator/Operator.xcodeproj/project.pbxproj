@@ -34,6 +34,16 @@
 		4DDB22012600FE9700F5BBAC /* 5192. Optional Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDB22002600FE9700F5BBAC /* 5192. Optional Operator.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4D2D9B792608E92100DA4EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2D9B752608E92100DA4EA4 /* Control Flow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D2D9B6A2608E90700DA4EA4;
+			remoteInfo = "Control Flow";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		4DAA7F9A25FBE6EB004CB9CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -54,6 +64,7 @@
 		4D2D9B582608D46700DA4EA4 /* 5223. Infix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5223. Infix Operator.swift"; sourceTree = "<group>"; };
 		4D2D9B5B2608E5DE00DA4EA4 /* 5224. Infix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5224. Infix Operator.swift"; sourceTree = "<group>"; };
 		4D2D9B5E2608E78500DA4EA4 /* 5225. Infix Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5225. Infix Operator.swift"; sourceTree = "<group>"; };
+		4D2D9B752608E92100DA4EA4 /* Control Flow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Control Flow.xcodeproj"; path = "../Control Flow/Control Flow.xcodeproj"; sourceTree = "<group>"; };
 		4D583A1A260786DB008BAB1E /* 5193. Operator Precedence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5193. Operator Precedence.swift"; sourceTree = "<group>"; };
 		4D583A2126079CC7008BAB1E /* 5211. Prefix Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5211. Prefix Operator.swift"; sourceTree = "<group>"; };
 		4D595BCE25FE67000098B374 /* 5141. Trinomial Condition Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5141. Trinomial Condition Operator.swift"; sourceTree = "<group>"; };
@@ -87,9 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2D9B762608E92100DA4EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D9B7A2608E92100DA4EA4 /* Control Flow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4DAA7F9325FBE6EB004CB9CE = {
 			isa = PBXGroup;
 			children = (
+				4D2D9B752608E92100DA4EA4 /* Control Flow.xcodeproj */,
 				4DAA7F9E25FBE6EB004CB9CE /* Operator */,
 				4DAA7F9D25FBE6EB004CB9CE /* Products */,
 			);
@@ -197,12 +217,28 @@
 			mainGroup = 4DAA7F9325FBE6EB004CB9CE;
 			productRefGroup = 4DAA7F9D25FBE6EB004CB9CE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D2D9B762608E92100DA4EA4 /* Products */;
+					ProjectRef = 4D2D9B752608E92100DA4EA4 /* Control Flow.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4DAA7F9B25FBE6EB004CB9CE /* Operator */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4D2D9B7A2608E92100DA4EA4 /* Control Flow */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Control Flow";
+			remoteRef = 4D2D9B792608E92100DA4EA4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DAA7F9825FBE6EB004CB9CE /* Sources */ = {
