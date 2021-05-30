@@ -13,6 +13,10 @@
 		C45AC523266382A30067138C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC50E266382A20067138C /* ContentView.swift */; };
 		C45AC524266382A30067138C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45AC50F266382A30067138C /* Assets.xcassets */; };
 		C45AC525266382A30067138C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45AC50F266382A30067138C /* Assets.xcassets */; };
+		C45AC52F266388710067138C /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC52E266388710067138C /* CourseRow.swift */; };
+		C45AC530266388710067138C /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC52E266388710067138C /* CourseRow.swift */; };
+		C45AC53226638C200067138C /* CourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC53126638C200067138C /* CourcesView.swift */; };
+		C45AC53326638C200067138C /* CourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC53126638C200067138C /* CourcesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		C45AC51C266382A30067138C /* DesignCodeCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45AC51E266382A30067138C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45AC51F266382A30067138C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C45AC52E266388710067138C /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		C45AC53126638C200067138C /* CourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourcesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			children = (
 				C45AC50D266382A20067138C /* DesignCodeCourseApp.swift */,
 				C45AC50E266382A20067138C /* ContentView.swift */,
+				C45AC52E266388710067138C /* CourseRow.swift */,
+				C45AC53126638C200067138C /* CourcesView.swift */,
 				C45AC50F266382A30067138C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45AC522266382A30067138C /* ContentView.swift in Sources */,
+				C45AC52F266388710067138C /* CourseRow.swift in Sources */,
 				C45AC520266382A30067138C /* DesignCodeCourseApp.swift in Sources */,
+				C45AC53226638C200067138C /* CourcesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45AC523266382A30067138C /* ContentView.swift in Sources */,
+				C45AC530266388710067138C /* CourseRow.swift in Sources */,
 				C45AC521266382A30067138C /* DesignCodeCourseApp.swift in Sources */,
+				C45AC53326638C200067138C /* CourcesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
