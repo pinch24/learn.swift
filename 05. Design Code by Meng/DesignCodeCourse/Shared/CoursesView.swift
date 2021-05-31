@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CourcesView: View {
+struct CoursesView: View {
     
     var body: some View {
         
@@ -16,6 +16,7 @@ struct CourcesView: View {
             CourseRow()
         }
         .listStyle(InsetGroupedListStyle())
+        .navigationTitle("Courses")
     }
 }
 
@@ -23,6 +24,6 @@ struct CourcesView_Previews: PreviewProvider {
     
     static var previews: some View {
         
-        CourcesView()
+        CoursesView()
     }
 }
