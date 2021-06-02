@@ -10,30 +10,44 @@ import SwiftUI
 struct CoursesView: View {
     
     @State var show = false
+    @Namespace var namespace
     
     var body: some View {
         
         ZStack {
             
             CourseItem()
+                .matchedGeometryEffect(id: "Card", in: namespace, isSource: !show)
                 .frame(width: 335, height: 250)
             
-            VStack {
+            if show == true {
                 
-                if show == true {
+                ScrollView {
                     
                     CourseItem()
-                        .transition(.move(edge: .leading))
+                        .matchedGeometryEffect(id: "Card", in: namespace)
+                        .frame(height: 300)
+                        .transition(.opacity)
                         .edgesIgnoringSafeArea(.all)
+                    
+                    VStack {
+                        ForEach(0 ..< 20) { item in
+                            CourseRow()
+                        }
+                    }
+                    .padding()
                 }
+                .transition(.opacity)
+                .edgesIgnoringSafeArea(.all)
             }
         }
         .onTapGesture {
             
-            withAnimation {
+            withAnimation(.spring(), {
                 
                 show.toggle()
-            }
+            })
+            
         }
         //.animation(.spring())
     }
