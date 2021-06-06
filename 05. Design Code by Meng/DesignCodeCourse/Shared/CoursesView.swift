@@ -9,8 +9,9 @@ import SwiftUI
 
 struct CoursesView: View {
     
-    @State var show = false
     @Namespace var namespace
+    
+    @State var show = false
     @State var selectedItem: Course? = nil
     @State var isDisabled = false
     
@@ -52,27 +53,8 @@ struct CoursesView: View {
             if selectedItem != nil {
                 
 				ZStack(alignment: .topTrailing) {
-					
-					VStack {
-						
-						ScrollView {
-							
-							CourseItem(course: selectedItem!)
-								.matchedGeometryEffect(id: selectedItem!.id, in: namespace)
-								.frame(height: 300)
-								
-							VStack {
-								ForEach(0 ..< 20) { item in
-									CourseRow()
-								}
-							}
-							.padding()
-						}
-					}
-					.background(Color("Background 1"))
-					.clipShape(RoundedRectangle(cornerRadius: 22.0, style: .continuous))
-					.matchedGeometryEffect(id: "containeer\(selectedItem!.id)", in: namespace)
-					.edgesIgnoringSafeArea(.all)
+                    
+                    CourseDetail(course: selectedItem!, namespace: namespace)
 					
 					CloseButton()
 						.padding(.trailing, 16)
