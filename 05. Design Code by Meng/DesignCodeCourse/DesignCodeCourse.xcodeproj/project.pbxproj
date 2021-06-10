@@ -17,6 +17,8 @@
 		C420D23026645F0500B64920 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C420D22E26645F0500B64920 /* SideBar.swift */; };
 		C44332F426683DA4008BC29F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44332F326683DA4008BC29F /* Course.swift */; };
 		C44332F526683DA4008BC29F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44332F326683DA4008BC29F /* Course.swift */; };
+		C444994E2671970D0040FE54 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444994D2671970D0040FE54 /* VisualEffectBlur.swift */; };
+		C44499522671973B0040FE54 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44499512671973B0040FE54 /* VisualEffectBlur.swift */; };
 		C45AC520266382A30067138C /* DesignCodeCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC50D266382A20067138C /* DesignCodeCourseApp.swift */; };
 		C45AC521266382A30067138C /* DesignCodeCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC50D266382A20067138C /* DesignCodeCourseApp.swift */; };
 		C45AC522266382A30067138C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45AC50E266382A20067138C /* ContentView.swift */; };
@@ -51,6 +53,8 @@
 		C40CB5D52665B9A7006EBB45 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		C420D22E26645F0500B64920 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		C44332F326683DA4008BC29F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		C444994D2671970D0040FE54 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		C44499512671973B0040FE54 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		C45AC50D266382A20067138C /* DesignCodeCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeCourseApp.swift; sourceTree = "<group>"; };
 		C45AC50E266382A20067138C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C45AC50F266382A30067138C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 		C45AC516266382A30067138C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C444994D2671970D0040FE54 /* VisualEffectBlur.swift */,
 				C45AC517266382A30067138C /* Info.plist */,
 			);
 			path = iOS;
@@ -168,6 +173,7 @@
 		C45AC51D266382A30067138C /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				C44499512671973B0040FE54 /* VisualEffectBlur.swift */,
 				C45AC51E266382A30067138C /* Info.plist */,
 				C45AC51F266382A30067138C /* macOS.entitlements */,
 			);
@@ -286,6 +292,7 @@
 				C45AC53226638C200067138C /* CoursesView.swift in Sources */,
 				C4A185B6266D8CE3003E07F7 /* GradientModel.swift in Sources */,
 				C4A185C2266D8CE3003E07F7 /* TutorialSection.swift in Sources */,
+				C444994E2671970D0040FE54 /* VisualEffectBlur.swift in Sources */,
 				C4A185BC266D8CE3003E07F7 /* CourseSection.swift in Sources */,
 				C40CB5D62665B9A7006EBB45 /* CourseList.swift in Sources */,
 			);
@@ -310,6 +317,7 @@
 				C45AC53326638C200067138C /* CoursesView.swift in Sources */,
 				C4A185B7266D8CE3003E07F7 /* GradientModel.swift in Sources */,
 				C4A185C3266D8CE3003E07F7 /* TutorialSection.swift in Sources */,
+				C44499522671973B0040FE54 /* VisualEffectBlur.swift in Sources */,
 				C4A185BD266D8CE3003E07F7 /* CourseSection.swift in Sources */,
 				C40CB5D72665B9A7006EBB45 /* CourseList.swift in Sources */,
 			);

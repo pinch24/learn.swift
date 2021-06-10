@@ -19,58 +19,79 @@ struct CoursesView: View {
         
         ZStack {
             
-            ScrollView {
-                
-                LazyVGrid(
-                    columns: [GridItem(.adaptive(minimum: 160), spacing: 16)],
-                    spacing: 16
-                ) {
-                    
-                    ForEach(courses) { item in
-                        
-						VStack {
-							
-							CourseItem(course: item)
-								.matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
-								.frame(height: 200)
-								.onTapGesture {
-									withAnimation(.spring(), {
-										show.toggle()
-										selectedItem = item
-										isDisabled = true
-									})
-								}
-								.disabled(isDisabled)
-						}
-						.matchedGeometryEffect(id: "container\(item.id)", in: namespace, isSource: !show)
-                    }
-                }
-                .padding(16)
-                .frame(maxWidth: .infinity)
-            }
-			.zIndex(1)
+            #if os(iOS)
+            content
+                .navigationBarHidden(true)
+            fullContent
+                .background(VisualEffectBlur(blurStyle: .systemMaterial).edgesIgnoringSafeArea(.all))
+            #else
+            content
+            fullContent
+                .background(VisualEffectBlur().edgesIgnoringSafeArea(.all))
+            #endif
+        }
+        //.navigationBarTitle("Courses")
+    }
+    
+    var content: some View {
+        
+        ScrollView {
             
-            if selectedItem != nil {
+            LazyVGrid(
+                columns: [GridItem(.adaptive(minimum: 160), spacing: 16)],
+                spacing: 16
+            ) {
                 
-				ZStack(alignment: .topTrailing) {
+                ForEach(courses) { item in
                     
-                    CourseDetail(course: selectedItem!, namespace: namespace)
-					
-					CloseButton()
-						.padding(.trailing, 16)
-						.onTapGesture {
-							withAnimation(.spring(response: 0.4, dampingFraction: 0.8, blendDuration: 0), {
-								show.toggle()
-								selectedItem = nil
-								DispatchQueue.main.asyncAfter(
-									deadline: .now() + 0.4,
-									execute: { isDisabled = false }
-								)
-							})
-						}
-				}
-				.zIndex(2)
+                    VStack {
+                        
+                        CourseItem(course: item)
+                            .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
+                            .frame(height: 200)
+                            .onTapGesture {
+                                withAnimation(.spring(), {
+                                    show.toggle()
+                                    selectedItem = item
+                                    isDisabled = true
+                                })
+                            }
+                            .disabled(isDisabled)
+                    }
+                    .matchedGeometryEffect(id: "container\(item.id)", in: namespace, isSource: !show)
+                }
             }
+            .padding(16)
+            .frame(maxWidth: .infinity)
+        }
+        .zIndex(1)
+    }
+    
+    @ViewBuilder
+    var fullContent: some View {
+        
+        if selectedItem != nil {
+            
+            ZStack(alignment: .topTrailing) {
+                
+                CourseDetail(course: selectedItem!, namespace: namespace)
+                
+                CloseButton()
+                    .padding()
+                    .onTapGesture {
+                        withAnimation(.spring(response: 0.4, dampingFraction: 0.8, blendDuration: 0), {
+                            show.toggle()
+                            selectedItem = nil
+                            DispatchQueue.main.asyncAfter(
+                                deadline: .now() + 0.4,
+                                execute: { isDisabled = false }
+                            )
+                        })
+                    }
+            }
+            .zIndex(2)
+            .frame(maxWidth: 712)
+            .frame(maxWidth: .infinity)
         }
     }
 }
