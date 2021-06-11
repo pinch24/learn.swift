@@ -37,32 +37,50 @@ struct CoursesView: View {
         
         ScrollView {
             
-            LazyVGrid(
-                columns: [GridItem(.adaptive(minimum: 160), spacing: 16)],
-                spacing: 16
-            ) {
+            VStack(spacing: 0) {
                 
-                ForEach(courses) { item in
+                Text("Courses")
+                    .font(.largeTitle)
+                    .bold()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 16)
+                    .padding(.top, 54)
+                
+                LazyVGrid(
+                    columns: [GridItem(.adaptive(minimum: 160), spacing: 16)],
+                    spacing: 16
+                ) {
                     
-                    VStack {
+                    ForEach(courses) { item in
                         
-                        CourseItem(course: item)
-                            .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
-                            .frame(height: 200)
-                            .onTapGesture {
-                                withAnimation(.spring(), {
-                                    show.toggle()
-                                    selectedItem = item
-                                    isDisabled = true
-                                })
-                            }
-                            .disabled(isDisabled)
+                        VStack {
+                            
+                            CourseItem(course: item)
+                                .matchedGeometryEffect(id: item.id, in: namespace, isSource: !show)
+                                .frame(height: 200)
+                                .onTapGesture {
+                                    withAnimation(.spring(), {
+                                        show.toggle()
+                                        selectedItem = item
+                                        isDisabled = true
+                                    })
+                                }
+                                .disabled(isDisabled)
+                        }
+                        .matchedGeometryEffect(id: "container\(item.id)", in: namespace, isSource: !show)
                     }
-                    .matchedGeometryEffect(id: "container\(item.id)", in: namespace, isSource: !show)
                 }
+                .padding(16)
+                .frame(maxWidth: .infinity)
+                
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 240))]) {
+                    ForEach(courseSections) { item in
+                        
+                        CourseRow(item: item)
+                    }
+                }
+                .padding(16)
             }
-            .padding(16)
-            .frame(maxWidth: .infinity)
         }
         .zIndex(1)
     }

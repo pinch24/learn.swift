@@ -45,6 +45,7 @@
 		C4A185C1266D8CE3003E07F7 /* Livestream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A185B4266D8CE3003E07F7 /* Livestream.swift */; };
 		C4A185C2266D8CE3003E07F7 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A185B5266D8CE3003E07F7 /* TutorialSection.swift */; };
 		C4A185C3266D8CE3003E07F7 /* TutorialSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A185B5266D8CE3003E07F7 /* TutorialSection.swift */; };
+		C4D638F22672E72F00F91502 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D638F12672E72F00F91502 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		C4A185B3266D8CE3003E07F7 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		C4A185B4266D8CE3003E07F7 /* Livestream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livestream.swift; sourceTree = "<group>"; };
 		C4A185B5266D8CE3003E07F7 /* TutorialSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialSection.swift; sourceTree = "<group>"; };
+		C4D638F12672E72F00F91502 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C45AC50E266382A20067138C /* ContentView.swift */,
+				C4D638F12672E72F00F91502 /* TabBar.swift */,
 				C420D22E26645F0500B64920 /* SideBar.swift */,
 			);
 			path = Navigation;
@@ -279,6 +282,7 @@
 			files = (
 				C44332F426683DA4008BC29F /* Course.swift in Sources */,
 				C4A185B8266D8CE3003E07F7 /* Tutorial.swift in Sources */,
+				C4D638F22672E72F00F91502 /* TabBar.swift in Sources */,
 				C420D22F26645F0500B64920 /* SideBar.swift in Sources */,
 				C40CB5D02665B7DB006EBB45 /* CourseItem.swift in Sources */,
 				C4A185AD266D8AA1003E07F7 /* CourseDetail.swift in Sources */,
