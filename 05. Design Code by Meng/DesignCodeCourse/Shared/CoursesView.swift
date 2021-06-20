@@ -10,6 +10,7 @@ import SwiftUI
 struct CoursesView: View {
     
     @Namespace var namespace
+    @Namespace var namespace2
     
     @State var show = false
     @State var selectedItem: Course? = nil
@@ -76,7 +77,13 @@ struct CoursesView: View {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 240))]) {
                     ForEach(courseSections) { item in
                         
-                        CourseRow(item: item)
+                        #if os(iOS)
+                        NavigationLink(destination: CourseDetail(namespace: namespace2)) {
+                            CourseRow(item: item)
+                        }
+                        #else
+                        CourseRow()
+                        #endif
                     }
                 }
                 .padding(16)
