@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4DCCC9142669AD8F00470EAD /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCC9132669AD8F00470EAD /* CloseButton.swift */; };
 		4DCCC9152669AD8F00470EAD /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCC9132669AD8F00470EAD /* CloseButton.swift */; };
+		C40376EB26815E3100359E2E /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40376EA26815E3100359E2E /* LibraryContent.swift */; };
+		C40376EC26815E3100359E2E /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40376EA26815E3100359E2E /* LibraryContent.swift */; };
 		C40CB5D02665B7DB006EBB45 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CB5CF2665B7DB006EBB45 /* CourseItem.swift */; };
 		C40CB5D12665B7DB006EBB45 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CB5CF2665B7DB006EBB45 /* CourseItem.swift */; };
 		C40CB5D62665B9A7006EBB45 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40CB5D52665B9A7006EBB45 /* CourseList.swift */; };
@@ -52,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		4DCCC9132669AD8F00470EAD /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		C40376EA26815E3100359E2E /* LibraryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContent.swift; sourceTree = "<group>"; };
 		C40CB5CF2665B7DB006EBB45 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		C40CB5D52665B9A7006EBB45 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 		C420D22E26645F0500B64920 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
@@ -98,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40376ED268160EA00359E2E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4DCCC9132669AD8F00470EAD /* CloseButton.swift */,
+				C40376EA26815E3100359E2E /* LibraryContent.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		C40CB5D32665B922006EBB45 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,10 +161,10 @@
 				C40CB5D32665B922006EBB45 /* Navigation */,
 				C44332F62668424F008BC29F /* Model */,
 				C40CB5D42665B93F006EBB45 /* Items */,
+				C40376ED268160EA00359E2E /* Library */,
 				C45AC53126638C200067138C /* CoursesView.swift */,
 				C4A185AC266D8AA1003E07F7 /* CourseDetail.swift */,
 				C48F20EB267F0A330069EC5D /* CourseSectionDetail.swift */,
-				4DCCC9132669AD8F00470EAD /* CloseButton.swift */,
 				C40CB5D52665B9A7006EBB45 /* CourseList.swift */,
 				C45AC50F266382A30067138C /* Assets.xcassets */,
 			);
@@ -303,6 +315,7 @@
 				C4A185C2266D8CE3003E07F7 /* TutorialSection.swift in Sources */,
 				C444994E2671970D0040FE54 /* VisualEffectBlur.swift in Sources */,
 				C4A185BC266D8CE3003E07F7 /* CourseSection.swift in Sources */,
+				C40376EB26815E3100359E2E /* LibraryContent.swift in Sources */,
 				C40CB5D62665B9A7006EBB45 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +343,7 @@
 				C44499522671973B0040FE54 /* VisualEffectBlur.swift in Sources */,
 				C4A185BD266D8CE3003E07F7 /* CourseSection.swift in Sources */,
 				C40CB5D72665B9A7006EBB45 /* CourseList.swift in Sources */,
+				C40376EC26815E3100359E2E /* LibraryContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
