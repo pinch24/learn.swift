@@ -2,15 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Swift 5 Programming/Swift 5 Programming.xcodeproj">
+      location = "group:Swift 5 Programming/1. Swift/1. Swift.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Data Type/4. Data Type.xcodeproj">
+      location = "group:Swift 5 Programming/2. Start/2. Start.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Operator/5. Operator.xcodeproj">
+      location = "group:Swift 5 Programming/3. Data Type/3. Data Type.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Control Flow/6. Control Flow.xcodeproj">
+      location = "group:Swift 5 Programming/4. Data Type/4. Data Type.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift 5 Programming/5. Operator/5. Operator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift 5 Programming/6. Control Flow/6. Control Flow.xcodeproj">
    </FileRef>
 </Workspace>
