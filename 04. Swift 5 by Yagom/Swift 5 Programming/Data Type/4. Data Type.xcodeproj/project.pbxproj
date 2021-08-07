@@ -46,16 +46,6 @@
 		4DC5889425F72AAC00D2ABF4 /* 4412. Exception Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC5889325F72AAC00D2ABF4 /* 4412. Exception Error.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4DAA7FAB25FBE70B004CB9CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DAA7F9C25FBE6EB004CB9CE;
-			remoteInfo = Operator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		4DC5884F25F723ED00D2ABF4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -92,7 +82,6 @@
 		4DAA7F8925FBDDE2004CB9CE /* 4544. CaseIterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4544. CaseIterable.swift"; sourceTree = "<group>"; };
 		4DAA7F8C25FBE185004CB9CE /* 4551. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4551. indirect.swift"; sourceTree = "<group>"; };
 		4DAA7F8F25FBE37E004CB9CE /* 4552. indirect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4552. indirect.swift"; sourceTree = "<group>"; };
-		4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Operator.xcodeproj; path = ../Operator/Operator.xcodeproj; sourceTree = "<group>"; };
 		4DBB565025FA4027003BF075 /* 4431. Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4431. Set.swift"; sourceTree = "<group>"; };
 		4DBB565325FA4594003BF075 /* 4432. Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4432. Hashable.swift"; sourceTree = "<group>"; };
 		4DBB565625FA4652003BF075 /* 4433. insert(_).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4433. insert(_).swift"; sourceTree = "<group>"; };
@@ -100,7 +89,7 @@
 		4DBB565C25FA4736003BF075 /* 4441. Random, Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4441. Random, Shuffle.swift"; sourceTree = "<group>"; };
 		4DBB565F25FA48C9003BF075 /* 4435. Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4435. Enum.swift"; sourceTree = "<group>"; };
 		4DBB566625FA4D72003BF075 /* 4511. Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4511. Enum.swift"; sourceTree = "<group>"; };
-		4DC5885125F723ED00D2ABF4 /* Data Type */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data Type"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC5885125F723ED00D2ABF4 /* 4. Data Type */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "4. Data Type"; path = "/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Data Type/build/Debug/4. Data Type"; sourceTree = "<absolute>"; };
 		4DC5885425F723ED00D2ABF4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4DC5885D25F7248000D2ABF4 /* 4121. Type Inference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4121. Type Inference.swift"; sourceTree = "<group>"; };
 		4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4201. Type Alias.swift"; sourceTree = "<group>"; };
@@ -123,7 +112,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D4888CA25F72CBC00BC023D /* 1. Array */ = {
+		4D4888CA25F72CBC00BC023D /* 4.1 Array */ = {
 			isa = PBXGroup;
 			children = (
 				4DC5888925F7297800D2ABF4 /* 4411. Array.swift */,
@@ -134,10 +123,10 @@
 				4D4888BC25F72BB300BC023D /* 4416. insert(_ at).swift */,
 				4D4888BF25F72BDE00BC023D /* 4417. remove(at).swift */,
 			);
-			path = "1. Array";
+			path = "4.1 Array";
 			sourceTree = "<group>";
 		};
-		4D4888CB25F72CE700BC023D /* 2. Dictionary */ = {
+		4D4888CB25F72CE700BC023D /* 4.2 Dictionary */ = {
 			isa = PBXGroup;
 			children = (
 				4D4888CC25F72D1700BC023D /* 4421. Dictionary.swift */,
@@ -145,10 +134,10 @@
 				4D4888D225F73EC000BC023D /* 4423. nil Value.swift */,
 				4D4888D725F73F1400BC023D /* 4424. removeValue(forKey).swift */,
 			);
-			path = "2. Dictionary";
+			path = "4.2 Dictionary";
 			sourceTree = "<group>";
 		};
-		4D4888DC25F73F4800BC023D /* 3. Set */ = {
+		4D4888DC25F73F4800BC023D /* 4.3 Set */ = {
 			isa = PBXGroup;
 			children = (
 				4DBB565025FA4027003BF075 /* 4431. Set.swift */,
@@ -157,36 +146,28 @@
 				4DBB565925FA46CD003BF075 /* 4434. Set Operation.swift */,
 				4DBB565F25FA48C9003BF075 /* 4435. Enum.swift */,
 			);
-			path = "3. Set";
+			path = "4.3 Set";
 			sourceTree = "<group>";
 		};
-		4D583A112607863A008BAB1E /* Tuple */ = {
+		4D583A112607863A008BAB1E /* 3. Tuple */ = {
 			isa = PBXGroup;
 			children = (
 				4DC5887025F7268C00D2ABF4 /* 4301. Tuple.swift */,
 				4DC5888225F7286100D2ABF4 /* 4302. Tuple.swift */,
 				4DC5887525F7271100D2ABF4 /* 4303. Tuple.swift */,
 			);
-			path = Tuple;
+			path = "3. Tuple";
 			sourceTree = "<group>";
 		};
-		4DAA7FA825FBE70B004CB9CE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4DAA7FAC25FBE70B004CB9CE /* Operator */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4DBB566225FA48D3003BF075 /* 4. Random */ = {
+		4DBB566225FA48D3003BF075 /* 4.4 Random */ = {
 			isa = PBXGroup;
 			children = (
 				4DBB565C25FA4736003BF075 /* 4441. Random, Shuffle.swift */,
 			);
-			path = "4. Random";
+			path = "4.4 Random";
 			sourceTree = "<group>";
 		};
-		4DBB566425FA48F4003BF075 /* 5. Enum */ = {
+		4DBB566425FA48F4003BF075 /* 4.5 Enum */ = {
 			isa = PBXGroup;
 			children = (
 				4DAA7F7825FBD315004CB9CE /* README.md */,
@@ -205,65 +186,55 @@
 				4DAA7F8C25FBE185004CB9CE /* 4551. indirect.swift */,
 				4DAA7F8F25FBE37E004CB9CE /* 4552. indirect.swift */,
 			);
-			path = "5. Enum";
+			path = "4.5 Enum";
 			sourceTree = "<group>";
 		};
 		4DC5884825F723EC00D2ABF4 = {
 			isa = PBXGroup;
 			children = (
-				4DC5885325F723ED00D2ABF4 /* Data Type */,
-				4DC5885225F723ED00D2ABF4 /* Products */,
-				4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */,
-			);
-			sourceTree = "<group>";
-		};
-		4DC5885225F723ED00D2ABF4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4DC5885125F723ED00D2ABF4 /* Data Type */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4DC5885325F723ED00D2ABF4 /* Data Type */ = {
-			isa = PBXGroup;
-			children = (
 				4DAA7F7725FBCFDD004CB9CE /* README.md */,
 				4DC5885425F723ED00D2ABF4 /* main.swift */,
-				4DC5886B25F7261E00D2ABF4 /* Type */,
-				4D583A112607863A008BAB1E /* Tuple */,
-				4DC5888825F7296500D2ABF4 /* Collection */,
+				4DC5886B25F7261E00D2ABF4 /* 1. Data Type Safe */,
+				C48968C926BEBEB2002CA4A6 /* 2. Type Alias */,
+				4D583A112607863A008BAB1E /* 3. Tuple */,
+				4DC5888825F7296500D2ABF4 /* 4. Collection */,
 			);
-			path = "Data Type";
 			sourceTree = "<group>";
 		};
-		4DC5886B25F7261E00D2ABF4 /* Type */ = {
+		4DC5886B25F7261E00D2ABF4 /* 1. Data Type Safe */ = {
 			isa = PBXGroup;
 			children = (
 				4DC5885D25F7248000D2ABF4 /* 4121. Type Inference.swift */,
-				4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */,
 			);
-			path = Type;
+			path = "1. Data Type Safe";
 			sourceTree = "<group>";
 		};
-		4DC5888825F7296500D2ABF4 /* Collection */ = {
+		4DC5888825F7296500D2ABF4 /* 4. Collection */ = {
 			isa = PBXGroup;
 			children = (
-				4D4888CA25F72CBC00BC023D /* 1. Array */,
-				4D4888CB25F72CE700BC023D /* 2. Dictionary */,
-				4D4888DC25F73F4800BC023D /* 3. Set */,
-				4DBB566225FA48D3003BF075 /* 4. Random */,
-				4DBB566425FA48F4003BF075 /* 5. Enum */,
+				4D4888CA25F72CBC00BC023D /* 4.1 Array */,
+				4D4888CB25F72CE700BC023D /* 4.2 Dictionary */,
+				4D4888DC25F73F4800BC023D /* 4.3 Set */,
+				4DBB566225FA48D3003BF075 /* 4.4 Random */,
+				4DBB566425FA48F4003BF075 /* 4.5 Enum */,
 			);
-			path = Collection;
+			path = "4. Collection";
+			sourceTree = "<group>";
+		};
+		C48968C926BEBEB2002CA4A6 /* 2. Type Alias */ = {
+			isa = PBXGroup;
+			children = (
+				4DC5886525F7253F00D2ABF4 /* 4201. Type Alias.swift */,
+			);
+			path = "2. Type Alias";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DC5885025F723ED00D2ABF4 /* Data Type */ = {
+		4DC5885025F723ED00D2ABF4 /* 4. Data Type */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DC5885825F723ED00D2ABF4 /* Build configuration list for PBXNativeTarget "Data Type" */;
+			buildConfigurationList = 4DC5885825F723ED00D2ABF4 /* Build configuration list for PBXNativeTarget "4. Data Type" */;
 			buildPhases = (
 				4DC5884D25F723ED00D2ABF4 /* Sources */,
 				4DC5884E25F723ED00D2ABF4 /* Frameworks */,
@@ -273,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = "Data Type";
+			name = "4. Data Type";
 			productName = "Data Type";
-			productReference = 4DC5885125F723ED00D2ABF4 /* Data Type */;
+			productReference = 4DC5885125F723ED00D2ABF4 /* 4. Data Type */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4DC5884C25F723EC00D2ABF4 /* Build configuration list for PBXProject "Data Type" */;
+			buildConfigurationList = 4DC5884C25F723EC00D2ABF4 /* Build configuration list for PBXProject "4. Data Type" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -301,30 +272,14 @@
 				Base,
 			);
 			mainGroup = 4DC5884825F723EC00D2ABF4;
-			productRefGroup = 4DC5885225F723ED00D2ABF4 /* Products */;
+			productRefGroup = 4DC5884825F723EC00D2ABF4;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 4DAA7FA825FBE70B004CB9CE /* Products */;
-					ProjectRef = 4DAA7FA725FBE70B004CB9CE /* Operator.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				4DC5885025F723ED00D2ABF4 /* Data Type */,
+				4DC5885025F723ED00D2ABF4 /* 4. Data Type */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		4DAA7FAC25FBE70B004CB9CE /* Operator */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = Operator;
-			remoteRef = 4DAA7FAB25FBE70B004CB9CE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DC5884D25F723ED00D2ABF4 /* Sources */ = {
@@ -510,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DC5884C25F723EC00D2ABF4 /* Build configuration list for PBXProject "Data Type" */ = {
+		4DC5884C25F723EC00D2ABF4 /* Build configuration list for PBXProject "4. Data Type" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DC5885625F723ED00D2ABF4 /* Debug */,
@@ -519,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DC5885825F723ED00D2ABF4 /* Build configuration list for PBXNativeTarget "Data Type" */ = {
+		4DC5885825F723ED00D2ABF4 /* Build configuration list for PBXNativeTarget "4. Data Type" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DC5885925F723ED00D2ABF4 /* Debug */,

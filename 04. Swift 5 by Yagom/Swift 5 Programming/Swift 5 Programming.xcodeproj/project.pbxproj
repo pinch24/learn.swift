@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		4DAA7F7425FBCCB0004CB9CE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4DABE12625F7233D0084BC5A /* Swift 5 Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift 5 Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DABE12625F7233D0084BC5A /* Swift 5 Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Swift 5 Programming"; path = "/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/build/Debug/Swift 5 Programming"; sourceTree = "<absolute>"; };
 		4DABE12925F7233D0084BC5A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,26 +42,9 @@
 		4DABE11D25F7233D0084BC5A = {
 			isa = PBXGroup;
 			children = (
-				4DABE12825F7233D0084BC5A /* Swift 5 Programming */,
-				4DABE12725F7233D0084BC5A /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		4DABE12725F7233D0084BC5A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4DABE12625F7233D0084BC5A /* Swift 5 Programming */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4DABE12825F7233D0084BC5A /* Swift 5 Programming */ = {
-			isa = PBXGroup;
-			children = (
 				4DAA7F7425FBCCB0004CB9CE /* README.md */,
 				4DABE12925F7233D0084BC5A /* main.swift */,
 			);
-			path = "Swift 5 Programming";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,7 +90,7 @@
 				Base,
 			);
 			mainGroup = 4DABE11D25F7233D0084BC5A;
-			productRefGroup = 4DABE12725F7233D0084BC5A /* Products */;
+			productRefGroup = 4DABE11D25F7233D0084BC5A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

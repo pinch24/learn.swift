@@ -5,12 +5,12 @@
       location = "group:Swift 5 Programming/Swift 5 Programming.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Swift 5 Programming/Data Type/Data Type.xcodeproj">
+      location = "group:/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Data Type/4. Data Type.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Swift 5 Programming/Data Type/../Operator/Operator.xcodeproj">
+      location = "group:/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Operator/5. Operator.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Swift 5 Programming/Operator/../Control Flow/Control Flow.xcodeproj">
+      location = "group:/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Control Flow/6. Control Flow.xcodeproj">
    </FileRef>
 </Workspace>

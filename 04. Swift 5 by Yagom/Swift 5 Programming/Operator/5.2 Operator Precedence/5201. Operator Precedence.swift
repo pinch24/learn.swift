@@ -17,7 +17,7 @@ C 계열 언어(C/C++, Objective-C)와 스위프트의 연산자 우선순위나
 */
 import Foundation
 
-func exec_5193() {
+func exec_5201() {
 	
 	let intValue: Int = 1
 	let resultValue1: Int = intValue << 3 + 5	// (intValue << 3) + 5

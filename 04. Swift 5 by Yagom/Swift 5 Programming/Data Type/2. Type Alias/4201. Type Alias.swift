@@ -12,7 +12,7 @@ func exec_4201() {
 	var newYear: Year = 2000
 
 	print(myAge)
-	print(newYear)
+    print(newYear)
 	
 	newYear = newYear + myAge
 	print(newYear)

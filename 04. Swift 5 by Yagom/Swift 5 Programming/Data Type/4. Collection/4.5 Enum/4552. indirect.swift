@@ -31,7 +31,7 @@ func evaluate(_ expression: ArithmeticExpression) -> Int {
 	}
 }
 
-func exec_() {
+func exec_4552() {
 	
 	let five = ArithmeticExpression.number(5)
 	let four = ArithmeticExpression.number(4)

@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D2D9B6A2608E90700DA4EA4 /* Control Flow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Control Flow"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2D9B6A2608E90700DA4EA4 /* 6. Control Flow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "6. Control Flow"; path = "/Users/bob/Repositories/swift.learn/04. Swift 5 by Yagom/Swift 5 Programming/Control Flow/build/Debug/6. Control Flow"; sourceTree = "<absolute>"; };
 		4D2D9B6D2608E90700DA4EA4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4D2D9B812608E9C800DA4EA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4D2D9B832608EA7C00DA4EA4 /* 6111. Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6111. Condition.swift"; sourceTree = "<group>"; };
@@ -48,45 +48,28 @@
 		4D2D9B612608E90700DA4EA4 = {
 			isa = PBXGroup;
 			children = (
-				4D2D9B6C2608E90700DA4EA4 /* Control Flow */,
-				4D2D9B6B2608E90700DA4EA4 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		4D2D9B6B2608E90700DA4EA4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4D2D9B6A2608E90700DA4EA4 /* Control Flow */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4D2D9B6C2608E90700DA4EA4 /* Control Flow */ = {
-			isa = PBXGroup;
-			children = (
 				4D2D9B812608E9C800DA4EA4 /* README.md */,
 				4D2D9B6D2608E90700DA4EA4 /* main.swift */,
-				4D2D9B822608EA4100DA4EA4 /* Condition Statement */,
+				4D2D9B822608EA4100DA4EA4 /* 6.1 Condition Statement */,
 			);
-			path = "Control Flow";
 			sourceTree = "<group>";
 		};
-		4D2D9B822608EA4100DA4EA4 /* Condition Statement */ = {
+		4D2D9B822608EA4100DA4EA4 /* 6.1 Condition Statement */ = {
 			isa = PBXGroup;
 			children = (
 				4D2D9B832608EA7C00DA4EA4 /* 6111. Condition.swift */,
 				4D2D9B872608EFC300DA4EA4 /* 6112. Condition.swift */,
 				4D2D9B8A2608F0C800DA4EA4 /* 6113. Condition.swift */,
 			);
-			path = "Condition Statement";
+			path = "6.1 Condition Statement";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D2D9B692608E90700DA4EA4 /* Control Flow */ = {
+		4D2D9B692608E90700DA4EA4 /* 6. Control Flow */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D2D9B712608E90700DA4EA4 /* Build configuration list for PBXNativeTarget "Control Flow" */;
+			buildConfigurationList = 4D2D9B712608E90700DA4EA4 /* Build configuration list for PBXNativeTarget "6. Control Flow" */;
 			buildPhases = (
 				4D2D9B662608E90700DA4EA4 /* Sources */,
 				4D2D9B672608E90700DA4EA4 /* Frameworks */,
@@ -96,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "Control Flow";
+			name = "6. Control Flow";
 			productName = "Control Flow";
-			productReference = 4D2D9B6A2608E90700DA4EA4 /* Control Flow */;
+			productReference = 4D2D9B6A2608E90700DA4EA4 /* 6. Control Flow */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D2D9B652608E90700DA4EA4 /* Build configuration list for PBXProject "Control Flow" */;
+			buildConfigurationList = 4D2D9B652608E90700DA4EA4 /* Build configuration list for PBXProject "6. Control Flow" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,11 +107,11 @@
 				Base,
 			);
 			mainGroup = 4D2D9B612608E90700DA4EA4;
-			productRefGroup = 4D2D9B6B2608E90700DA4EA4 /* Products */;
+			productRefGroup = 4D2D9B612608E90700DA4EA4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D2D9B692608E90700DA4EA4 /* Control Flow */,
+				4D2D9B692608E90700DA4EA4 /* 6. Control Flow */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +267,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D2D9B652608E90700DA4EA4 /* Build configuration list for PBXProject "Control Flow" */ = {
+		4D2D9B652608E90700DA4EA4 /* Build configuration list for PBXProject "6. Control Flow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D2D9B6F2608E90700DA4EA4 /* Debug */,
@@ -293,7 +276,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D2D9B712608E90700DA4EA4 /* Build configuration list for PBXNativeTarget "Control Flow" */ = {
+		4D2D9B712608E90700DA4EA4 /* Build configuration list for PBXNativeTarget "6. Control Flow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D2D9B722608E90700DA4EA4 /* Debug */,
