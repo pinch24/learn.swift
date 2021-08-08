@@ -7,7 +7,7 @@ import Foundation
 /// 마크업 형식이 적용된 퀵헬프
 func exec_2321() {
     
-    print("Markdown")
+    print("Comment Documentation")
 }
 
 /// Returns the magnitude of a vector in three dimensions

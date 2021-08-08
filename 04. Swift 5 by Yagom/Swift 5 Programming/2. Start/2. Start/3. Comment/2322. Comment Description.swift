@@ -7,7 +7,7 @@ import Foundation
 /// 마크업 문법을 활용한 문서화 주석
 func exec_2322() {
     
-    print("Markdown")
+    print("Comment Description")
 }
 
 /**
