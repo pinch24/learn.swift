@@ -130,12 +130,12 @@
 		C447037326BED83000A6C62F /* 4. Data Type */ = {
 			isa = PBXGroup;
 			children = (
+				C447038126BED87700A6C62F /* README.md */,
+				C447037426BED83000A6C62F /* main.swift */,
 				C447037B26BED87700A6C62F /* 1. Data Type Safe */,
 				C44703A826BED87700A6C62F /* 2. Type Alias */,
 				C447037D26BED87700A6C62F /* 3. Tuple */,
 				C447038226BED87700A6C62F /* 4. Collection */,
-				C447037426BED83000A6C62F /* main.swift */,
-				C447038126BED87700A6C62F /* README.md */,
 			);
 			path = "4. Data Type";
 			sourceTree = "<group>";

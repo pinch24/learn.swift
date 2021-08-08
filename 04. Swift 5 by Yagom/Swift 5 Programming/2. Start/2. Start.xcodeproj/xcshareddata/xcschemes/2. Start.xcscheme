@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1250"
+   LastUpgradeVersion = "1300"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C443445F26BED2EA00E38E58"
+               BlueprintIdentifier = "C42A0FAA26BF9994000F2A7E"
                BuildableName = "2. Start"
                BlueprintName = "2. Start"
                ReferencedContainer = "container:2. Start.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C443445F26BED2EA00E38E58"
+            BlueprintIdentifier = "C42A0FAA26BF9994000F2A7E"
             BuildableName = "2. Start"
             BlueprintName = "2. Start"
             ReferencedContainer = "container:2. Start.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C443445F26BED2EA00E38E58"
+            BlueprintIdentifier = "C42A0FAA26BF9994000F2A7E"
             BuildableName = "2. Start"
             BlueprintName = "2. Start"
             ReferencedContainer = "container:2. Start.xcodeproj">

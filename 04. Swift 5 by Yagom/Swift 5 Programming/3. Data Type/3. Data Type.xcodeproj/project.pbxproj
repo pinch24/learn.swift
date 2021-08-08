@@ -58,8 +58,8 @@
 		C443447526BED33500E38E58 /* 3. Data Type */ = {
 			isa = PBXGroup;
 			children = (
-				C443447626BED33500E38E58 /* main.swift */,
 				C4AED4DE26BEDBB000BCE107 /* README.md */,
+				C443447626BED33500E38E58 /* main.swift */,
 			);
 			path = "3. Data Type";
 			sourceTree = "<group>";

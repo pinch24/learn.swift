@@ -106,11 +106,11 @@
 		C4F43E7826BED8CB00A7681E /* 5. Operator */ = {
 			isa = PBXGroup;
 			children = (
+				C4F43E8026BED8F700A7681E /* README.md */,
+				C4F43EB626BED91E00A7681E /* main.swift */,
 				C4F43E8D26BED8F700A7681E /* 5.1 Operator */,
 				C4F43E8126BED8F700A7681E /* 5.2 Operator Precedence */,
 				C4F43E8326BED8F700A7681E /* 5.3 User-defined Operator */,
-				C4F43EB626BED91E00A7681E /* main.swift */,
-				C4F43E8026BED8F700A7681E /* README.md */,
 			);
 			path = "5. Operator";
 			sourceTree = "<group>";

@@ -58,8 +58,8 @@
 		C417A14026BED60C00520093 /* 1. Swift */ = {
 			isa = PBXGroup;
 			children = (
-				C417A14126BED60C00520093 /* main.swift */,
 				C4243FEC26BED7100031072C /* README.md */,
+				C417A14126BED60C00520093 /* main.swift */,
 			);
 			path = "1. Swift";
 			sourceTree = "<group>";

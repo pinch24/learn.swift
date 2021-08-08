@@ -64,9 +64,9 @@
 		C41492EA26BED9FE00A3A4D0 /* 6. Control Flow */ = {
 			isa = PBXGroup;
 			children = (
-				C41492F226BEDA3E00A3A4D0 /* 6.1 Condition Statement */,
-				C41492EB26BED9FE00A3A4D0 /* main.swift */,
 				C41492F626BEDA3E00A3A4D0 /* README.md */,
+				C41492EB26BED9FE00A3A4D0 /* main.swift */,
+				C41492F226BEDA3E00A3A4D0 /* 6.1 Condition Statement */,
 			);
 			path = "6. Control Flow";
 			sourceTree = "<group>";
