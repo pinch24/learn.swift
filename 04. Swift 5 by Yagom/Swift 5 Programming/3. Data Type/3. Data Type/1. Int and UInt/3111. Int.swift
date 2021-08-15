@@ -1,6 +1,6 @@
 import Foundation
 
-func exec_() {	// 3111
+func exec_3111() {
     
 	var integer: Int = -100
 	var unsignedInteger: UInt = 100

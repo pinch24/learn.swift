@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D900D5326C9619500D613BB /* 3112. Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D900D5226C9619500D613BB /* 3112. Decimal.swift */; };
 		4DA182CC26C92151002F9761 /* 3111. Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA182CB26C92151002F9761 /* 3111. Int.swift */; };
 		C443447726BED33500E38E58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443447626BED33500E38E58 /* main.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D900D5226C9619500D613BB /* 3112. Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3112. Decimal.swift"; sourceTree = "<group>"; };
 		4DA182CB26C92151002F9761 /* 3111. Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3111. Int.swift"; sourceTree = "<group>"; };
 		C443447326BED33500E38E58 /* 3. Data Type */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Data Type"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C443447626BED33500E38E58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				4DA182CB26C92151002F9761 /* 3111. Int.swift */,
+				4D900D5226C9619500D613BB /* 3112. Decimal.swift */,
 			);
 			path = "1. Int and UInt";
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			files = (
 				C443447726BED33500E38E58 /* main.swift in Sources */,
 				4DA182CC26C92151002F9761 /* 3111. Int.swift in Sources */,
+				4D900D5326C9619500D613BB /* 3112. Decimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
