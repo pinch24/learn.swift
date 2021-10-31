@@ -51,16 +51,42 @@
          </FileRef>
       </Group>
    </Group>
-   <FileRef
-      location = "group:Swift 5 Programming/3. Data Type/3. Data Type.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Swift 5 Programming/4. Data Type/4. Data Type.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Swift 5 Programming/5. Operator/5. Operator.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Swift 5 Programming/6. Control Flow/6. Control Flow.xcodeproj">
-   </FileRef>
+   <Group
+      location = "group:Swift 5 Programming/03. Data Type"
+      name = "03. Data Type">
+      <FileRef
+         location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type/README.md">
+      </FileRef>
+      <Group
+         location = "container:Swift 5 Programming/03. Data Type/01. Int and UInt"
+         name = "01. Int and UInt">
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type/01. Int and UInt/3111. Int.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type/01. Int and UInt/3112. Decimal.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Swift 5 Programming/04. Data Type"
+      name = "04. Data Type">
+      <FileRef
+         location = "group:4. Data Type.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Swift 5 Programming/05. Operator"
+      name = "05. Operator">
+      <FileRef
+         location = "group:5. Operator.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Swift 5 Programming/06. Control Flow"
+      name = "06. Control Flow">
+      <FileRef
+         location = "group:6. Control Flow.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

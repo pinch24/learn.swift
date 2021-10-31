@@ -3,8 +3,6 @@ import Foundation
 print("Comment Description")
 
 /**
- 2.3.2 마크업 문법을 활용한 문서화 주석
- 
  # Greeting
  
  ## Unordered Lists
@@ -39,7 +37,3 @@ func greeting(to recipient: String) throws -> String {
 
     return "Greetings, \(recipient)!"
 }
-
-/**
- https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode\_markup\_formatting\_ref/
- */
