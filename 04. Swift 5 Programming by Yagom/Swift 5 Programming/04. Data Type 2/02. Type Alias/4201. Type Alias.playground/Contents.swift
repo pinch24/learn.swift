@@ -1,7 +1,13 @@
 import Foundation
 
-let string = "Hello, World."
-let value = 100
+typealias Age = Int
+typealias Year = Int
 
-print(string)
-print(value)
+let myAge: Age = 18
+var newYear: Year = 2000
+
+print(myAge)
+print(newYear)
+
+newYear = newYear + myAge
+print(newYear)
