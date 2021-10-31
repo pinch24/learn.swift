@@ -16,8 +16,3 @@ UIView.animate(withDuration: 5.0, animations: {
     let rotation = CGAffineTransform(rotationAngle: 3.14)
     square.transform = rotation
 })
-
-/**
- ## 4.9 향상된 라이브 뷰로 작업하기
- PlaygroundSupport 모듈은 플레이그라운드 타임라인 내에서 동적으로 뷰를 보여주는 기능을 제공한다.
- */
