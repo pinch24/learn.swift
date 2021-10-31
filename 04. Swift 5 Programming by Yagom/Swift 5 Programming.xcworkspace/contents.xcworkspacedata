@@ -31,23 +31,23 @@
          location = "group:03. Comment"
          name = "03. Comment">
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/03. Comment/2311. Comment.playground">
+            location = "group:2311. Comment.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/03. Comment/2321. Comment Description.playground">
+            location = "group:2321. Comment Description.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/03. Comment/2322. Comment Documentation.playground">
+            location = "group:2322. Comment Documentation.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:04. Varialble and Constant"
          name = "04. Varialble and Constant">
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/04. Varialble and Constant/2411. Variable.playground">
+            location = "group:2411. Variable.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/04. Varialble and Constant/2412. Constant.playground">
+            location = "group:2412. Constant.playground">
          </FileRef>
       </Group>
    </Group>
@@ -78,27 +78,27 @@
          location = "group:01. Data Type Safe"
          name = "01. Data Type Safe">
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/01. Data Type Safe/4121. Type Inference.playground">
+            location = "group:4121. Type Inference.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:02. Type Alias"
          name = "02. Type Alias">
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/02. Type Alias/4201. Type Alias.playground">
+            location = "group:4201. Type Alias.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:03. Tuple"
          name = "03. Tuple">
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/03. Tuple/4301. Tuple.playground">
+            location = "group:4301. Tuple.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/03. Tuple/4302. Tuple.playground">
+            location = "group:4302. Tuple.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/03. Tuple/4303. Tuple.playground">
+            location = "group:4303. Tuple.playground">
          </FileRef>
       </Group>
       <Group
@@ -108,13 +108,13 @@
             location = "group:4.1 Array"
             name = "4.1 Array">
             <FileRef
-               location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.1 Array/4411. Array.playground">
+               location = "group:4412. Exception Error.playground">
             </FileRef>
             <FileRef
-               location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.1 Array/4412. Exception Error.playground">
+               location = "group:4413. first, last.playground">
             </FileRef>
             <FileRef
-               location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.1 Array/4413. first, last.playground">
+               location = "group:4411. Array.playground">
             </FileRef>
             <FileRef
                location = "group:4414. firstIndex(of).swift">
