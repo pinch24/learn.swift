@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:Swift 5 Programming/1. Swift/1. Swift.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Swift 5 Programming/2. Start/2. Start.xcodeproj">
-   </FileRef>
+   <Group
+      location = "group:Swift 5 Programming/01. Swift"
+      name = "01. Swift">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:01. Swift.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Swift 5 Programming/02. Start"
+      name = "02. Start">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:02. Console Log"
+         name = "02. Console Log">
+         <FileRef
+            location = "group:2211. Console Log.playground">
+         </FileRef>
+         <FileRef
+            location = "group:2212. String Interpolation.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:03. Comment"
+         name = "03. Comment">
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/03. Comment/2311. Comment.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/03. Comment/2321. Comment Documentation.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/03. Comment/2322. Comment Description.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:04. Varialble and Constant"
+         name = "04. Varialble and Constant">
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/04. Varialble and Constant/2412. Constant.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/bob/Repositories/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/04. Varialble and Constant/2411. Variable.playground">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Swift 5 Programming/3. Data Type/3. Data Type.xcodeproj">
    </FileRef>
