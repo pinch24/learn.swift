@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:04. Playground"
+      name = "04. Playground">
+      <FileRef
+         location = "group:0401. Create Playground.playground">
+      </FileRef>
+      <FileRef
+         location = "group:0404. Result Area.playground">
+      </FileRef>
+      <FileRef
+         location = "group:0405. Rich Text.playground">
+      </FileRef>
+      <FileRef
+         location = "group:0407. UIKit.playground">
+      </FileRef>
+      <FileRef
+         location = "group:0408. Resource.playground">
+      </FileRef>
+      <FileRef
+         location = "group:0409. Live View.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:16. SwiftUI Summary"
+      name = "16. SwiftUI Summary">
+      <FileRef
+         location = "group:1601. SwiftUI Summary.playground">
+      </FileRef>
+      <FileRef
+         location = "group:/Users/bob/Repositories/learn.swift/03. SwiftUI Essentials by Neil Smyth/16. SwiftUI Summary/1621. SwiftUI Concept.playground">
+      </FileRef>
+   </Group>
+</Workspace>
