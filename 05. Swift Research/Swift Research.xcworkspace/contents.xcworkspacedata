@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Test"
+      name = "Test">
+      <Group
+         location = "group:Closure"
+         name = "Closure">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Test/Closure/XP1_1.playground">
+         </FileRef>
+         <FileRef
+            location = "group:XP2_1.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Weak, Unowned"
+         name = "Weak, Unowned">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:XP1_1.playground">
+         </FileRef>
+         <FileRef
+            location = "group:XP1_2.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Test/Weak, Unowned/XP1_3.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Weak Self"
+      name = "Weak Self">
+      <Group
+         location = "group:Capturing Value"
+         name = "Capturing Value">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Weak Self/Capturing Value/XP1_1.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Weak Self/Capturing Value/XP1_2.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Weak Self/Capturing Value/XP2_1.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Weak Self/Capturing Value/XP2_2.playground">
+         </FileRef>
+         <FileRef
+            location = "group:XP3_1.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Weak Self/Capturing Value/XP4_1.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Method Signature"
+      name = "Method Signature">
+   </Group>
+</Workspace>
