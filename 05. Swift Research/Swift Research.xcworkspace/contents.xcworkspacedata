@@ -63,8 +63,4 @@
          </FileRef>
       </Group>
    </Group>
-   <Group
-      location = "group:Method Signature"
-      name = "Method Signature">
-   </Group>
 </Workspace>
