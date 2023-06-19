@@ -2,7 +2,7 @@ import Foundation
 
 let array = Array<Int>(1 ... 10)
 print(array)
-print(array.randomElement())
+print(array.randomElement() as Any)
 print(array.shuffled())
 print(array)
 

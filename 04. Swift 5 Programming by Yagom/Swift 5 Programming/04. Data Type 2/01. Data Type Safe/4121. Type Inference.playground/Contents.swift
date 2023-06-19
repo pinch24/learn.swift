@@ -5,3 +5,8 @@ let value = 100
 
 print(string)
 print(value)
+print()
+
+print(type(of: string))
+print(type(of: value))
+print()
