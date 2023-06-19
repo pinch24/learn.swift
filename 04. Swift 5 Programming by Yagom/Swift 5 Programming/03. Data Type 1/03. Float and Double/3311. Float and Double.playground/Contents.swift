@@ -24,3 +24,11 @@ print("Edited Double Value: \(doubleValue)")
 doubleValue = 12345678901234567.1
 print("Edited Double Value: \(doubleValue)")
 print()
+
+/**
+ * ## 3.3. Float, Double
+ * Float는 6자리 십진수를 표현할 수 있는 부동소수를 저장한다.
+ * Double은 15자리 십진수를 표현할 수 있는 부동소수를 저장한다.
+ *
+ * 부동소숫값을 콘솔 로그에 표시할 때 10진수로 표현할 수 있는 한계를 넘어서면 지수로 표시된다.
+ */
