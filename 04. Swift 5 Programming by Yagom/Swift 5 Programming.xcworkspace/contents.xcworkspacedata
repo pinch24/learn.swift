@@ -295,84 +295,84 @@
          location = "group:01 Operator"
          name = "01 Operator">
          <FileRef
-            location = "group:5111. Assign.swift">
+            location = "group:5111. Assign.playground">
          </FileRef>
          <FileRef
-            location = "group:5121. Arithmetic.swift">
+            location = "group:5121. Arithmetic.playground">
          </FileRef>
          <FileRef
-            location = "group:5122. Arithmetic.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5122. Arithmetic - Remainder.playground">
          </FileRef>
          <FileRef
-            location = "group:5131. Comparison.swift">
+            location = "group:5131. Comparison.playground">
          </FileRef>
          <FileRef
-            location = "group:5132. Reference Comparison.swift">
+            location = "group:5132. Reference Comparison.playground">
          </FileRef>
          <FileRef
-            location = "group:5133. Pattern Match Comparison.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5133. Pattern Match Comparison - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:5134. Pattern Match Comparison.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5134. Pattern Match Comparison - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:5141. Trinomial Condition Operator.swift">
+            location = "group:5141. Trinomial Condition Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5151. Range Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5151. Range Operator - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:5152. Range Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5152. Range Operator - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:5161. Bool Operator.swift">
+            location = "group:5161. Bool Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5171. Bit Operator.swift">
+            location = "group:5171. Bit Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5181. Compound Assignment Operator.swift">
+            location = "group:5181. Compound Assignment Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5191. Overflow Operator.swift">
+            location = "group:5191. Overflow Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5192. Optional Operator.swift">
+            location = "group:5192. Optional Operator.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:02 Operator Precedence"
          name = "02 Operator Precedence">
          <FileRef
-            location = "group:5201. Operator Precedence.swift">
+            location = "group:5201. Operator Precedence.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:03 User-defined Operator"
          name = "03 User-defined Operator">
          <FileRef
-            location = "group:5211. Prefix Operator.swift">
+            location = "group:5211. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5212. Prefix Operator.swift">
+            location = "group:5212. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5213. Prefix Operator.swift">
+            location = "group:5213. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5221. Postfix Operator.swift">
+            location = "group:5221. Postfix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5222. Postfix Operator.swift">
+            location = "group:5222. Postfix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5223. Infix Operator.swift">
+            location = "group:5223. Infix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5224. Infix Operator.swift">
+            location = "group:5224. Infix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5225. Infix Operator.swift">
+            location = "group:5225. Infix Operator.playground">
          </FileRef>
       </Group>
    </Group>
