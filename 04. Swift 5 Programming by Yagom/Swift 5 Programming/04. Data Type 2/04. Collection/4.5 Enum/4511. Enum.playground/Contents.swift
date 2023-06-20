@@ -10,12 +10,9 @@ fileprivate enum School {
 	case graduate
 }
 
-func exec_4511() {
-	
-	var highestEducationLevel: School = .university
-	highestEducationLevel = .graduate
-	print(highestEducationLevel)
-}
+fileprivate var highestEducationLevel: School = .university
+highestEducationLevel = .graduate
+print(highestEducationLevel)
 
 /**
  * ## 4.5 열거형

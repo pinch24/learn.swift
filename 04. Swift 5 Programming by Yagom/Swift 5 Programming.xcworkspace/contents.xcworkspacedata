@@ -224,13 +224,10 @@
                location = "group:4432. Hashable.playground">
             </FileRef>
             <FileRef
-               location = "group:4433. insert(_).swift">
+               location = "group:4433. insert(_).playground">
             </FileRef>
             <FileRef
-               location = "group:4434. Set Operation.swift">
-            </FileRef>
-            <FileRef
-               location = "group:4435. Enum.swift">
+               location = "group:4434. Set Operation.playground">
             </FileRef>
          </Group>
          <Group
@@ -244,46 +241,46 @@
             location = "group:4.5 Enum"
             name = "4.5 Enum">
             <FileRef
-               location = "group:4511. Enum.swift">
+               location = "group:4511. Enum.playground">
             </FileRef>
             <FileRef
-               location = "group:4512. Enum Case.swift">
+               location = "group:4512. Enum Case.playground">
             </FileRef>
             <FileRef
-               location = "group:4521. Raw Value.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4521. Raw Value - String.playground">
             </FileRef>
             <FileRef
-               location = "group:4522. Raw Value.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4522. Raw Value - Character.playground">
             </FileRef>
             <FileRef
-               location = "group:4523. Raw Value Assignment.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4523. Raw Value Assignment.playground">
             </FileRef>
             <FileRef
-               location = "group:4524. Raw Value Initialize.swift">
+               location = "group:4524. Raw Value Initialize.playground">
             </FileRef>
             <FileRef
-               location = "group:4531. Relation Value.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4531. Relation Value - 1.playground">
             </FileRef>
             <FileRef
-               location = "group:4532. Relation Value.swift">
+               location = "group:4532. Relation Value - 2.playground">
             </FileRef>
             <FileRef
-               location = "group:4541. CaseIterable.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4541. Case Iterable - 1.playground">
             </FileRef>
             <FileRef
-               location = "group:4542. CaseIterable.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4542. Case Iterable - 2.playground">
             </FileRef>
             <FileRef
-               location = "group:4543. CaseIterable.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4543. Case Iterable - 3.playground">
             </FileRef>
             <FileRef
-               location = "group:4544. CaseIterable.swift">
+               location = "group:4544. Case Iterable - 4.playground">
             </FileRef>
             <FileRef
-               location = "group:4551. indirect.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4551. Iterable Enum - 1.playground">
             </FileRef>
             <FileRef
-               location = "group:4552. indirect.swift">
+               location = "group:4552. Iterable Enum - 2.playground">
             </FileRef>
          </Group>
       </Group>
