@@ -78,37 +78,59 @@
          location = "group:03. Float and Double"
          name = "03. Float and Double">
          <FileRef
-            location = "group:3311. Float.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/03. Float and Double/3311. Float and Double.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/03. Float and Double/3312. Default Value.playground">
+         </FileRef>
+         <FileRef
+            location = "group:3313. IEEE 754.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/03. Float and Double/3314. Infinity and NaN.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/03. Float and Double/3315. 0.1.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/04. Character"
-         name = "04. Character">
+         location = "container:Swift 5 Programming/03. Data Type 1/04. Random Number"
+         name = "04. Random Number">
          <FileRef
-            location = "group:3411. Character.playground">
+            location = "group:3411. Random Number.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/05. String"
-         name = "05. String">
+         location = "container:Swift 5 Programming/03. Data Type 1/05. Character"
+         name = "05. Character">
          <FileRef
-            location = "group:3511. String.playground">
-         </FileRef>
-         <FileRef
-            location = "group:3512. String Methods.playground">
-         </FileRef>
-         <FileRef
-            location = "group:3513. Control Character.playground">
-         </FileRef>
-         <FileRef
-            location = "group:3514. Multi Line String.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/05. Character/3511. Character.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/06. Any, AnyObject and nil"
-         name = "06. Any, AnyObject and nil">
+         location = "container:Swift 5 Programming/03. Data Type 1/06. String"
+         name = "06. String">
          <FileRef
-            location = "group:3511. Any, AnyObject.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/06. String/3611. String.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/06. String/3612. String Properties.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/06. String/3613. Control Character.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/06. String/3614. Control Character Ignore.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/06. String/3615. Multi Line String.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:Swift 5 Programming/03. Data Type 1/07. Any, AnyObject and nil"
+         name = "07. Any, AnyObject and nil">
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/03. Data Type 1/07. Any, AnyObject and nil/3711. Any, AnyObject.playground">
          </FileRef>
       </Group>
    </Group>
@@ -139,126 +161,126 @@
             location = "group:4301. Tuple.playground">
          </FileRef>
          <FileRef
-            location = "group:4302. Tuple.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/03. Tuple/4302. Tuple Name.playground">
          </FileRef>
          <FileRef
-            location = "group:4303. Tuple.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/03. Tuple/4303. Tuple Alias.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:04. Collection"
          name = "04. Collection">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
          <Group
             location = "group:4.1 Array"
             name = "4.1 Array">
             <FileRef
-               location = "group:4412. Exception Error.playground">
+               location = "group:4411. Array.playground">
+            </FileRef>
+            <FileRef
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.1 Array/4412. Array Index.playground">
             </FileRef>
             <FileRef
                location = "group:4413. first, last.playground">
             </FileRef>
             <FileRef
-               location = "group:4411. Array.playground">
+               location = "group:4414. firstIndex(of).playground">
             </FileRef>
             <FileRef
-               location = "group:4414. firstIndex(of).swift">
+               location = "group:4415. append(_).playground">
             </FileRef>
             <FileRef
-               location = "group:4415. append(_).swift">
+               location = "group:4416. insert(_ at).playground">
             </FileRef>
             <FileRef
-               location = "group:4416. insert(_ at).swift">
-            </FileRef>
-            <FileRef
-               location = "group:4417. remove(at).swift">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:4.4 Random"
-            name = "4.4 Random">
-            <FileRef
-               location = "group:4441. Random, Shuffle.swift">
+               location = "group:4417. remove(at).playground">
             </FileRef>
          </Group>
          <Group
             location = "group:4.2 Dictionary"
             name = "4.2 Dictionary">
             <FileRef
-               location = "group:4421. Dictionary.swift">
+               location = "group:4421. Dictionary.playground">
             </FileRef>
             <FileRef
-               location = "group:4422. Key, Value.swift">
+               location = "group:4422. Key, Value.playground">
             </FileRef>
             <FileRef
-               location = "group:4423. nil Value.swift">
+               location = "group:4423. nil Value.playground">
             </FileRef>
             <FileRef
-               location = "group:4424. removeValue(forKey).swift">
+               location = "group:4424. removeValue(forKey).playground">
             </FileRef>
          </Group>
          <Group
             location = "group:4.3 Set"
             name = "4.3 Set">
             <FileRef
-               location = "group:4431. Set.swift">
+               location = "group:4431. Set.playground">
             </FileRef>
             <FileRef
-               location = "group:4432. Hashable.swift">
+               location = "group:4432. Hashable.playground">
             </FileRef>
             <FileRef
-               location = "group:4433. insert(_).swift">
+               location = "group:4433. insert(_).playground">
             </FileRef>
             <FileRef
-               location = "group:4434. Set Operation.swift">
+               location = "group:4434. Set Operation.playground">
             </FileRef>
+         </Group>
+         <Group
+            location = "group:4.4 Random"
+            name = "4.4 Random">
             <FileRef
-               location = "group:4435. Enum.swift">
+               location = "group:4441. Random, Shuffle.playground">
             </FileRef>
          </Group>
          <Group
             location = "group:4.5 Enum"
             name = "4.5 Enum">
             <FileRef
-               location = "group:4511. Enum.swift">
+               location = "group:4511. Enum.playground">
             </FileRef>
             <FileRef
-               location = "group:4512. Enum Case.swift">
+               location = "group:4512. Enum Case.playground">
             </FileRef>
             <FileRef
-               location = "group:4521. Raw Value.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4521. Raw Value - String.playground">
             </FileRef>
             <FileRef
-               location = "group:4522. Raw Value.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4522. Raw Value - Character.playground">
             </FileRef>
             <FileRef
-               location = "group:4523. Raw Value Assignment.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4523. Raw Value Assignment.playground">
             </FileRef>
             <FileRef
-               location = "group:4524. Raw Value Initialize.swift">
+               location = "group:4524. Raw Value Initialize.playground">
             </FileRef>
             <FileRef
-               location = "group:4531. Relation Value.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4531. Relation Value - 1.playground">
             </FileRef>
             <FileRef
-               location = "group:4532. Relation Value.swift">
+               location = "group:4532. Relation Value - 2.playground">
             </FileRef>
             <FileRef
-               location = "group:4541. CaseIterable.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4541. Case Iterable - 1.playground">
             </FileRef>
             <FileRef
-               location = "group:4542. CaseIterable.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4542. Case Iterable - 2.playground">
             </FileRef>
             <FileRef
-               location = "group:4543. CaseIterable.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4543. Case Iterable - 3.playground">
             </FileRef>
             <FileRef
-               location = "group:4544. CaseIterable.swift">
+               location = "group:4544. Case Iterable - 4.playground">
             </FileRef>
             <FileRef
-               location = "group:4551. indirect.swift">
+               location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/04. Data Type 2/04. Collection/4.5 Enum/4551. Iterable Enum - 1.playground">
             </FileRef>
             <FileRef
-               location = "group:4552. indirect.swift">
+               location = "group:4552. Iterable Enum - 2.playground">
             </FileRef>
          </Group>
       </Group>
