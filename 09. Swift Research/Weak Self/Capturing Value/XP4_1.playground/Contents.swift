@@ -1,7 +1,6 @@
 import UIKit
 
 struct Test {
-	
 	var number: String?
 }
 

@@ -1,7 +1,6 @@
 import UIKit
 
 class A {
-	
 	var b: Int = 1
 	
 	func afterTwoSecPrint() {

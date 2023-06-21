@@ -1,7 +1,6 @@
 import UIKit
 
 class Test {
-	
 	var number: String?
 }
 

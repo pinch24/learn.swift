@@ -386,13 +386,13 @@
          location = "group:01 Condition Statement"
          name = "01 Condition Statement">
          <FileRef
-            location = "group:6111. Condition.swift">
+            location = "group:6111. Condition.playground">
          </FileRef>
          <FileRef
-            location = "group:6112. Condition.swift">
+            location = "group:6112. Condition.playground">
          </FileRef>
          <FileRef
-            location = "group:6113. Condition.swift">
+            location = "group:6113. Condition.playground">
          </FileRef>
       </Group>
    </Group>

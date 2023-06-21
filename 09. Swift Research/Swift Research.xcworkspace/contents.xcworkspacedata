@@ -11,7 +11,7 @@
             location = "group:README.md">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Test/Closure/XP1_1.playground">
+            location = "group:XP1_1.playground">
          </FileRef>
          <FileRef
             location = "group:XP2_1.playground">
@@ -30,7 +30,7 @@
             location = "group:XP1_2.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/05. Swift Research/Test/Weak, Unowned/XP1_3.playground">
+            location = "group:XP1_3.playground">
          </FileRef>
       </Group>
    </Group>
