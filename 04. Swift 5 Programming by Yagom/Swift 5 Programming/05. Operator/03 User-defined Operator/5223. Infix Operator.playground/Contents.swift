@@ -18,8 +18,8 @@ print("\(hello) ** \(alpha) = \(hello ** alpha)")
  * precedencegroup 우선순위 그룹 이름 {
  * 	higherThan: 더 낮은 우선순위 그룹 이름
  * 	lowerThan: 더 높은 우선순위 그룹 이름
- * 	associativity: 결합방향(left / right / none)        // 디폴트는 none
- * 	assignment: 할당방향 사용(true / false)        // 옵셔널 체이닝 - true: 오른쪽으로, false: 왼쪽으로
+ * 	associativity: 결합방향(left / right / none)		// 디폴트는 none
+ * 	assignment: 할당방향 사용(true / false)		// 옵셔널 체이닝 - true: 오른쪽으로, false: 왼쪽으로
  * }
  *
  * #### 5-13 중위 연산자의 구현과 사용
