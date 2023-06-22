@@ -1,7 +1,7 @@
 import Foundation
 
-let a = 4
-let b = 2
+let a = 6
+let b = 4
 
 print("\(a) + \(b) = \(a + b)")
 print("\(a) - \(b) = \(a - b)")

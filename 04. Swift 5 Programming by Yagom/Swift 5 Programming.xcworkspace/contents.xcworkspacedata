@@ -26,6 +26,9 @@
          <FileRef
             location = "group:2212. String Interpolation.playground">
          </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/02. Console Log/2213. print() Parameters.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:03. Comment"
@@ -304,6 +307,9 @@
             location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5122. Arithmetic - Remainder.playground">
          </FileRef>
          <FileRef
+            location = "group:5123. Arithmetic - Type.playground">
+         </FileRef>
+         <FileRef
             location = "group:5131. Comparison.playground">
          </FileRef>
          <FileRef
@@ -344,35 +350,35 @@
          location = "group:02 Operator Precedence"
          name = "02 Operator Precedence">
          <FileRef
-            location = "group:5201. Operator Precedence.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/02 Operator Precedence/5211. Operator Precedence.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:03 User-defined Operator"
          name = "03 User-defined Operator">
          <FileRef
-            location = "group:5211. Prefix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5311. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5212. Prefix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5312. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5213. Prefix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5313. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5221. Postfix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5321. Postfix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5222. Postfix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5322. Postfix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5223. Infix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5323. Infix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5224. Infix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5324. Infix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5225. Infix Operator.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5325. Infix Operator.playground">
          </FileRef>
       </Group>
    </Group>

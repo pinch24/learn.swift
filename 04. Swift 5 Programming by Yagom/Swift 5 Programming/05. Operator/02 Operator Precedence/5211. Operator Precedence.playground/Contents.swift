@@ -21,5 +21,22 @@ print(resultValue2)
  * C 계열 언어(C/C++, Objective-C)와 스위프트의 연산자 우선순위나 결합방향은 완전히 같지는 않다. 기존의 C 계열 언어을 스위프트로 변환할 때 주의해야 한다.
  *
  * ### 5.2.11 연산자 우선순위
+ * Precedence					Associativity			Operator
+ * ----------------------------------------------------------------
+ * DefaultPrecedence			none					(, )
+ * BitwiseShiftPrecedence			none					>>, <<
+ * MultiplicationPrecedence		left to right				*, /, %
+ * AdditionPrecedence			left to right				+, -, |, ^
+ * RangeFormationPrecedence		none					..., ..<
+ * CastingPrecedence			left to right				is, as, as?, as!
+ * NilCoalescingPrecedence		right to left				??
+ * ComparisonPrecedence		none					<, <=, >, >=, ==, != ...
+ * LogicalConjunctionPrecedence	left to right				&&, .&
+ * LogicalDisjunctionPrecedence	left to right				||, .|, .^
+ * TernaryPrecedence			right to left				? :
+ * AssignmentPrecedence		right to left				=, +=, -=, *=, /=, %= ...
+ * FunctionArrowPrecedence		right to left				->
+ * ----------------------------------------------------------------
+ *
  * #### 5-5 연산자 우선순위에 따른 처리순서
  */
