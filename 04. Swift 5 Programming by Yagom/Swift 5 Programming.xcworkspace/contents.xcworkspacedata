@@ -438,28 +438,28 @@
          location = "container:"
          name = "02. Repeat Statements">
          <FileRef
-            location = "group:6211. for-in.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6211. for-in.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/6212. for-in - continue.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6212. for-in - continue.playground">
          </FileRef>
          <FileRef
-            location = "group:6213. for-in - String.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6213. for-in - String.playground">
          </FileRef>
          <FileRef
-            location = "group:6214. for-in - Wildcard.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6214. for-in - Wildcard.playground">
          </FileRef>
          <FileRef
-            location = "group:6215. for-in - Dictionary.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6215. for-in - Dictionary.playground">
          </FileRef>
          <FileRef
-            location = "group:6221. while.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6221. while.playground">
          </FileRef>
          <FileRef
-            location = "group:6231. repeat-while.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6231. repeat-while.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/6311. Labeled Statement.playground">
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6311. Labeled Statement.playground">
          </FileRef>
       </Group>
    </Group>
