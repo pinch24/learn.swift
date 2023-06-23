@@ -1,5 +1,3 @@
-import Foundation
-
 let name: String = "Lattner"
 
 switch name {

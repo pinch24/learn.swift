@@ -390,48 +390,76 @@
       </FileRef>
       <Group
          location = "group:01 Condition Statement"
-         name = "01 Condition Statement">
+         name = "01 Conditional Statements">
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6111. if - 1.playground">
+            location = "group:6111. if - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6112. if - 2.playground">
+            location = "group:6112. if - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6113. switch - Int.playground">
+            location = "group:6113. switch - Int.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6114. switch - Double.playground">
+            location = "group:6114. switch - Double.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6115. switch - String.playground">
+            location = "group:6115. switch - String.playground">
          </FileRef>
          <FileRef
             location = "group:6116. switch - fallthrough.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6117. switch - String Contains.playground">
+            location = "group:6117. switch - String Contains.playground">
          </FileRef>
          <FileRef
-            location = "group:6618. switch - Tuple.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6118. switch - Tuple.playground">
          </FileRef>
          <FileRef
-            location = "group:6619. switch - Wildcard.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6119. switch - Wildcard.playground">
          </FileRef>
          <FileRef
-            location = "group:6620. switch - Value Binding.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6120. switch - Value Binding.playground">
          </FileRef>
          <FileRef
-            location = "group:6621. switch - where.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6121. switch - where.playground">
          </FileRef>
          <FileRef
-            location = "group:6622. switch - Enum.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6122. switch - Enum.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6623. switch - Enum All Cases.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6123. switch - Enum All Cases.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6624. switch - @unknown.playground">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6124. switch - @unknown.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "02. Repeat Statements">
+         <FileRef
+            location = "group:6211. for-in.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/6212. for-in - continue.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6213. for-in - String.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6214. for-in - Wildcard.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6215. for-in - Dictionary.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6221. while.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6231. repeat-while.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/6311. Labeled Statement.playground">
          </FileRef>
       </Group>
    </Group>

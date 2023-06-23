@@ -1,5 +1,3 @@
-import Foundation
-
 var numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
 numberForName.removeValue(forKey: "Alpha")
 print(numberForName)

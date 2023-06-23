@@ -1,5 +1,3 @@
-import Foundation
-
 let integerValue: Int = 5
 
 switch integerValue {

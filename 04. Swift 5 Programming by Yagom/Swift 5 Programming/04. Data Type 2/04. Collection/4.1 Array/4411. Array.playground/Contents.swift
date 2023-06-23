@@ -1,5 +1,3 @@
-import Foundation
-
 let names1: Array<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
 let names2: [String] = ["Echo", "Foxtrot", "Golf", "Hotel"]
 

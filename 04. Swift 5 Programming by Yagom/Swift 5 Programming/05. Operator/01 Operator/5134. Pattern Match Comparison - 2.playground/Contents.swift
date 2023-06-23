@@ -1,5 +1,3 @@
-import Foundation
-
 func isLowcase(s: String) -> Bool {
 	var b = true
 	

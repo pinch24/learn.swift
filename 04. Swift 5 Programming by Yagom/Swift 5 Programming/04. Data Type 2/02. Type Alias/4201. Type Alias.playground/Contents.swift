@@ -1,5 +1,3 @@
-import Foundation
-
 typealias Age = Int
 typealias Year = Int
 

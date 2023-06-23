@@ -1,5 +1,3 @@
-import Foundation
-
 prefix func ! (value: String) -> Bool {
 	return value.isEmpty
 }

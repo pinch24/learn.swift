@@ -1,5 +1,3 @@
-import Foundation
-
 let a: Int = 6
 let b: UInt = 4
 //let c = a + b		// Type Error!

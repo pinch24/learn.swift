@@ -1,5 +1,3 @@
-import Foundation
-
 postfix operator **
 postfix func ** (value: Int) -> Int {
 	return value + 10

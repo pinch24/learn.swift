@@ -1,5 +1,3 @@
-import Foundation
-
 var valueA: Int = 3
 var valueB: Int = 5
 var biggerValue: Int = valueA > valueB ? valueA : valueB

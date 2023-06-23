@@ -1,5 +1,3 @@
-import Foundation
-
 fileprivate enum School: CaseIterable {
 	case primary
 	case elementary

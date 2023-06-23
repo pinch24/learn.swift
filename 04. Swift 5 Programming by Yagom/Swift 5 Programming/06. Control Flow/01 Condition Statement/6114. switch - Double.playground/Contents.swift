@@ -1,5 +1,3 @@
-import Foundation
-
 let doubleValue: Double = 3.0
 
 switch doubleValue {

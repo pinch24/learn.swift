@@ -1,5 +1,3 @@
-import Foundation
-
 var names = ["Alpha", "Bravo", "Charlie", "Delta"]
 names.insert("Beta", at: 1)
 print(names)

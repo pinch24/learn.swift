@@ -1,5 +1,3 @@
-import Foundation
-
 let string = "Hello, World."
 let value = 100
 

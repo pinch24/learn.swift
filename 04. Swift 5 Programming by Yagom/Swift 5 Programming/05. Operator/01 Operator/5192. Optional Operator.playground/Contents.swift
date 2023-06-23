@@ -1,5 +1,3 @@
-import Foundation
-
 let value = 2
 print (-value)
 print()

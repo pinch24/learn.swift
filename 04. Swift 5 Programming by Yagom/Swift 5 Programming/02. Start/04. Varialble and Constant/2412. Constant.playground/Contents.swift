@@ -1,5 +1,3 @@
-import Foundation
-
 let name: String = "Hello"
 var age: Int = 10
 let height = 174.0

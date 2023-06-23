@@ -1,5 +1,3 @@
-import Foundation
-
 typealias NameBirth = (name: String, birth: Int)
 
 let tuple: NameBirth = ("Chris", 78)

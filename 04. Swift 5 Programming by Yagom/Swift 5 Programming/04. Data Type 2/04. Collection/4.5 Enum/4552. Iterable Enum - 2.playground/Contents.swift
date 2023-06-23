@@ -1,5 +1,3 @@
-import Foundation
-
 fileprivate enum ArithmeticExpression {
 	case number(Int)
 	indirect case addition(ArithmeticExpression, ArithmeticExpression)

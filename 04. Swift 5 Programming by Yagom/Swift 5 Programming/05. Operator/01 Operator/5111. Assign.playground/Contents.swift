@@ -1,5 +1,3 @@
-import Foundation
-
 let a: Int = 4
 print(a)
 

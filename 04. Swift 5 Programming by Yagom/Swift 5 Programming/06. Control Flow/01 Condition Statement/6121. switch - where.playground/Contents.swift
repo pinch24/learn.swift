@@ -1,5 +1,3 @@
-import Foundation
-
 let position: String = "Employee"
 let year: Int = 1
 let isIntern: Bool = false

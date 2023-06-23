@@ -1,5 +1,3 @@
-import Foundation
-
 fileprivate enum MainDish {
 	case pasta(taste: String)
 	case pizza(dough: String, topping: String)

@@ -1,5 +1,3 @@
-import Foundation
-
 let bird: Set<String> = ["Chicken", "Dove", "Goose", "Swan"]
 let mammal: Set<String> = ["Bear", "Cat", "Dog", "Lion", "Wolf"]
 let animal: Set<String> = bird.union(mammal)

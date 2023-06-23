@@ -1,5 +1,3 @@
-import Foundation
-
 typealias PersonTuple = (name: String, age: Int, height: Double)
 
 var person: PersonTuple = ("John", 18, 182.4)

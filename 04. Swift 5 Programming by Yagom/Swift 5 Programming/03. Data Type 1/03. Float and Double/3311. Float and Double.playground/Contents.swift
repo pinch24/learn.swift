@@ -1,5 +1,3 @@
-import Foundation
-
 var floatValue: Float = 1234567890.1
 var doubleValue: Double = 1234567890.1
 

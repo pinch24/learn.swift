@@ -1,14 +1,12 @@
-import Foundation
-
 fileprivate enum School: String, CaseIterable {
-	case primary = "유치원"
-	case elementary = "초등학교"
-	case middle = "중학교"
-	case high = "고등학교"
-	case college = "대학"
-	case university = "대학교"
+	case primary = "Primary"
+	case elementary = "Elementary"
+	case middle = "Middle"
+	case high = "High"
+	case college = "College"
+	case university = "University"
 	@available(iOS, obsoleted: 12.0)
-	case graduate = "대학원"
+	case graduate = "Graduate"
 	
 	static var allCases: [School] {
 		let all: [School] = [.primary,

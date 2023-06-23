@@ -1,5 +1,3 @@
-import Foundation
-
 var unsignedInteger: UInt8 = 0
 //let errorUnderflowResult: UInt8 = unsignedInteger - 1	// Run-time Error
 let underflowedValue: UInt8 = unsignedInteger &- 1

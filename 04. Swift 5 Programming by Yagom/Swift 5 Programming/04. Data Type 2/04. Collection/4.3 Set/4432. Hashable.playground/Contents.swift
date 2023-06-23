@@ -1,5 +1,3 @@
-import Foundation
-
 var names: Set<String> = ["Alpha", "Bravo", "Charlie", "Delta"]
 print(names)
 

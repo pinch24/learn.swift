@@ -1,5 +1,3 @@
-import Foundation
-
 enum Menu {
 	case chicken
 	case beef

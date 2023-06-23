@@ -1,5 +1,3 @@
-import Foundation
-
 let intValue: Int = 1
 let resultValue1: Int = intValue << 3 + 5	// (intValue << 3) + 5
 let resultValue2: Int = 1 * 3 + 5			// (1 * 3) + 5

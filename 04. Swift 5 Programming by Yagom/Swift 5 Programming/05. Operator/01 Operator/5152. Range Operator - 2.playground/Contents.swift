@@ -1,5 +1,3 @@
-import Foundation
-
 for i in 5... {
 	guard i < 10 else { break }
 	print(i, terminator: " ")

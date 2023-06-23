@@ -1,5 +1,3 @@
-import Foundation
-
 let t = true
 let f = false
 

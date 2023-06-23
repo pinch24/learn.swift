@@ -1,5 +1,3 @@
-import Foundation
-
 fileprivate enum Numbers: Int {
 	case zero
 	case one

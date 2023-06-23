@@ -1,5 +1,3 @@
-import Foundation
-
 class Car2 {
 	var modelYear: Int?
 	var modelName: String?

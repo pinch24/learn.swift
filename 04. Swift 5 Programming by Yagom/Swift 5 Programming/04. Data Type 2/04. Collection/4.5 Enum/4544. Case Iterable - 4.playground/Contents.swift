@@ -1,5 +1,3 @@
-import Foundation
-
 fileprivate enum PastaTaste: CaseIterable { case cream, tomato }
 fileprivate enum PizzaDough: CaseIterable { case cheesecrust, thin, original }
 fileprivate enum PizzaTopping: CaseIterable { case pepperoni, cheese, bacon }

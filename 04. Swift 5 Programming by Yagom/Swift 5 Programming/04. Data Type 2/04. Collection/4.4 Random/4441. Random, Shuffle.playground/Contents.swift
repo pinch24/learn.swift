@@ -1,5 +1,3 @@
-import Foundation
-
 let array = Array<Int>(1 ... 10)
 print(array)
 print(array.randomElement() as Any)

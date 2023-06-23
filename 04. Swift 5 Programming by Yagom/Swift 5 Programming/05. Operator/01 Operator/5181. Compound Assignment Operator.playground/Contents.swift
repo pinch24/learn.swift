@@ -1,5 +1,3 @@
-import Foundation
-
 var a = 4
 let b = 2
 

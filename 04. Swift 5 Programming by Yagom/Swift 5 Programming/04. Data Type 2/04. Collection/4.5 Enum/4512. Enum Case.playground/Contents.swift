@@ -1,5 +1,3 @@
-import Foundation
-
 fileprivate enum School {
 	case primary, elementary, middle, high, college, university, graduate
 }
