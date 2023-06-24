@@ -463,4 +463,74 @@
          </FileRef>
       </Group>
    </Group>
+   <Group
+      location = "group:Swift 5 Programming/07. Functions"
+      name = "07. Functions">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/01. Function and Method"
+         name = "01. Function and Method">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration"
+         name = "02. Function Declaration">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:7211. Function Declaration.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7221. Parameter.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7222. Parameter - Name.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7223. Argument Label.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7224. Argument Label - Skip.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7225. Argument Label - Overload.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7226. Parameter - Default Value.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7227. Parameter - Variable.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7228. Parameter - inout.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7231. Function - void.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7241. Function - Type.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7241. Function - Type Alias.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7242. Function - Type Return.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7243. Function - Type Return Case.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7244. Function - Argument Label.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "03. Nested Function">
+      </Group>
+   </Group>
 </Workspace>
