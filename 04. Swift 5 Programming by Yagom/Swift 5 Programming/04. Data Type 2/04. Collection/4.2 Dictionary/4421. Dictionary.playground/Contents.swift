@@ -1,5 +1,3 @@
-import Foundation
-
 var numberForName1: Dictionary<String, Int> = Dictionary<String, Int>()
 var numberForName2: Dictionary<String, Int> = [:]
 var numberForName3 = Dictionary<String, Int>()

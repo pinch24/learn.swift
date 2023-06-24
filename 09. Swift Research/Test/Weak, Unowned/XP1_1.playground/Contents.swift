@@ -1,7 +1,6 @@
 import UIKit
 
 class A {
-	
 	var b: Int = 1
 	
 	func afterTwoSecPrint() {
@@ -12,11 +11,11 @@ class A {
 	}
 	
 	init() {
-		print("메모리에 할당되었습니다.")
+		print("Memory Allocated.")
 	}
 	
 	deinit {
-		print("메모리에서 해제되었습니다.")
+		print("Memory Released.")
 	}
 }
 
@@ -25,4 +24,4 @@ var a: A? = A()
 a?.afterTwoSecPrint()
 
 a = nil
-print("a에 nil을 할당한 시점")
+print("a Assigned to nil.")

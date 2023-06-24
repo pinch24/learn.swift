@@ -1,5 +1,3 @@
-import Foundation
-
 var name: String = "Hello"
 var age: Int = 10
 var height = 174.0

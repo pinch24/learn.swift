@@ -1,5 +1,3 @@
-import Foundation
-
 var numberD = 3.141592653589793
 var numberF: Float = 3.141592653589793
 

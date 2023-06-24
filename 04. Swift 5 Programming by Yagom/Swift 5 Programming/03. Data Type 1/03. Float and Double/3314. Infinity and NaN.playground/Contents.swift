@@ -1,5 +1,3 @@
-import Foundation
-
 var infinity = Float.infinity
 var nan = Float.nan
 

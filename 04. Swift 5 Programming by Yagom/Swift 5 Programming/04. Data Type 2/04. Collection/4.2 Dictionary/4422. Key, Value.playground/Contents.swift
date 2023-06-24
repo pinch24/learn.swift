@@ -1,5 +1,3 @@
-import Foundation
-
 let numberForName = ["Alpha": 1, "Bravo": 2, "Charlie": 3, "Delta": 4]
 print(numberForName["Alpha"] as Any)
 print(numberForName["Charlie"] as Any)

@@ -1,5 +1,3 @@
-import Foundation
-
 let names = ["Alpha", "Bravo", "Charlie", "Delta"]
 let index = names.firstIndex(of: "Bravo")
 print(index as Any)

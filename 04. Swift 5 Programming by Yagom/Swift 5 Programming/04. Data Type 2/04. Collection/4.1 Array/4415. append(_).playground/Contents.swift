@@ -1,5 +1,3 @@
-import Foundation
-
 var names = ["Alpha", "Bravo", "Charlie", "Delta"]
 names.append("Echo")
 print(names)

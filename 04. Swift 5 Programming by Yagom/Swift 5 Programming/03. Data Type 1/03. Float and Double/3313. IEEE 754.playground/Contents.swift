@@ -1,5 +1,3 @@
-import Foundation
-
 var numberF = Float(-4.5)	// 1 100.1 --> 1 1.001 e-2
 print("Value:       \(numberF)")
 print("Bit Pattern: \(String(numberF.bitPattern, radix: 2))")

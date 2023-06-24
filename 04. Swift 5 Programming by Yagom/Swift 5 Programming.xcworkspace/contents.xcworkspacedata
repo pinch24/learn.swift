@@ -26,6 +26,9 @@
          <FileRef
             location = "group:2212. String Interpolation.playground">
          </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/02. Start/02. Console Log/2213. print() Parameters.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:03. Comment"
@@ -295,84 +298,87 @@
          location = "group:01 Operator"
          name = "01 Operator">
          <FileRef
-            location = "group:5111. Assign.swift">
+            location = "group:5111. Assign.playground">
          </FileRef>
          <FileRef
-            location = "group:5121. Arithmetic.swift">
+            location = "group:5121. Arithmetic.playground">
          </FileRef>
          <FileRef
-            location = "group:5122. Arithmetic.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5122. Arithmetic - Remainder.playground">
          </FileRef>
          <FileRef
-            location = "group:5131. Comparison.swift">
+            location = "group:5123. Arithmetic - Type.playground">
          </FileRef>
          <FileRef
-            location = "group:5132. Reference Comparison.swift">
+            location = "group:5131. Comparison.playground">
          </FileRef>
          <FileRef
-            location = "group:5133. Pattern Match Comparison.swift">
+            location = "group:5132. Reference Comparison.playground">
          </FileRef>
          <FileRef
-            location = "group:5134. Pattern Match Comparison.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5133. Pattern Match Comparison - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:5141. Trinomial Condition Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5134. Pattern Match Comparison - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:5151. Range Operator.swift">
+            location = "group:5141. Trinomial Condition Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5152. Range Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5151. Range Operator - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:5161. Bool Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/01 Operator/5152. Range Operator - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:5171. Bit Operator.swift">
+            location = "group:5161. Bool Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5181. Compound Assignment Operator.swift">
+            location = "group:5171. Bit Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5191. Overflow Operator.swift">
+            location = "group:5181. Compound Assignment Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5192. Optional Operator.swift">
+            location = "group:5191. Overflow Operator.playground">
+         </FileRef>
+         <FileRef
+            location = "group:5192. Optional Operator.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:02 Operator Precedence"
          name = "02 Operator Precedence">
          <FileRef
-            location = "group:5201. Operator Precedence.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/02 Operator Precedence/5211. Operator Precedence.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:03 User-defined Operator"
          name = "03 User-defined Operator">
          <FileRef
-            location = "group:5211. Prefix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5311. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5212. Prefix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5312. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5213. Prefix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5313. Prefix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5221. Postfix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5321. Postfix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5222. Postfix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5322. Postfix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5223. Infix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5323. Infix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5224. Infix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5324. Infix Operator.playground">
          </FileRef>
          <FileRef
-            location = "group:5225. Infix Operator.swift">
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/05. Operator/03 User-defined Operator/5325. Infix Operator.playground">
          </FileRef>
       </Group>
    </Group>
@@ -384,15 +390,166 @@
       </FileRef>
       <Group
          location = "group:01 Condition Statement"
-         name = "01 Condition Statement">
+         name = "01 Conditional Statements">
          <FileRef
-            location = "group:6111. Condition.swift">
+            location = "group:6111. if - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:6112. Condition.swift">
+            location = "group:6112. if - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:6113. Condition.swift">
+            location = "group:6113. switch - Int.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6114. switch - Double.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6115. switch - String.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6116. switch - fallthrough.playground">
+         </FileRef>
+         <FileRef
+            location = "group:6117. switch - String Contains.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6118. switch - Tuple.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6119. switch - Wildcard.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6120. switch - Value Binding.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6121. switch - where.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6122. switch - Enum.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6123. switch - Enum All Cases.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/06. Control Flow/01 Condition Statement/6124. switch - @unknown.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:"
+         name = "02. Repeat Statements">
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6211. for-in.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6212. for-in - continue.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6213. for-in - String.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6214. for-in - Wildcard.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6215. for-in - Dictionary.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6221. while.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6231. repeat-while.playground">
+         </FileRef>
+         <FileRef
+            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6311. Labeled Statement.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Swift 5 Programming/07. Functions"
+      name = "07. Functions">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/01. Function and Method"
+         name = "01. Function and Method">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration"
+         name = "02. Function Declaration">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <FileRef
+            location = "group:7211. Function Declaration.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7221. Parameter.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7222. Parameter - Name.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7223. Argument Label.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7224. Argument Label - Skip.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7225. Argument Label - Overload.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7226. Parameter - Default Value.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7227. Parameter - Variable.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7228. Parameter - inout.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7231. Function - void.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7241. Function - Type.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7241. Function - Type Alias.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7242. Function - Type Return.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/02. Function Declaration/7243. Function - Type Return Case.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7244. Function - Argument Label.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/03. Nested Function"
+         name = "03. Nested Function">
+         <FileRef
+            location = "group:7311. Nested Function - Global.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7312. Nested Function - Local.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/04. Non-returning Function"
+         name = "04. Non-returning Function">
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/04. Non-returning Function/7411. Function - Never.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/05. Discardable Result Function"
+         name = "05. Discardable Result Function">
+         <FileRef
+            location = "group:7511. Function - @discardableResult.playground">
          </FileRef>
       </Group>
    </Group>

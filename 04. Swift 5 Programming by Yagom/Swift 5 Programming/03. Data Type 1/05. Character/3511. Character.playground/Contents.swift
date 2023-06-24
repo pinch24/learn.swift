@@ -1,5 +1,3 @@
-import Foundation
-
 let bigA: Character = "A"
 let check: Character = "✓"
 let dot: Character = "•"
