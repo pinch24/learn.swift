@@ -529,8 +529,28 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:"
+         location = "container:Swift 5 Programming/07. Functions/03. Nested Function"
          name = "03. Nested Function">
+         <FileRef
+            location = "group:7311. Nested Function - Global.playground">
+         </FileRef>
+         <FileRef
+            location = "group:7312. Nested Function - Local.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/04. Non-returning Function"
+         name = "04. Non-returning Function">
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/04. Swift 5 Programming by Yagom/Swift 5 Programming/07. Functions/04. Non-returning Function/7411. Function - Never.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:Swift 5 Programming/07. Functions/05. Discardable Result Function"
+         name = "05. Discardable Result Function">
+         <FileRef
+            location = "group:7511. Function - @discardableResult.playground">
+         </FileRef>
       </Group>
    </Group>
 </Workspace>
