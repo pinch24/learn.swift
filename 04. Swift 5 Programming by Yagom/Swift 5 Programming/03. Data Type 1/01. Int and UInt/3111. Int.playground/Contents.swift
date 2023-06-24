@@ -1,5 +1,3 @@
-import Foundation
-
 var i: Int = -100
 var u: UInt = 100
 print("\(i), \(u)")

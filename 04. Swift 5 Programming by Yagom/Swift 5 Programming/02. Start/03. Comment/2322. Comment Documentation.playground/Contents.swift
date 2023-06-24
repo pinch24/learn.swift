@@ -13,6 +13,5 @@ print("Comment Documentation")
 /// - Returns:
 ///     - result: Double
 func magnitude3D(x: Double, y: Double, z: Double) -> Double {
-    
     return sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2))
 }

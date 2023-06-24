@@ -1,5 +1,3 @@
-import Foundation
-
 print(Int.random(in: -100 ... 100))
 print(UInt.random(in: 0 ... 100))
 print(Float.random(in: -1.5 ... 1.5))

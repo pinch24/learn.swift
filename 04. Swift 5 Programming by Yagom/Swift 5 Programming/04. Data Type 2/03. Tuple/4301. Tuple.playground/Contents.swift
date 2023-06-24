@@ -1,5 +1,3 @@
-import Foundation
-
 var person: (String, Int, Double) = ("John", 18, 182.4)
 print("Name: \(person.0), Age: \(person.1), Height: \(person.2)")
 

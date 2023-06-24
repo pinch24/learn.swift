@@ -1,5 +1,3 @@
-import Foundation
-
 var greeting = "Hello"
 greeting.append(contentsOf: ", world.")
 print(greeting)

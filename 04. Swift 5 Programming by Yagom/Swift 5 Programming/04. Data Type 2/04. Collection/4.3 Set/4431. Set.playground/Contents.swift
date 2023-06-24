@@ -1,5 +1,3 @@
-import Foundation
-
 let names1: Set<String> = Set<String>()
 let names2: Set<String> = []
 

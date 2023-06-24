@@ -1,7 +1,6 @@
 import UIKit
 
 func makeIncrementer(forIncrement amount: Int) -> () -> Int {
-	
 	var runnungTotal = 0
 	
 	func increment() -> Int {
