@@ -553,4 +553,11 @@
          </FileRef>
       </Group>
    </Group>
+   <Group
+      location = "group:Swift 5 Programming/08. Optional"
+      name = "08. Optional">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
 </Workspace>
