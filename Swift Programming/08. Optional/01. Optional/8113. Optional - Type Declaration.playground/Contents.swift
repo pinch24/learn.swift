@@ -1,3 +1,4 @@
+#if ERROR
 @frozen public enum Optional<Wrapped> : ExpressibleByNilLiteral {
 	case none
 	case some(Wrapped)
@@ -9,7 +10,7 @@
 	
 	public init(nilLiteral: ())
 
-	@inlinable public var unsafelyUnwrapped: Wrapped { get }
+	// @inlinable public var unsafelyUnwrapped: Wrapped { get }
 
 	public static func ~= (lhs: _OptionalNilComparisonType, rhs: Wrapped?) -> Bool
 	public static func == (lhs: Wrapped?, rhs: _OptionalNilComparisonType) -> Bool
@@ -17,6 +18,7 @@
 	public static func == (lhs: _OptionalNilComparisonType, rhs: Wrapped?) -> Bool
 	public static func != (lhs: _OptionalNilComparisonType, rhs: Wrapped?) -> Bool
 }
+#endif
 
 /**
  * 옵셔널은 제네릭이 적용된 열거형이다.

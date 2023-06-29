@@ -1,17 +1,19 @@
 var name1: String = "Chris"
 print(name1)
 
-//name1 = nil		// Error!
-//print(name1)
+#if ERROR
+name1 = nil		// Error!
+#endif
+print(name1)
 
 var name2: String? = "Lattner"
-print(name2)
+print(name2 as Any)
 
 name2 = nil
-print(name2)
+print(name2 as Any)
 
 var name3: Optional<String> = "Swift"
-print(name3)
+print(name3 as Any)
 
 /**
  * ## 8.1 옵셔널의 사용

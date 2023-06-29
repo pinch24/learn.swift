@@ -2,7 +2,9 @@ var myName: String? = "Chris"
 var chris: String = myName!
 
 myName = nil
-//chris = myName!	// Error!
+#if ERROR
+chris = myName!	// Error!
+#endif
 
 if myName != nil {
 	print("My name is \(myName!)")

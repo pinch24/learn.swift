@@ -598,4 +598,47 @@
          </FileRef>
       </Group>
    </Group>
+   <Group
+      location = "container:09. Struct and Class"
+      name = "09. Struct and Class">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "container:09. Struct and Class/01. Struct"
+         name = "01. Struct">
+         <FileRef
+            location = "group:9111. Struct.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:09. Struct and Class/02. Class"
+         name = "02. Class">
+         <FileRef
+            location = "group:9211. Class.playground">
+         </FileRef>
+         <FileRef
+            location = "group:9212. Class Instance.playground">
+         </FileRef>
+         <FileRef
+            location = "group:9213. Class - deinit.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:09. Struct and Class/03. Struct and Class"
+         name = "03. Struct and Class">
+         <FileRef
+            location = "group:9311. Struct and Class.playground">
+         </FileRef>
+         <FileRef
+            location = "group:9312. Identity Operators.playground">
+         </FileRef>
+         <FileRef
+            location = "group:9313. Struct.playground">
+         </FileRef>
+         <FileRef
+            location = "group:9314. Copy on Write.playground">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
