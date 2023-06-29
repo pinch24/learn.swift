@@ -559,5 +559,43 @@
       <FileRef
          location = "group:../../README.md">
       </FileRef>
+      <Group
+         location = "container:08. Optional/01. Optional"
+         name = "01. Optional">
+         <FileRef
+            location = "group:8111. Optional.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/08. Optional/01. Optional/8112. Optional - Type Inference.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/08. Optional/01. Optional/8113. Optional - Type Declaration.playground">
+         </FileRef>
+         <FileRef
+            location = "group:8114. Optional - Switch Case.playground">
+         </FileRef>
+         <FileRef
+            location = "group:8115. Optional - Switch Where.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "container:08. Optional/02. Optional Unwrapping"
+         name = "02. Optional Unwrapping">
+         <FileRef
+            location = "group:8211. Optional Unwrapping.playground">
+         </FileRef>
+         <FileRef
+            location = "group:8212. Forced Unwrapping.playground">
+         </FileRef>
+         <FileRef
+            location = "group:8213. Optional Binding.playground">
+         </FileRef>
+         <FileRef
+            location = "group:8214. Optiona Binding.playground">
+         </FileRef>
+         <FileRef
+            location = "group:8215. Implicity Unwrapped Optionals.playground">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>
