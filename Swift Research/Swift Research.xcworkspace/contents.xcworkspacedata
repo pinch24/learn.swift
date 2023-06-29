@@ -18,7 +18,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "group:/Users/mk/Studies/learn.swift/09. Swift Research/Test/Capturing Value"
+         location = "group:Capturing Value"
          name = "Capturing Value">
          <FileRef
             location = "group:README.md">
@@ -63,10 +63,10 @@
       location = "container:Async"
       name = "Async">
       <FileRef
-         location = "group:/Users/mk/Studies/learn.swift/09. Swift Research/Async/AsyncAwait - 1.playground">
+         location = "group:AsyncAwait - 1.playground">
       </FileRef>
       <FileRef
-         location = "group:/Users/mk/Studies/learn.swift/09. Swift Research/Async/AsyncAwait - 2.playground">
+         location = "group:AsyncAwait - 2.playground">
       </FileRef>
       <FileRef
          location = "group:AsyncAwait - 3.playground">
