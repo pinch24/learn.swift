@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "group:Swift 5 Programming/01. Swift"
+      location = "group:01. Swift"
       name = "01. Swift">
       <FileRef
          location = "group:README.md">
@@ -12,7 +12,7 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/02. Start"
+      location = "group:02. Start"
       name = "02. Start">
       <FileRef
          location = "group:README.md">
@@ -55,7 +55,7 @@
       </Group>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/03. Data Type 1"
+      location = "group:03. Data Type 1"
       name = "03. Data Type 1">
       <FileRef
          location = "group:README.md">
@@ -97,21 +97,21 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/04. Random Number"
+         location = "container:03. Data Type 1/04. Random Number"
          name = "04. Random Number">
          <FileRef
             location = "group:3411. Random Number.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/05. Character"
+         location = "container:03. Data Type 1/05. Character"
          name = "05. Character">
          <FileRef
             location = "group:3511. Character.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/06. String"
+         location = "container:03. Data Type 1/06. String"
          name = "06. String">
          <FileRef
             location = "group:3611. String.playground">
@@ -130,7 +130,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/03. Data Type 1/07. Any, AnyObject and nil"
+         location = "container:03. Data Type 1/07. Any, AnyObject and nil"
          name = "07. Any, AnyObject and nil">
          <FileRef
             location = "group:3711. Any, AnyObject.playground">
@@ -138,7 +138,7 @@
       </Group>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/04. Data Type 2"
+      location = "group:04. Data Type 2"
       name = "04. Data Type 2">
       <FileRef
          location = "group:README.md">
@@ -289,7 +289,7 @@
       </Group>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/05. Operator"
+      location = "group:05. Operator"
       name = "05. Operator">
       <FileRef
          location = "group:README.md">
@@ -383,7 +383,7 @@
       </Group>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/06. Control Flow"
+      location = "group:06. Control Flow"
       name = "06. Control Flow">
       <FileRef
          location = "group:README.md">
@@ -435,42 +435,42 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:"
+         location = "container:06. Control Flow/02. Repeat Statements"
          name = "02. Repeat Statements">
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6211. for-in.playground">
+            location = "group:6211. for-in.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6212. for-in - continue.playground">
+            location = "group:6212. for-in - continue.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6213. for-in - String.playground">
+            location = "group:6213. for-in - String.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6214. for-in - Wildcard.playground">
+            location = "group:6214. for-in - Wildcard.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6215. for-in - Dictionary.playground">
+            location = "group:6215. for-in - Dictionary.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6221. while.playground">
+            location = "group:6221. while.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6231. repeat-while.playground">
+            location = "group:6231. repeat-while.playground">
          </FileRef>
          <FileRef
-            location = "group:Swift 5 Programming/06. Control Flow/02. Repeat Statements/6311. Labeled Statement.playground">
+            location = "group:6311. Labeled Statement.playground">
          </FileRef>
       </Group>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/07. Functions"
+      location = "group:07. Functions"
       name = "07. Functions">
       <FileRef
          location = "group:README.md">
       </FileRef>
       <Group
-         location = "container:Swift 5 Programming/07. Functions/01. Function and Method"
+         location = "container:07. Functions/01. Function and Method"
          name = "01. Function and Method">
          <FileRef
             location = "group:README.md">
@@ -529,7 +529,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/07. Functions/03. Nested Function"
+         location = "container:07. Functions/03. Nested Function"
          name = "03. Nested Function">
          <FileRef
             location = "group:7311. Nested Function - Global.playground">
@@ -539,14 +539,14 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/07. Functions/04. Non-returning Function"
+         location = "container:07. Functions/04. Non-returning Function"
          name = "04. Non-returning Function">
          <FileRef
             location = "group:7411. Function - Never.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:Swift 5 Programming/07. Functions/05. Discardable Result Function"
+         location = "container:07. Functions/05. Discardable Result Function"
          name = "05. Discardable Result Function">
          <FileRef
             location = "group:7511. Function - @discardableResult.playground">
@@ -554,10 +554,10 @@
       </Group>
    </Group>
    <Group
-      location = "group:Swift 5 Programming/08. Optional"
+      location = "group:08. Optional"
       name = "08. Optional">
       <FileRef
-         location = "group:README.md">
+         location = "group:../../README.md">
       </FileRef>
    </Group>
 </Workspace>
