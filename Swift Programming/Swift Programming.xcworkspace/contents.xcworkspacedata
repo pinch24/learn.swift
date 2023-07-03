@@ -651,16 +651,16 @@
          location = "group:01. Property"
          name = "01. Property">
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10111. Properties.playground">
+            location = "group:README.md">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10112. Stored Properties - 1.playground">
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10111. Stored Properties - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10113. Stored Properties - 2.playground">
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10112. Stored Properties - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:10114. Stored Properties - 3.playground">
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10113. Stored Properties - 3.playground">
          </FileRef>
          <FileRef
             location = "group:10121. Lazy Stored Properties.playground">
@@ -688,6 +688,43 @@
          </FileRef>
          <FileRef
             location = "group:10151. Local Variable.playground">
+         </FileRef>
+         <FileRef
+            location = "group:10161. Type Property.playground">
+         </FileRef>
+         <FileRef
+            location = "group:10162. Type Property Usage.playground">
+         </FileRef>
+         <FileRef
+            location = "group:10171. Key Path.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10172. Key Path Subscript.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:02. Method"
+         name = "02. Method">
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10211. Instance Method.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10212. mutating.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10213. self.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10214. self and mutating.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10215. Enum - Toggle State.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10221. Type Method.playground">
+         </FileRef>
+         <FileRef
+            location = "group:10222. Type Method - self.playground">
          </FileRef>
       </Group>
    </Group>
