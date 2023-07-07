@@ -8,11 +8,15 @@ i = Int.max
 u = UInt.max
 print("\(i), \(u)")
 
-//i += 1				// Error: Overflow
-//u += 1				// Error: Overflow
-//print("\(i), \(u)")
+#if ERROR
+i += 1				// Error: Overflow
+u += 1				// Error: Overflow
+print("\(i), \(u)")
+#endif
 
-//i = Int(u)			// Fatal Error
+#if ERROR
+i = Int(u)			// Fatal Error
+#endif
 u = UInt(i)
 print("\(i), \(u)")
 
