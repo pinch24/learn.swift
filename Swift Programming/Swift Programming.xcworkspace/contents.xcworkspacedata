@@ -728,4 +728,58 @@
          </FileRef>
       </Group>
    </Group>
+   <Group
+      location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle"
+      name = "11. Instance Life Cycle">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:01. Initializer"
+         name = "01. Initializer">
+         <FileRef
+            location = "group:11111. Instance Creation.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11112. Property - Initializer.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11113. Property - Default Value.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11121. Initializer Parameter.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11122. Optional Property Type.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11141. Constant Property.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11142. Class Property.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11151. Memberwise Initializer.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11161. self.init.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11171. Failable Initializer - Struct.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11172. Failable Initializer - Enum.playground">
+         </FileRef>
+         <FileRef
+            location = "group:11181. Set Property Default Value.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:02. Deinitializer"
+         name = "02. Deinitializer">
+         <FileRef
+            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/02. Deinitializer/11211. Deinitializer.playground">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
