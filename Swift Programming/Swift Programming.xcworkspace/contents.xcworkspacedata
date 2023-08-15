@@ -42,6 +42,9 @@
          <FileRef
             location = "group:2322. Comment Documentation.playground">
          </FileRef>
+         <FileRef
+            location = "group:2323. Commet Notation.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:04. Varialble and Constant"
@@ -782,6 +785,59 @@
          name = "02. Deinitializer">
          <FileRef
             location = "group:11211. Deinitializer.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:12. Access Control"
+      name = "12. Access Control">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "container:12. Access Control/01. Access Control"
+         name = "01. Access Control">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:02. Access Level"
+         name = "02. Access Level">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/02. Access Level/12211. public.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/02. Access Level/12212. open.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12213. internal.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12214. fileprivate.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12215. private.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:03. Access Control Implement"
+         name = "03. Access Control Implement">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/03. Access Control Implement/12311. Implement.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/04. Access Control Reference"
+         name = "04. Access Control Reference">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/04. Access Control Reference/12411. Incorrect Access Control.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12412. Access Control - Tuple.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12413. Access Control - Test.playground">
          </FileRef>
       </Group>
    </Group>
