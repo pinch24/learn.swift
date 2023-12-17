@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
    <Group
       location = "group:01. Swift"
       name = "01. Swift">
@@ -14,9 +17,6 @@
    <Group
       location = "group:02. Start"
       name = "02. Start">
-      <FileRef
-         location = "group:README.md">
-      </FileRef>
       <Group
          location = "group:02. Console Log"
          name = "02. Console Log">
@@ -42,10 +42,16 @@
          <FileRef
             location = "group:2322. Comment Documentation.playground">
          </FileRef>
+         <FileRef
+            location = "group:2323. Commet Notation.playground">
+         </FileRef>
       </Group>
       <Group
          location = "group:04. Varialble and Constant"
          name = "04. Varialble and Constant">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/02. Start/04. Varialble and Constant/README.md">
+         </FileRef>
          <FileRef
             location = "group:2411. Variable.playground">
          </FileRef>
@@ -97,21 +103,21 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:03. Data Type 1/04. Random Number"
+         location = "group:04. Random Number"
          name = "04. Random Number">
          <FileRef
             location = "group:3411. Random Number.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:03. Data Type 1/05. Character"
+         location = "group:05. Character"
          name = "05. Character">
          <FileRef
             location = "group:3511. Character.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:03. Data Type 1/06. String"
+         location = "group:06. String"
          name = "06. String">
          <FileRef
             location = "group:3611. String.playground">
@@ -130,7 +136,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:03. Data Type 1/07. Any, AnyObject and nil"
+         location = "group:07. Any, AnyObject and nil"
          name = "07. Any, AnyObject and nil">
          <FileRef
             location = "group:3711. Any, AnyObject.playground">
@@ -390,7 +396,7 @@
       </FileRef>
       <Group
          location = "group:01 Condition Statement"
-         name = "01 Conditional Statements">
+         name = "01 Condition Statement">
          <FileRef
             location = "group:6111. if - 1.playground">
          </FileRef>
@@ -435,7 +441,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:06. Control Flow/02. Repeat Statements"
+         location = "group:02. Repeat Statements"
          name = "02. Repeat Statements">
          <FileRef
             location = "group:6211. for-in.playground">
@@ -470,7 +476,7 @@
          location = "group:README.md">
       </FileRef>
       <Group
-         location = "container:07. Functions/01. Function and Method"
+         location = "group:01. Function and Method"
          name = "01. Function and Method">
          <FileRef
             location = "group:README.md">
@@ -529,7 +535,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:07. Functions/03. Nested Function"
+         location = "group:03. Nested Function"
          name = "03. Nested Function">
          <FileRef
             location = "group:7311. Nested Function - Global.playground">
@@ -539,14 +545,14 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:07. Functions/04. Non-returning Function"
+         location = "group:04. Non-returning Function"
          name = "04. Non-returning Function">
          <FileRef
             location = "group:7411. Function - Never.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:07. Functions/05. Discardable Result Function"
+         location = "group:05. Discardable Result Function"
          name = "05. Discardable Result Function">
          <FileRef
             location = "group:7511. Function - @discardableResult.playground">
@@ -557,19 +563,19 @@
       location = "group:08. Optional"
       name = "08. Optional">
       <FileRef
-         location = "group:../../README.md">
+         location = "group:README.md">
       </FileRef>
       <Group
-         location = "container:08. Optional/01. Optional"
+         location = "group:01. Optional"
          name = "01. Optional">
          <FileRef
             location = "group:8111. Optional.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/08. Optional/01. Optional/8112. Optional - Type Inference.playground">
+            location = "group:8112. Optional - Type Inference.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/08. Optional/01. Optional/8113. Optional - Type Declaration.playground">
+            location = "group:8113. Optional - Type Declaration.playground">
          </FileRef>
          <FileRef
             location = "group:8114. Optional - Switch Case.playground">
@@ -579,7 +585,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:08. Optional/02. Optional Unwrapping"
+         location = "group:02. Optional Unwrapping"
          name = "02. Optional Unwrapping">
          <FileRef
             location = "group:8211. Optional Unwrapping.playground">
@@ -599,20 +605,20 @@
       </Group>
    </Group>
    <Group
-      location = "container:09. Struct and Class"
+      location = "group:09. Struct and Class"
       name = "09. Struct and Class">
       <FileRef
          location = "group:README.md">
       </FileRef>
       <Group
-         location = "container:09. Struct and Class/01. Struct"
+         location = "group:01. Struct"
          name = "01. Struct">
          <FileRef
             location = "group:9111. Struct.playground">
          </FileRef>
       </Group>
       <Group
-         location = "container:09. Struct and Class/02. Class"
+         location = "group:02. Class"
          name = "02. Class">
          <FileRef
             location = "group:9211. Class.playground">
@@ -625,7 +631,7 @@
          </FileRef>
       </Group>
       <Group
-         location = "container:09. Struct and Class/03. Struct and Class"
+         location = "group:03. Struct and Class"
          name = "03. Struct and Class">
          <FileRef
             location = "group:9311. Struct and Class.playground">
@@ -654,37 +660,37 @@
             location = "group:README.md">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10111. Stored Properties - 1.playground">
+            location = "group:10111. Stored Properties - 1.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10112. Stored Properties - 2.playground">
+            location = "group:10112. Stored Properties - 2.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10113. Stored Properties - 3.playground">
+            location = "group:10113. Stored Properties - 3.playground">
          </FileRef>
          <FileRef
             location = "group:10121. Lazy Stored Properties.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10131. Mutating Function.playground">
+            location = "group:10131. Mutating Function.playground">
          </FileRef>
          <FileRef
             location = "group:10132. Computed Properties.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10133. Getter, Setter.playground">
+            location = "group:10133. Getter, Setter.playground">
          </FileRef>
          <FileRef
             location = "group:10134. Readonly Computed Property.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10141. Property Observer.playground">
+            location = "group:10141. Property Observer.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10142. Inherited Computed Property Observer.playground">
+            location = "group:10142. Inherited Computed Property Observer.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/101343 inout Property Observer.playground">
+            location = "group:10143 inout Property Observer.playground">
          </FileRef>
          <FileRef
             location = "group:10151. Local Variable.playground">
@@ -699,29 +705,29 @@
             location = "group:10171. Key Path.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/01. Property/10172. Key Path Subscript.playground">
+            location = "group:10172. Key Path Subscript.playground">
          </FileRef>
       </Group>
       <Group
          location = "group:02. Method"
          name = "02. Method">
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10211. Instance Method.playground">
+            location = "group:10211. Instance Method.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10212. mutating.playground">
+            location = "group:10212. mutating.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10213. self.playground">
+            location = "group:10213. self.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10214. self and mutating.playground">
+            location = "group:10214. self and mutating.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10215. Enum - Toggle State.playground">
+            location = "group:10215. Enum - Toggle State.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/10. Property and Method/02. Method/10221. Type Method.playground">
+            location = "group:10221. Type Method.playground">
          </FileRef>
          <FileRef
             location = "group:10222. Type Method - self.playground">
@@ -729,7 +735,7 @@
       </Group>
    </Group>
    <Group
-      location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle"
+      location = "group:11. Instance Life Cycle"
       name = "11. Instance Life Cycle">
       <FileRef
          location = "group:README.md">
@@ -741,7 +747,7 @@
             location = "group:11111. Instance Creation.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11112. Property - Initializer.playground">
+            location = "group:11112. Property - Initializer.playground">
          </FileRef>
          <FileRef
             location = "group:11113. Property - Default Value.playground">
@@ -759,13 +765,13 @@
             location = "group:11142. Class Property.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11151. Memberwise Initializer.playground">
+            location = "group:11151. Memberwise Initializer.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11161. self.init.playground">
+            location = "group:11161. self.init.playground">
          </FileRef>
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/01. Initializer/11171. Failable Initializer - Struct.playground">
+            location = "group:11171. Failable Initializer - Struct.playground">
          </FileRef>
          <FileRef
             location = "group:11172. Failable Initializer - Enum.playground">
@@ -778,7 +784,60 @@
          location = "group:02. Deinitializer"
          name = "02. Deinitializer">
          <FileRef
-            location = "group:/Users/mk/Studies/learn.swift/Swift Programming/11. Instance Life Cycle/02. Deinitializer/11211. Deinitializer.playground">
+            location = "group:11211. Deinitializer.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:12. Access Control"
+      name = "12. Access Control">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "container:12. Access Control/01. Access Control"
+         name = "01. Access Control">
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:02. Access Level"
+         name = "02. Access Level">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/02. Access Level/12211. public.playground">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/02. Access Level/12212. open.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12213. internal.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12214. fileprivate.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12215. private.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:03. Access Control Implement"
+         name = "03. Access Control Implement">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/03. Access Control Implement/12311. Implement.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/04. Access Control Reference"
+         name = "04. Access Control Reference">
+         <FileRef
+            location = "group:/Users/quasy/Studies/learn.swift/Swift Programming/12. Access Control/04. Access Control Reference/12411. Incorrect Access Control.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12412. Access Control - Tuple.playground">
+         </FileRef>
+         <FileRef
+            location = "group:12413. Access Control - Test.playground">
          </FileRef>
       </Group>
    </Group>
