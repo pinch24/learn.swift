@@ -2,8 +2,11 @@
   "colors" : [
     {
       "color" : {
-        "platform" : "universal",
-        "reference" : "systemIndigoColor"
+        "color-space" : "gray-gamma-22",
+        "components" : {
+          "alpha" : "1.000",
+          "white" : "0xBF"
+        }
       },
       "idiom" : "universal"
     },
@@ -15,8 +18,11 @@
         }
       ],
       "color" : {
-        "platform" : "ios",
-        "reference" : "systemBrownColor"
+        "color-space" : "gray-gamma-22",
+        "components" : {
+          "alpha" : "1.000",
+          "white" : "0x3F"
+        }
       },
       "idiom" : "universal"
     }

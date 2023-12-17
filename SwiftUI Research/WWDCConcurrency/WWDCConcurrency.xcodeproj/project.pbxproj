@@ -15,7 +15,7 @@
 		1A18A34E2B2BD40F00ACDD6D /* WWDCConcurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18A34D2B2BD40F00ACDD6D /* WWDCConcurrencyUITests.swift */; };
 		1A18A3502B2BD40F00ACDD6D /* WWDCConcurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18A34F2B2BD40F00ACDD6D /* WWDCConcurrencyUITestsLaunchTests.swift */; };
 		1A18A35D2B2BD4A200ACDD6D /* WWDC2021_10132.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18A35C2B2BD4A200ACDD6D /* WWDC2021_10132.swift */; };
-		1A270DB62B2C178400E24943 /* FetchImageModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A270DB52B2C178400E24943 /* FetchImageModelTests.swift */; };
+		1A270DB62B2C178400E24943 /* WWDC2021_10132_FetchImageModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A270DB52B2C178400E24943 /* WWDC2021_10132_FetchImageModelTests.swift */; };
 		1A270DB92B2C309600E24943 /* WWDC2021_10133.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A270DB82B2C309600E24943 /* WWDC2021_10133.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		1A18A34D2B2BD40F00ACDD6D /* WWDCConcurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCConcurrencyUITests.swift; sourceTree = "<group>"; };
 		1A18A34F2B2BD40F00ACDD6D /* WWDCConcurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCConcurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A18A35C2B2BD4A200ACDD6D /* WWDC2021_10132.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2021_10132.swift; sourceTree = "<group>"; };
-		1A270DB52B2C178400E24943 /* FetchImageModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchImageModelTests.swift; sourceTree = "<group>"; };
+		1A270DB52B2C178400E24943 /* WWDC2021_10132_FetchImageModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2021_10132_FetchImageModelTests.swift; sourceTree = "<group>"; };
 		1A270DB82B2C309600E24943 /* WWDC2021_10133.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2021_10133.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				1A18A3432B2BD40F00ACDD6D /* WWDCConcurrencyTests.swift */,
-				1A270DB52B2C178400E24943 /* FetchImageModelTests.swift */,
+				1A270DB52B2C178400E24943 /* WWDC2021_10132_FetchImageModelTests.swift */,
 			);
 			path = WWDCConcurrencyTests;
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A270DB62B2C178400E24943 /* FetchImageModelTests.swift in Sources */,
+				1A270DB62B2C178400E24943 /* WWDC2021_10132_FetchImageModelTests.swift in Sources */,
 				1A18A3442B2BD40F00ACDD6D /* WWDCConcurrencyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

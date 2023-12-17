@@ -19,53 +19,55 @@ struct WWDC2021_10132: View {
 	fileprivate let model = FetchImageModel()
 	
 	var body: some View {
-		Group {
-			Text("""
-			3:43 - Writing a function using completion handlers
-			8:00 - Using completion handlers with the Result type
-			8:30 - Using async/await
-			13:15 - Async properties
-			14:17 - Async sequences
-			21:22 - Testing using XCTestExpectation
-			21:56 - Testing using async/await
-			""")
-			.font(.callout)
-			.padding(8)
+		ZStack {
+			Color.gray
 			
-			ScrollView(.horizontal) {
-				LazyHGrid(rows: [GridItem(.flexible())], content: {
-					ForEach(images.reversed(), id: \.self) { image in
-						Image(uiImage: image)
-							.frame(width: model.imageSize, height: model.imageSize)
-							.aspectRatio(contentMode: .fit)
+			VStack {
+				ZStack {
+					RoundedRectangle(cornerRadius: 20)
+						.fill(.foreground.opacity(0.2))
+						.frame(height: 144)
+					
+					ScrollView(.horizontal) {
+						LazyHGrid(rows: [GridItem(.flexible())], content: {
+							ForEach(images.reversed(), id: \.self) { image in
+								Image(uiImage: image)
+									.frame(width: model.imageSize, height: model.imageSize)
+									.aspectRatio(contentMode: .fit)
+							}
+						})
 					}
-				})
-			}
-			
-			Text("Count: \(images.count)")
-				.padding(.bottom, 88)
-			
-			Button(action: {
-				Task {
-					await refreshImages()
+					.frame(height: 144)
+					.padding()
 				}
-			}, label: {
-				Image(systemName: "square.and.arrow.down")
-					.font(.system(size: model.imageSize))
-					.foregroundColor(.indigo)
-					.fontWeight(.bold)
-					.opacity(isLoading ? 0.4 : 1.0)
-			})
-			.disabled(isLoading)
+				
+				Text("Count: \(images.count)")
+					.padding(.bottom, 88)
+				
+				Button(action: {
+					Task {
+						await refreshImages()
+					}
+				}, label: {
+					Image(systemName: "square.and.arrow.down")
+						.font(.system(size: 44))
+						.foregroundColor(.indigo)
+						.fontWeight(.bold)
+						.opacity(isLoading ? 0.4 : 1.0)
+				})
+				.disabled(isLoading)
+			}
+			.padding()
+			.task {
+				await refreshImages()
+			}
 		}
-		.task {
-			await refreshImages()
-		}
+		.ignoresSafeArea()
 	}
 	
 	func refreshImages() async {
 		do {
-			for try await index in asyncCounter {
+			for try await _ in asyncCounter {
 				isLoading = true
 				let thumbnail = try await model.fetchThumbnail(url: imageUrl)
 				isLoading = false
