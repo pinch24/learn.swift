@@ -11,17 +11,51 @@
 import SwiftUI
 
 struct WWDC2021_10133: View {
+	@State var count = 0
+	
+	@State var image: Image = Image(systemName: "star")
+	@State var imageUrl = ""
+	@State var imageCount = 0
+	fileprivate let imageDownloader = ImageDownloader()
+	
 	var body: some View {
-        Text("Protect mutable state with Swift actors")
-			.task {
-				let counter = Counter()
-				for _ in 0...99 {
-					Task.detached {
-						print("Counter: ", await counter.increment())
-					}
-				}
+		VStack {
+			Text("Protect mutable state with Swift actors")
+				.task { refreshCounter() }
+			Text("Count: \(count)")
+			Button("Refresh Counter") {
+				refreshCounter()
 			}
+			
+			image
+				.resizable()
+				.frame(width: 400, height: 400)
+			Text(imageUrl)
+			Text("Image Count: \(imageCount)")
+		}
     }
+	
+	fileprivate func refreshCounter() {
+		let counter = Counter()
+		for index in 0...99 {
+			Task.detached {
+				// Delay
+				try? await Task.sleep(for: .seconds(index))
+				
+				// Set Count
+				let count = await counter.increment()
+				self.count = count
+				print("Counter: ", count)
+				
+				// Set Image
+				self.imageUrl = "https://picsum.photos/\(4000)"
+				guard let url = URL(string: imageUrl) else { return }
+				guard let image = try! await imageDownloader.image(from: url) else  { return }
+				self.image = image
+				self.imageCount = await imageDownloader.cache.count
+			}
+		}
+	}
 }
 
 fileprivate actor Counter {
@@ -33,20 +67,35 @@ fileprivate actor Counter {
 	}
 }
 
-// fileprivate actor ImageDownloader {
-// 	private var cache: [URL: Image] = [:]
-// 	
-// 	func image(from url: URL) async throws -> Image? {
-// 		if let cached = cache[url] {
-// 			return cached
-// 		}
-// 		
-// 		let image = try await downloadImage(from: url)
-// 		
-// 		cache[url] = image
-// 		return image
-// 	}
-// }
+fileprivate actor ImageDownloader {
+	enum ImageError: Error {
+		case invalidURL
+		case invalidImage
+		case noImageData
+		case unableToCreateThumbnail
+	}
+	
+	var cache: [URL: Image] = [:]
+	
+	func image(from url: URL) async throws -> Image? {
+		if let cached = cache[url] {
+			return cached
+		}
+		
+		print("URL Image Request >>>>", url.description, cache.count)
+		let image = try await downloadImage(from: url)
+		print("URL Image Response <<<<", url.description, cache.count)
+		
+		cache[url] = image
+		return image
+	}
+	
+	func downloadImage(from: URL) async throws -> Image {
+		async let (data, _) = URLSession.shared.data(from: from)
+		guard let uiImage = UIImage(data: try await data) else { throw ImageError.invalidImage }
+		return Image(uiImage: uiImage)
+	}
+}
 
 #Preview {
     WWDC2021_10133()
