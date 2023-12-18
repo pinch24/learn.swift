@@ -39,9 +39,6 @@ struct WWDC2021_10133: View {
 		let counter = Counter()
 		for index in 0...99 {
 			Task.detached {
-				// Delay
-				try? await Task.sleep(for: .seconds(index))
-				
 				// Set Count
 				let count = await counter.increment()
 				self.count = count
@@ -68,13 +65,14 @@ fileprivate actor Counter {
 }
 
 fileprivate actor ImageDownloader {
+	// MARK: - Image Cache
 	enum CacheEntry {
 		case inProgress(Task<Image, Error>)
 		case ready(Image)
 	}
-	
 	var cache: [URL: CacheEntry] = [:]
 	
+	// MARK: - Image Downloader
 	func image(from url: URL) async throws -> Image? {
 		if let cached = cache[url] {
 			switch cached {
@@ -85,11 +83,10 @@ fileprivate actor ImageDownloader {
 			}
 		}
 		
-		print("URL Image Request >>>>", url.description, cache.count)
 		let task = Task {
 			try await downloadImage(from: url)
 		}
-		print("URL Image Response <<<<", url.description, cache.count)
+		print("URL Image Response: ", url.description, cache.count)
 		
 		cache[url] = .inProgress(task)
 		
@@ -104,6 +101,7 @@ fileprivate actor ImageDownloader {
 		}
 	}
 	
+	// MARK: - Download Image
 	private enum ImageError: Error {
 		case invalidURL
 		case invalidImage
