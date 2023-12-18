@@ -92,7 +92,6 @@ struct AsyncCounter: AsyncSequence {
 			guard count <= limit else {
 				return nil
 			}
-			
 			defer { count += 1 }
 			return count
 		}
