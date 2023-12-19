@@ -31,7 +31,6 @@ func fetchMultiImages(urlString: String, count: Int) async throws -> [String: UI
 	return images
 }
 
-/// 7:59 - Structured concurrency with async let
 func fetchImage(urlString: String, id: String, step: Int) async throws -> UIImage {
 	print(getThreadInfo(), "\t\t\t\t", id, String(format: "%2d.1", step), #function)
 	
@@ -45,18 +44,3 @@ func fetchImage(urlString: String, id: String, step: Int) async throws -> UIImag
 	
 	return image
 }
-
-/// 2:56 - Asynchronous code with async/await is structured
-// func fetchImage(urlString: String, id: String, step: Int) async throws -> UIImage {
-// 	print(getThreadInfo(), "\t\t\t\t", id, String(format: "%2d.1", step), #function)
-// 	
-// 	guard let url = URL(string: urlString) else { throw ImageError.invalidURL }
-// 	
-// 	let (data, _) = try await URLSession.shared.data(from: url)
-// 	print(getThreadInfo(), "\t\t\t\t", id, String(format: "%2d.2", step), #function, "Download Size: \(String(format: "\t %4d KB", data.count / 1024))")
-// 	
-// 	guard let image = await UIImage(data: data)?.byPreparingThumbnail(ofSize: CGSize(width: 200, height: 200)) else { throw ImageError.noImageData }
-// 	print(getThreadInfo(), "\t\t\t\t", id, String(format: "%2d.3", step), #function, "Resize: \(String(format: "\t\t\t %4d KB", (image.pngData()?.count ?? 0) / 1024))")
-// 	
-// 	return image
-// }
