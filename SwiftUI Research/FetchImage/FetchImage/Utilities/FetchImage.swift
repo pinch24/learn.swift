@@ -7,12 +7,6 @@
 
 import UIKit
 
-enum ImageError: Error {
-	case invalidURL
-	case noImageData
-	case unableToCreateThumbnail
-}
-
 func fetchMultiImages(urlString: String, count: Int) async throws -> [String: UIImage] {
 	print(getThreadInfo(), "\t\t\t\t", #function)
 	
@@ -21,7 +15,7 @@ func fetchMultiImages(urlString: String, count: Int) async throws -> [String: UI
 		for _ in 0 ..< count {
 			group.addTask {
 				let id = UUID().uuidString.prefix(4).description
-				return (id, try await fetchImage(urlString: urlString, id: id, step: 1))
+				return (id, try await downloadImage(urlString: urlString, id: id, step: 1))
 			}
 		}
 		for try await (id, image) in group {
@@ -31,7 +25,7 @@ func fetchMultiImages(urlString: String, count: Int) async throws -> [String: UI
 	return images
 }
 
-func fetchImage(urlString: String, id: String, step: Int) async throws -> UIImage {
+func downloadImage(urlString: String, id: String, step: Int) async throws -> UIImage {
 	print(getThreadInfo(), "\t\t\t\t", id, String(format: "%2d.1", step), #function)
 	
 	guard let url = URL(string: urlString) else { throw ImageError.invalidURL }
@@ -43,4 +37,9 @@ func fetchImage(urlString: String, id: String, step: Int) async throws -> UIImag
 	print(getThreadInfo(), "\t\t\t\t", id, String(format: "%2d.3", step), #function, "Resize: \(String(format: "\t\t\t %4d KB", (image.pngData()?.count ?? 0) / 1024))")
 	
 	return image
+}
+
+enum ImageError: Error {
+	case invalidURL
+	case noImageData
 }
