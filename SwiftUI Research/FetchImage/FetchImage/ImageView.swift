@@ -28,7 +28,7 @@ struct ImageView: View {
 		.task {
 			do {
 				let id = UUID().uuidString.prefix(4).description
-				image = try await fetchImage(urlString: "https://picsum.photos/1024", id: id, step: 1)
+				image = try await downloadImage(urlString: "https://picsum.photos/1024", id: id, step: 1)
 			}
 			catch {
 				print("Failed to fetch thumbnail: \(error)")
