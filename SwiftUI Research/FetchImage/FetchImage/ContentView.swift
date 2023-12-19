@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            // ImageView()
+        ZStack {
+			// Background Color
+			LinearGradient(
+				gradient: Gradient(colors: [.black, .gray, .white]),
+				startPoint: .topLeading,
+				endPoint: .bottomTrailing)
+			
 			MultiImageView()
+			// ImageView()
         }
 		.ignoresSafeArea()
     }

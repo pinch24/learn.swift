@@ -13,13 +13,7 @@ struct MultiImageView: View {
 	@State private var isRefreshing = false
 	
 	var body: some View {
-		ZStack {
-			// Background Color
-			LinearGradient(
-				gradient: Gradient(colors: [.black, .gray, .white]),
-				startPoint: .topLeading,
-				endPoint: .bottomTrailing)
-			
+		VStack {
 			// Scroll Images
 			if isLoading {
 				ProgressView()
@@ -67,6 +61,7 @@ struct MultiImageView: View {
 				}
 			}
 		}
+		.ignoresSafeArea()
 		.task {
 			print(getThreadInfo(), #function)
 			await refreshImages()
