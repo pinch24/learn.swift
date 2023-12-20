@@ -37,7 +37,7 @@ struct WWDC2021_10133: View {
 	
 	fileprivate func refreshCounter() {
 		let counter = Counter()
-		for index in 0...99 {
+		for _ in 0...99 {
 			Task.detached {
 				// Set Count
 				let count = await counter.increment()

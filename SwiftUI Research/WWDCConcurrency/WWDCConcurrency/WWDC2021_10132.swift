@@ -106,16 +106,17 @@ struct FetchImageModel {
 	let imageSize: CGFloat = 88
 	
 	enum FetchError: Error {
-		case badID
+		case badURL
 		case badImage
+		case unableToCreateThumbnail
 	}
 	
 	func fetchThumbnail(url: String) async throws -> UIImage {
 		let request = thumbnailURLRequest(url: url)
 		let (data, response) = try await URLSession.shared.data(for: request)
-		guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw FetchError.badID }
-		guard let maybeImage = UIImage(data: data) else { throw FetchError.badID }
-		guard let thumbnail = await makeThumbnail(image: maybeImage) else { throw FetchError.badID }
+		guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw FetchError.badURL }
+		guard let maybeImage = UIImage(data: data) else { throw FetchError.badImage }
+		guard let thumbnail = await makeThumbnail(image: maybeImage) else { throw FetchError.unableToCreateThumbnail }
 		return thumbnail
 	}
 	
