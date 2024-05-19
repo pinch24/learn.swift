@@ -1,12 +1,12 @@
 private class AClass {
 	public func someMethod() {
-		// ...
+		// AClass가 private이기 때문에 someMethod가 public이어도 private으로 취급된다.
 	}
 }
 
 #if DEBUG
 public func someFunction(a: AClass) -> AClass {
-	// ...
+	// someFunction이 public여서 private인 AClass를 파라메터나 리턴 타입으로 사용할 수 없다.
 	return a
 }
 #endif
