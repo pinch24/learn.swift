@@ -34,7 +34,7 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:/Users/mk/Studies/learn.swift/SwiftUI Essentials/19. SwiftUI View"
+      location = "group:19. SwiftUI View"
       name = "19. SwiftUI View">
       <FileRef
          location = "group:SwiftUITest.xcodeproj">
@@ -143,97 +143,6 @@
       <FileRef
          location = "group:SwiftUITest.xcodeproj">
       </FileRef>
-      <Group
-         location = "group:SwiftUITest"
-         name = "SwiftUITest">
-         <Group
-            location = "group:ContentViews"
-            name = "ContentViews">
-            <FileRef
-               location = "group:ContentView_05_05.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_02_02.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_05_03.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_04_03.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_03.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_01.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_05_01.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_04_01.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_06.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_05_04.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_04_04.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_02_01.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_05_02.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_04_02.swift">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:SwiftUITestApp.swift">
-         </FileRef>
-         <Group
-            location = "group:Assets.xcassets"
-            name = "Assets.xcassets">
-            <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:AccentColor.colorset"
-               name = "AccentColor.colorset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:Contents.json">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:Preview Content"
-            name = "Preview Content">
-            <Group
-               location = "group:Preview Assets.xcassets"
-               name = "Preview Assets.xcassets">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-         </Group>
-         <FileRef
-            location = "group:ContentView.swift">
-         </FileRef>
-         <FileRef
-            location = "group:Info.plist">
-         </FileRef>
-      </Group>
    </Group>
    <Group
       location = "group:21. State, Observable, Environment"
@@ -392,73 +301,6 @@
       <FileRef
          location = "group:SwiftUITest.xcodeproj">
       </FileRef>
-      <Group
-         location = "group:SwiftUITest"
-         name = "SwiftUITest">
-         <Group
-            location = "group:ContentViews"
-            name = "ContentViews">
-            <FileRef
-               location = "group:SecondView.swift">
-            </FileRef>
-            <FileRef
-               location = "group:TimerData.swift">
-            </FileRef>
-            <FileRef
-               location = "group:SecondView_03.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_03.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_01.swift">
-            </FileRef>
-            <FileRef
-               location = "group:ContentView_02.swift">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:SwiftUITestApp.swift">
-         </FileRef>
-         <Group
-            location = "group:Assets.xcassets"
-            name = "Assets.xcassets">
-            <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:AccentColor.colorset"
-               name = "AccentColor.colorset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:Contents.json">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:Preview Content"
-            name = "Preview Content">
-            <Group
-               location = "group:Preview Assets.xcassets"
-               name = "Preview Assets.xcassets">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-         </Group>
-         <FileRef
-            location = "group:ContentView.swift">
-         </FileRef>
-         <FileRef
-            location = "group:Info.plist">
-         </FileRef>
-      </Group>
    </Group>
    <Group
       location = "group:24. SwiftUI Stack"

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "group:/Users/mk/Studies/learn.swift/Swift Research/Closure"
+      location = "group:Closure"
       name = "Closure">
       <FileRef
          location = "group:README.md">
@@ -15,7 +15,7 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:/Users/mk/Studies/learn.swift/Swift Research/Capturing Value"
+      location = "group:Capturing Value"
       name = "Capturing Value">
       <FileRef
          location = "group:README.md">
@@ -40,7 +40,7 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:/Users/mk/Studies/learn.swift/Swift Research/Weak, Unowned"
+      location = "group:Weak, Unowned"
       name = "Weak, Unowned">
       <FileRef
          location = "group:README.md">

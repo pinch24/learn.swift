@@ -10,3 +10,4 @@ let closure = {
 
 closure()
 print("num check #2 = \(num)")
+
