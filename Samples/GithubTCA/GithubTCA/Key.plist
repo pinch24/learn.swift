@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>clientID</key>
+    <string>Iv23ctX4vajyubBg9O90</string>
+    <key>clientSecret</key>
+    <string>81d30cb952dd5917430ed2f8b7095e20cb39ebbc</string>
+    <key>redirectURI</key>
+    <string>githubTCA://oauth-callback</string>
+    <key>scope</key>
+    <string>read:user</string>
+</dict>
+</plist>
